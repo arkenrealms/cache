@@ -58210,5 +58210,137 @@
       },
       3
     ]
+  },
+  {
+    "id": 884,
+    "blockNumber": 7821578,
+    "blockHash": "0x777c3e2f2a378e8581422ca4b8db3620dad247efb6aa670673ac7d0b1ea80a3f",
+    "transactionIndex": 113,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x00000000000000000000000092f3edad672147b2c55ac269287421cb9fa2bf42",
+      "0x0237ad8b96691ce4d82af58de997f57b899bd0c9f953fc28976ca0000000027b",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0x93e3f9142d375161d5678b664da5b13b0335ed77d21ddea1eb3ba9d2fccd83b1",
+    "logIndex": 578,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x92F3EdaD672147B2c55Ac269287421Cb9fA2bf42",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce4d82af58de997f57b899bd0c9f953fc28976ca0000000027b"
+      },
+      5
+    ]
+  },
+  {
+    "id": 885,
+    "blockNumber": 7821557,
+    "blockHash": "0x0e9bde3e0f1589152e6f60af3785d730e4f5e00e2d76345dfbe38de5823905f8",
+    "transactionIndex": 35,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x00000000000000000000000092f3edad672147b2c55ac269287421cb9fa2bf42",
+      "0x0237ad8b96691ce4d82af58de9c4cceb6a228a06dc4b64c8a28f400000000222",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0xfdd1e242322e27f50175484fc4210e3514bfb20e103d9ac8c04d1b5a2aea2b58",
+    "logIndex": 166,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0x92F3EdaD672147B2c55Ac269287421Cb9fA2bf42",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce4d82af58de9c4cceb6a228a06dc4b64c8a28f400000000222"
+      },
+      5
+    ]
   }
 ]
