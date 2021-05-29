@@ -63278,5 +63278,71 @@
       },
       1
     ]
+  },
+  {
+    "id": 973,
+    "blockNumber": 7840991,
+    "blockHash": "0x645134d997debb8faea87afe00b0730e1fb821597c0076079b8c804f54420102",
+    "transactionIndex": 104,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x000000000000000000000000bac7eb249d1d92f379ab740d52dc240a31d0f285",
+      "0x0038c48dce7d87e26e2544bfdd9e96484d0892c80baa4c2d0e10000000000105",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0x7b9cb80a1ec804610a079ffa31c5a7dfb261d018f6c780c6e4df6984d03a40a1",
+    "logIndex": 486,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0xbac7eb249d1D92f379aB740D52dc240A31D0f285",
+      {
+        "type": "BigNumber",
+        "hex": "0x38c48dce7d87e26e2544bfdd9e96484d0892c80baa4c2d0e10000000000105"
+      },
+      1
+    ]
   }
 ]
