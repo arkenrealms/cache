@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "10010000310021002100043123",
       "updatedAt": 1622261174667,
       "details": {
@@ -152,7 +152,99 @@
       "type": 0,
       "shortTokenId": "10010000310021002100043...123",
       "slotId": 3,
-      "itemId": 3
+      "itemId": 3,
+      "owner": "0x04BcE2467D6d5E81FB9Fd1b7fa29CE444ad34453",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622266187862
+    },
+    {
+      "owner": "0x04BcE2467D6d5E81FB9Fd1b7fa29CE444ad34453",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1001000041000100019501",
+      "createdAt": 1622266188083,
+      "details": {
+        "Type": "Relic",
+        "Distribution": "Claimable",
+        "Date": "May 3 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A relic of a broken past."
+          ],
+          "attributes": [
+            {
+              "id": 32,
+              "min": 100,
+              "max": 100,
+              "desc": "{value}% Chance To Transmute Item (SOON)"
+            }
+          ]
+        },
+        "2": {
+          "description": "A relic of a broken past.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 0,
+              "description": "Used to transmute items."
+            }
+          ]
+        }
+      },
+      "shorthand": "",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 0,
+          "attributeId": 7
+        },
+        {
+          "variant": 1,
+          "value": 0
+        },
+        {
+          "variant": 1,
+          "value": 950
+        }
+      ],
+      "attributes": [
+        {
+          "id": 32,
+          "min": 100,
+          "max": 100,
+          "desc": "{value}% Chance To Transmute Item (SOON)",
+          "variant": 1,
+          "value": 0,
+          "attributeId": 7
+        }
+      ],
+      "perfection": null,
+      "meta": {
+        "harvestYield": 0,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 4,
+      "name": "Worldstone Shard",
+      "category": "accessory",
+      "icon": "undefinedimages/items/00004.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": false,
+      "isTradeable": false,
+      "isTransferable": false,
+      "isCraftable": false,
+      "isDisabled": false,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "version": 1,
+      "type": 0,
+      "shortTokenId": "1001000041000100019501...501"
     }
   ]
 }

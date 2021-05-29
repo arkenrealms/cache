@@ -351,7 +351,7 @@
       "createdAt": 1622265784566
     },
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "1003000060720010042008014201100200000000000000000000000000000000000000000985",
       "updatedAt": 1622261065608,
       "details": {
@@ -538,10 +538,13 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100420080...985",
-      "slotId": 7
+      "slotId": 7,
+      "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
+      "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+      "createdAt": 1622266082193
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000051120010082006001200401900000000000000000000000000000000000000000360",
       "updatedAt": 1622261065646,
       "details": {
@@ -724,7 +727,10 @@
       "version": 3,
       "type": 11,
       "shortTokenId": "10030000511200100820060...360",
-      "slotId": 12
+      "slotId": 12,
+      "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622266082511
     },
     {
       "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
@@ -1666,6 +1672,560 @@
       "type": 11,
       "shortTokenId": "10030000511200100320060...460",
       "slotId": 12
+    },
+    {
+      "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010022006002200402000000000000000000000000000000000000000000831",
+      "createdAt": 1622266082417,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-2-20",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 20
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 831
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 2
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 20
+        }
+      ],
+      "perfection": 0.6309523809523809,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 20,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 2
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100220060...831",
+      "slotId": 12
+    },
+    {
+      "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
+      "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+      "status": "transferred_out",
+      "tokenId": "10010000210071036103032452",
+      "createdAt": 1622266082720,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "7-36-30",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 36,
+          "attributeId": 4
+        },
+        {
+          "variant": 1,
+          "value": 30,
+          "attributeId": 5
+        },
+        {
+          "variant": 3,
+          "value": 245
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 1,
+          "value": 36,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 1,
+          "value": 30,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.7666666666666666,
+      "meta": {
+        "harvestYield": 7,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 36,
+        "chanceToLoseHarvest": 30,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "type": 0,
+      "shortTokenId": "10010000210071036103032...452",
+      "slotId": 2
+    },
+    {
+      "owner": "0xB491EE37f120155BF6D7D7D32c77fA76FCff7D1B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008061200910000000000000000000000000000000000000000000844",
+      "createdAt": 1622266160283,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-61-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 61
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 844
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 61
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.7433333333333333,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...844",
+      "slotId": 9
     }
   ]
 }
