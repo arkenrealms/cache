@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "1002000030500030001000029557",
       "updatedAt": 1622260990665,
       "details": {
@@ -152,10 +152,13 @@
       "version": 2,
       "type": 5,
       "shortTokenId": "10020000305000300010000...557",
-      "slotId": 3
+      "slotId": 3,
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265715226
     },
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "10010000110151005100242784",
       "updatedAt": 1622260990678,
       "details": {
@@ -339,10 +342,13 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000110151005100242...784",
-      "slotId": 1
+      "slotId": 1,
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265715277
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000070920010052008071200910000000000000000000000000000000000000000000713",
       "updatedAt": 1622260990691,
       "details": {
@@ -526,10 +532,13 @@
       "version": 3,
       "type": 9,
       "shortTokenId": "10030000709200100520080...713",
-      "slotId": 9
+      "slotId": 9,
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265631966
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000051120010092006002200401200000000000000000000000000000000000000000644",
       "updatedAt": 1622260990702,
       "details": {
@@ -712,10 +721,13 @@
       "version": 3,
       "type": 11,
       "shortTokenId": "10030000511200100920060...644",
-      "slotId": 12
+      "slotId": 12,
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265709306
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000060720010052008012201100200000000000000000000000000000000000000000554",
       "updatedAt": 1622260990724,
       "details": {
@@ -902,7 +914,7880 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100520080...554",
+      "slotId": 7,
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265641239
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "status": "transferred_out",
+      "tokenId": "1002000030500030002000038949",
+      "createdAt": 1622265585420,
+      "details": {
+        "Type": "Full Helm",
+        "Rune Word": "Nef Tir",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A once unbreakable helm, it's seen its best days."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 3,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 3,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 7,
+              "min": 0,
+              "max": 0,
+              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+            }
+          ],
+          "perfection": [
+            3,
+            1
+          ]
+        },
+        "2": {
+          "description": "A once unbreakable helm, it's seen its best days.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-2",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 3,
+          "value": 894
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 3,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 3,
+          "desc": "{value}% Harvest Burn",
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        }
+      ],
+      "perfection": 0.75,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 2
+      },
+      "id": 3,
+      "name": "Lorekeeper",
+      "category": "armor",
+      "icon": "undefinedimages/items/00003.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 5,
+      "shortTokenId": "10020000305000300020000...949",
+      "slotId": 3
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100200003050002000200009280",
+      "createdAt": 1622265311298,
+      "details": {
+        "Type": "Full Helm",
+        "Rune Word": "Nef Tir",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A once unbreakable helm, it's seen its best days."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 3,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 3,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 7,
+              "min": 0,
+              "max": 0,
+              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+            }
+          ],
+          "perfection": [
+            3,
+            1
+          ]
+        },
+        "2": {
+          "description": "A once unbreakable helm, it's seen its best days.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "2-2",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 9,
+          "value": 280
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 3,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 2,
+          "attributeId": 1
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 3,
+          "desc": "{value}% Harvest Burn",
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        }
+      ],
+      "perfection": 0.5,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 2
+      },
+      "id": 3,
+      "name": "Lorekeeper",
+      "category": "armor",
+      "icon": "undefinedimages/items/00003.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 5,
+      "shortTokenId": "10020000305000200020000...280",
+      "slotId": 3
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1002000010100120004000210322",
+      "createdAt": 1622265311353,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "12-4",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 12,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 4,
+          "attributeId": 2
+        },
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 32
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 12,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 0,
+          "value": 4,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 0,
+          "value": 2,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.44999999999999996,
+      "meta": {
+        "harvestYield": 12,
+        "harvestFeeToken": "TIR",
+        "harvestFeePercent": 4,
+        "harvestFees": {
+          "TIR": 4
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000101001200040002...322",
+      "slotId": 1
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1002000010100070005000121035",
+      "createdAt": 1622265311381,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "7-5",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "variant": 0,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 103,
+          "value": 5
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 0,
+          "value": 1,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.1,
+      "meta": {
+        "harvestYield": 7,
+        "harvestFeeToken": "EL",
+        "harvestFeePercent": 5,
+        "harvestFees": {
+          "EL": 5
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000101000700050001...035",
+      "slotId": 1
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1002000010100140005000140557",
+      "createdAt": 1622265311391,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "14-5",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 14,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "variant": 0,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 4,
+          "value": 55
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 14,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 0,
+          "value": 1,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.45,
+      "meta": {
+        "harvestYield": 14,
+        "harvestFeeToken": "EL",
+        "harvestFeePercent": 5,
+        "harvestFees": {
+          "EL": 5
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000101001400050001...557",
+      "slotId": 1
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000060720010022008020201100200000000000000000000000000000000000000000921",
+      "createdAt": 1622265640772,
+      "details": {
+        "Type": "Armor",
+        "Rune Word": "Tal Ort Thul Eld Nef",
+        "Distribution": "Crafted",
+        "Date": "May 24 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 10,
+              "max": 20,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "desc": "{value}% Random Rune Exchange"
+            }
+          ],
+          "perfection": [
+            3,
+            20,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-20-2",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 20
+        },
+        {
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 921
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 10,
+          "max": 20,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 20
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "desc": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        }
+      ],
+      "perfection": 1.1666666666666667,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 6,
+      "name": "Titan",
+      "category": "armor",
+      "icon": "undefinedimages/items/00006.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 7,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 7,
+      "shortTokenId": "10030000607200100220080...921",
       "slotId": 7
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008055200910000000000000000000000000000000000000000000900",
+      "createdAt": 1622265642261,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-55-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 55
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 900
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 55
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.4666666666666666,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...900",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008065200910000000000000000000000000000000000000000000933",
+      "createdAt": 1622265642287,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-65-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 65
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 933
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 65
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6777777777777777,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...933",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008046200910000000000000000000000000000000000000000000327",
+      "createdAt": 1622265642931,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-46-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 46
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 327
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 46
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.5933333333333334,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...327",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008097200910000000000000000000000000000000000000000000053",
+      "createdAt": 1622265643012,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-97-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 97
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 53
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 97
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.7366666666666667,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...053",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008077200910000000000000000000000000000000000000000000400",
+      "createdAt": 1622265659913,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-77-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 77
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 400
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 77
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6477777777777778,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...400",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010062006005200401400000000000000000000000000000000000000000382",
+      "createdAt": 1622265708509,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "6-5-14",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 6
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 14
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 382
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 6
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 5
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 14
+        }
+      ],
+      "perfection": 0.16547619047619047,
+      "meta": {
+        "harvestYield": 6,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 14,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 5
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100620060...382",
+      "slotId": 12
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010082006003200401700000000000000000000000000000000000000000755",
+      "createdAt": 1622265708679,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "8-3-17",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 8
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 17
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 755
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 8
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 3
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 17
+        }
+      ],
+      "perfection": 0.24940476190476188,
+      "meta": {
+        "harvestYield": 8,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 17,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 3
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100820060...755",
+      "slotId": 12
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010072006005200401700000000000000000000000000000000000000000185",
+      "createdAt": 1622265708719,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "7-5-17",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 7
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 17
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 185
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 7
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 5
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 17
+        }
+      ],
+      "perfection": 0.13035714285714284,
+      "meta": {
+        "harvestYield": 7,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 17,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 5
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100720060...185",
+      "slotId": 12
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010042006003200401100000000000000000000000000000000000000000610",
+      "createdAt": 1622265709043,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-3-11",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 11
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 610
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 3
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 11
+        }
+      ],
+      "perfection": 0.4148809523809524,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 11,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 3
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100420060...610",
+      "slotId": 12
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008048200910000000000000000000000000000000000000000000066",
+      "createdAt": 1622265714697,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-48-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 48
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 66
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 48
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.43555555555555553,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...066",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008077200910000000000000000000000000000000000000000000203",
+      "createdAt": 1622265714783,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-77-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 77
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 203
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 77
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.7311111111111112,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...203",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008083200910000000000000000000000000000000000000000000204",
+      "createdAt": 1622265714898,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-83-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 83
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 204
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 83
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.7577777777777778,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...204",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008041200910000000000000000000000000000000000000000000603",
+      "createdAt": 1622265716433,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-41-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 41
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 603
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 41
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.5711111111111111,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...603",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008033200910000000000000000000000000000000000000000000224",
+      "createdAt": 1622265716482,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-33-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 33
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 224
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 33
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.5355555555555556,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...224",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008049200910000000000000000000000000000000000000000000111",
+      "createdAt": 1622265716533,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-49-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 49
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 111
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 49
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6066666666666667,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...111",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008075200910000000000000000000000000000000000000000000036",
+      "createdAt": 1622265716583,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-75-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 75
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 36
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 75
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6388888888888888,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...036",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008087200910000000000000000000000000000000000000000000027",
+      "createdAt": 1622265716691,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-87-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 87
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 27
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 87
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.8588888888888889,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...027",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008067200910000000000000000000000000000000000000000000882",
+      "createdAt": 1622265716744,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-67-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 67
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 882
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 67
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.52,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...882",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008028200910000000000000000000000000000000000000000000785",
+      "createdAt": 1622265716798,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-28-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 28
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 785
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 28
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.43,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...785",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008032200910000000000000000000000000000000000000000000113",
+      "createdAt": 1622265716965,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-32-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 32
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 113
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 32
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6144444444444445,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...113",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008037200910000000000000000000000000000000000000000000989",
+      "createdAt": 1622265717015,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-37-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 37
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 989
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 37
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.47000000000000003,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...989",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010052008064200910000000000000000000000000000000000000000000043",
+      "createdAt": 1622265717059,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "5-64-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 64
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 43
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 64
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.84,
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100520080...043",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008062200910000000000000000000000000000000000000000000819",
+      "createdAt": 1622265839315,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-62-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 62
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 819
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 62
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.4977777777777778,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...819",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008044200910000000000000000000000000000000000000000000950",
+      "createdAt": 1622265839487,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-44-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 44
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 950
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 44
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.5844444444444444,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...950",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008050200910000000000000000000000000000000000000000000420",
+      "createdAt": 1622265839568,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-50-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 50
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 420
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 50
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6944444444444443,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...420",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008068200910000000000000000000000000000000000000000000119",
+      "createdAt": 1622265839642,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-68-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 68
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 119
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 68
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6911111111111111,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...119",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008048200910000000000000000000000000000000000000000000717",
+      "createdAt": 1622265839720,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-48-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 48
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 717
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 48
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6855555555555556,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...717",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008072200910000000000000000000000000000000000000000000896",
+      "createdAt": 1622265839792,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-72-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 72
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 896
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 72
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6255555555555555,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...896",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008069200910000000000000000000000000000000000000000000948",
+      "createdAt": 1622266011796,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-69-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 69
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 948
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 69
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.778888888888889,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...948",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010032008082200910000000000000000000000000000000000000000000828",
+      "createdAt": 1622266011987,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-82-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 82
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 828
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 82
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.7533333333333333,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100320080...828",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008055200910000000000000000000000000000000000000000000233",
+      "createdAt": 1622266012184,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-55-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 55
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 233
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 55
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.4666666666666666,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...233",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008090200910000000000000000000000000000000000000000000541",
+      "createdAt": 1622266012423,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-90-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 90
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 541
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 90
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.8722222222222222,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...541",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010042008075200910000000000000000000000000000000000000000000441",
+      "createdAt": 1622266012508,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-75-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 75
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 441
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 75
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.8055555555555555,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100420080...441",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008081200910000000000000000000000000000000000000000000797",
+      "createdAt": 1622266012880,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-81-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 81
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 797
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 81
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6655555555555556,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...797",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010022008032200910000000000000000000000000000000000000000000492",
+      "createdAt": 1622266012983,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "2-32-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 32
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 492
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 32
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.4477777777777778,
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100220080...492",
+      "slotId": 9
+    },
+    {
+      "owner": "0xCB44f29686341BAc1E2cF3319F79Ffb452D115c4",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010052008029200910000000000000000000000000000000000000000000998",
+      "createdAt": 1622266013082,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "5-29-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 29
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 998
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 29
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.6844444444444444,
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100520080...998",
+      "slotId": 9
     }
   ]
 }

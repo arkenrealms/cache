@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000051120010072006004200401900000000000000000000000000000000000000000958",
       "updatedAt": 1622261120596,
       "details": {
@@ -185,10 +185,13 @@
       "type": 11,
       "shortTokenId": "10030000511200100720060...958",
       "slotId": 12,
-      "itemId": 5
+      "itemId": 5,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265782877
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000070920010012008093200910000000000000000000000000000000000000000000554",
       "updatedAt": 1622261138346,
       "details": {
@@ -373,10 +376,13 @@
       "type": 9,
       "shortTokenId": "10030000709200100120080...554",
       "slotId": 9,
-      "itemId": 7
+      "itemId": 7,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265953000
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000060720010022008020201100200000000000000000000000000000000000000000797",
       "updatedAt": 1622261107396,
       "details": {
@@ -564,10 +570,13 @@
       "type": 7,
       "shortTokenId": "10030000607200100220080...797",
       "slotId": 7,
-      "itemId": 6
+      "itemId": 6,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265623194
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1002000030500020001000013248",
       "updatedAt": 1622260981219,
       "details": {
@@ -717,10 +726,13 @@
       "version": 2,
       "type": 5,
       "shortTokenId": "10020000305000200010000...248",
-      "slotId": 3
+      "slotId": 3,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265219928
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1002000010100150005000149893",
       "updatedAt": 1622261120696,
       "details": {
@@ -905,10 +917,13 @@
       "type": 1,
       "shortTokenId": "10020000101001500050001...893",
       "slotId": 1,
-      "itemId": 1
+      "itemId": 1,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265783539
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1002000020100050038003896",
       "updatedAt": 1622261120496,
       "details": {
@@ -1081,7 +1096,10 @@
       "type": 1,
       "shortTokenId": "10020000201000500380038...896",
       "slotId": 2,
-      "itemId": 2
+      "itemId": 2,
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265779349
     },
     {
       "status": "equipped",
@@ -1268,6 +1286,1313 @@
       "version": 2,
       "type": 1,
       "shortTokenId": "10020000101001200050000...868",
+      "slotId": 1
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+      "status": "transferred_out",
+      "tokenId": "1002000010100070005000223",
+      "createdAt": 1622265283566,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "7-5",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 3
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 0,
+          "value": 5,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 0,
+          "value": 2,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.1,
+      "meta": {
+        "harvestYield": 7,
+        "harvestFeeToken": "TIR",
+        "harvestFeePercent": 5,
+        "harvestFees": {
+          "TIR": 5
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000101000700050002...223",
+      "slotId": 1
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+      "status": "transferred_out",
+      "tokenId": "100200002010005003100313302",
+      "createdAt": 1622265283577,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "5-31-31",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 31,
+          "attributeId": 4
+        },
+        {
+          "variant": 0,
+          "value": 31,
+          "attributeId": 5
+        },
+        {
+          "variant": 3,
+          "value": 302
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 0,
+          "value": 31,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 0,
+          "value": 31,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.5,
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 31,
+        "chanceToLoseHarvest": 31,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000201000500310031...302",
+      "slotId": 2
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100300005110005000100180000000000000000000000000000000000000000000000000315",
+      "createdAt": 1622265590678,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 5
+        },
+        {
+          "variant": 0,
+          "value": 1
+        },
+        {
+          "variant": 0,
+          "value": 18
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 315
+        }
+      ],
+      "attributes": [],
+      "perfection": 34.666666666666664,
+      "meta": {
+        "harvestYield": 0,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511000500010018...315",
+      "slotId": 12
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100300005110010000400160000000000000000000000000000000000000000000000000089",
+      "createdAt": 1622265590701,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 10
+        },
+        {
+          "variant": 0,
+          "value": 4
+        },
+        {
+          "variant": 0,
+          "value": 16
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 89
+        }
+      ],
+      "attributes": [],
+      "perfection": 34.666666666666664,
+      "meta": {
+        "harvestYield": 0,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511001000040016...089",
+      "slotId": 12
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000051120010102006002200401000000000000000000000000000000000000000000965",
+      "createdAt": 1622265596878,
+      "details": {
+        "Type": "Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "10-2-10",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 10
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 10
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 965
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 10
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 2
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 10
+        }
+      ],
+      "perfection": 0.20833333333333334,
+      "meta": {
+        "harvestYield": 10,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 10,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 2
+      },
+      "id": 5,
+      "name": "Flash",
+      "category": "armor",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200101020060...965",
+      "slotId": 12
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "status": "transferred_out",
+      "tokenId": "10010000110151003100026067",
+      "createdAt": 1622265596921,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "15-3",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 15,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 3,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 606,
+          "value": 7
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 15,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 3,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.7,
+      "meta": {
+        "harvestYield": 15,
+        "harvestFeeToken": "ITH",
+        "harvestFeePercent": 3,
+        "harvestFees": {
+          "ITH": 3
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "type": 0,
+      "shortTokenId": "10010000110151003100026...067",
+      "slotId": 1
+    },
+    {
+      "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100300001010011000300000000000000000000000000000000000000000000000000000558",
+      "createdAt": 1622266011495,
+      "details": {
+        "Type": "Long Sword",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 3,
+              "max": 5,
+              "desc": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "desc": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "ITH",
+                "1": "EL",
+                "2": "TIR"
+              }
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "11-3",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 2
+        },
+        {
+          "variant": 0,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 558
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 3,
+          "max": 5,
+          "desc": "{value}% Harvest Fee",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "desc": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "ITH",
+            "1": "EL",
+            "2": "TIR"
+          },
+          "variant": 0,
+          "value": 0,
+          "attributeId": 3
+        }
+      ],
+      "perfection": 0.5,
+      "meta": {
+        "harvestYield": 11,
+        "harvestFeeToken": "ITH",
+        "harvestFeePercent": 3,
+        "harvestFees": {
+          "ITH": 3
+        },
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 1,
+      "shortTokenId": "10030000101001100030000...558",
       "slotId": 1
     }
   ]

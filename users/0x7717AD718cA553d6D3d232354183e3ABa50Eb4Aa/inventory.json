@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "1001000011015100110021114111",
       "updatedAt": 1622261020322,
       "details": {
@@ -189,10 +189,13 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000110151001100211...111",
-      "slotId": 1
+      "slotId": 1,
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265954106
     },
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "10010000310031003100041265",
       "updatedAt": 1622261020334,
       "details": {
@@ -342,10 +345,13 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000310031003100041...265",
-      "slotId": 3
+      "slotId": 3,
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265954997
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000051120010082006005200401600000000000000000000000000000000000000000038",
       "updatedAt": 1622261050946,
       "details": {
@@ -528,10 +534,13 @@
       "version": 3,
       "type": 11,
       "shortTokenId": "10030000511200100820060...038",
-      "slotId": 12
+      "slotId": 12,
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265962141
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000060720010042008018201100100000000000000000000000000000000000000000875",
       "updatedAt": 1622261050996,
       "details": {
@@ -718,7 +727,720 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100420080...875",
-      "slotId": 7
+      "slotId": 7,
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622266015675
+    },
+    {
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1002000020100030020003025111",
+      "createdAt": 1622265516927,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-20-30",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 20,
+          "attributeId": 4
+        },
+        {
+          "variant": 0,
+          "value": 30,
+          "attributeId": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 511,
+          "value": 1
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 0,
+          "value": 20,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 0,
+          "value": 30,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.16666666666666666,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 20,
+        "chanceToLoseHarvest": 30,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000201000300200030...111",
+      "slotId": 2
+    },
+    {
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100200002010003003300391524",
+      "createdAt": 1622265516949,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-33-39",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 33,
+          "attributeId": 4
+        },
+        {
+          "variant": 0,
+          "value": 39,
+          "attributeId": 5
+        },
+        {
+          "variant": 1,
+          "value": 524
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 0,
+          "value": 33,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 0,
+          "value": 39,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.23333333333333336,
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 33,
+        "chanceToLoseHarvest": 39,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000201000300330039...524",
+      "slotId": 2
+    },
+    {
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "status": "transferred_out",
+      "tokenId": "1002000020100050021002323376",
+      "createdAt": 1622265953682,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "5-21-23",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 21,
+          "attributeId": 4
+        },
+        {
+          "variant": 0,
+          "value": 23,
+          "attributeId": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 337,
+          "value": 6
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 0,
+          "value": 21,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 0,
+          "value": 23,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.4666666666666666,
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 21,
+        "chanceToLoseHarvest": 23,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000201000500210023...376",
+      "slotId": 2
+    },
+    {
+      "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100200002010004002100289175",
+      "createdAt": 1622265526945,
+      "details": {
+        "Type": "Ancient Sword",
+        "Rune Word": "Nef Eld Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "The creator is said to have gone mad."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 3,
+              "max": 7,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 5,
+              "min": 20,
+              "max": 40,
+              "desc": "{value}% Chance To Burn Harvest"
+            }
+          ],
+          "perfection": [
+            7,
+            40,
+            20
+          ]
+        },
+        "2": {
+          "description": "The creator is said to have gone mad.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Lightning Spell Damage"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Decreased Enemy Lightning Resistance"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Mana on Attack"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} To Forked Lightning"
+            },
+            {
+              "id": 6,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "4-21-28",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 4,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 21,
+          "attributeId": 4
+        },
+        {
+          "variant": 0,
+          "value": 28,
+          "attributeId": 5
+        },
+        {
+          "variant": 9,
+          "value": 175
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 3,
+          "max": 7,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 4,
+          "attributeId": 1
+        },
+        {
+          "id": 4,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 0,
+          "value": 21,
+          "attributeId": 4
+        },
+        {
+          "id": 5,
+          "min": 20,
+          "max": 40,
+          "desc": "{value}% Chance To Burn Harvest",
+          "variant": 0,
+          "value": 28,
+          "attributeId": 5
+        }
+      ],
+      "perfection": 0.3,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 21,
+        "chanceToLoseHarvest": 28,
+        "harvestBurn": 0
+      },
+      "id": 2,
+      "name": "Fury",
+      "category": "weapon",
+      "icon": "undefinedimages/items/00002.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 2,
+      "type": 1,
+      "shortTokenId": "10020000201000400210028...175",
+      "slotId": 2
     }
   ]
 }

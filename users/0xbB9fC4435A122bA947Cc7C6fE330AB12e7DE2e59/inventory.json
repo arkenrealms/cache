@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "10010000110131001100211111",
       "updatedAt": 1622260982169,
       "details": {
@@ -185,10 +185,13 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000110131001100211...111",
-      "slotId": 1
+      "slotId": 1,
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265637271
     },
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "1002000020100070023002010011",
       "updatedAt": 1622260982493,
       "details": {
@@ -360,10 +363,13 @@
       "version": 2,
       "type": 1,
       "shortTokenId": "10020000201000700230020...011",
-      "slotId": 2
+      "slotId": 2,
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265455569
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000051120010082006003200401500000000000000000000000000000000000000000921",
       "updatedAt": 1622260990736,
       "details": {
@@ -546,10 +552,13 @@
       "version": 3,
       "type": 11,
       "shortTokenId": "10030000511200100820060...921",
-      "slotId": 12
+      "slotId": 12,
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1622265718200
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000070920010032008083200910000000000000000000000000000000000000000000370",
       "updatedAt": 1622261129696,
       "details": {
@@ -734,7 +743,391 @@
       "type": 9,
       "shortTokenId": "10030000709200100320080...370",
       "slotId": 9,
-      "itemId": 7
+      "itemId": 7,
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622265872251
+    },
+    {
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000060720010042008011201100100000000000000000000000000000000000000000355",
+      "createdAt": 1622265661520,
+      "details": {
+        "Type": "Armor",
+        "Rune Word": "Tal Ort Thul Eld Nef",
+        "Distribution": "Crafted",
+        "Date": "May 24 - Now",
+        "Max Supply": "Infinite"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 10,
+              "max": 20,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "desc": "{value}% Random Rune Exchange"
+            }
+          ],
+          "perfection": [
+            3,
+            20,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-11-1",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 11
+        },
+        {
+          "variant": 2,
+          "attributeId": 11,
+          "value": 1
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 355
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 10,
+          "max": 20,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 11
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "desc": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 11,
+          "value": 1
+        }
+      ],
+      "perfection": 0.19999999999999998,
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 6,
+      "name": "Titan",
+      "category": "armor",
+      "icon": "undefinedimages/items/00006.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 7,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 7,
+      "shortTokenId": "10030000607200100420080...355",
+      "slotId": 7
+    },
+    {
+      "owner": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000070920010012008045200910000000000000000000000000000000000000000000567",
+      "createdAt": 1622265663708,
+      "details": {
+        "Type": "Gloves",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 24 - June 24",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "desc": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "desc": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "desc": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "1-45-100",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 45
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 567
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "desc": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "desc": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 45
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "desc": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.4222222222222222,
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "category": "armor",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...567",
+      "slotId": 9
     }
   ]
 }
