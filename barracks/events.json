@@ -83640,5 +83640,71 @@
       },
       5
     ]
+  },
+  {
+    "id": 1341,
+    "blockNumber": 7888205,
+    "blockHash": "0x4f7b4ab2de309b89bb5ff527b6e67ce8a63488c2ede26745b47c18ca01f8ef02",
+    "transactionIndex": 78,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x000000000000000000000000ea623a6c6bf4a1f33c7c7787ac32491fce53321f",
+      "0x0000000000000000000000000000000000000000033cd5c1ee5fca006bc94364",
+      "0x0000000000000000000000000000000000000000000000000000000000000002"
+    ],
+    "transactionHash": "0x6a70561a84a435b36ce4ebda9032d8bcce04a95dc3870fedfd059d3470a5c703",
+    "logIndex": 273,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0xea623a6c6bf4A1F33c7c7787AC32491Fce53321F",
+      {
+        "type": "BigNumber",
+        "hex": "0x033cd5c1ee5fca006bc94364"
+      },
+      2
+    ]
   }
 ]
