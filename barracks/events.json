@@ -131198,5 +131198,71 @@
       },
       1
     ]
+  },
+  {
+    "id": 2216,
+    "blockNumber": 7910427,
+    "blockHash": "0x13705e7f145328e670db61e8d5a7b8ce6ef7da1828c8daee7281b3e0e272ac4b",
+    "transactionIndex": 173,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x0000000000000000000000009f49647d76f086581c3520a57c293cb951cb77bf",
+      "0x0000000000000000000000000000000000000000000847b33442357837ba50c0",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "transactionHash": "0x7c45fc10cc585f8c8ce0d93d66f07204047fd4b2da9ade5c50c6f5127a9b36c6",
+    "logIndex": 602,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0x9f49647d76F086581c3520a57c293Cb951CB77Bf",
+      {
+        "type": "BigNumber",
+        "hex": "0x0847b33442357837ba50c0"
+      },
+      3
+    ]
   }
 ]
