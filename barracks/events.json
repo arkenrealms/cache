@@ -128326,5 +128326,71 @@
       },
       2
     ]
+  },
+  {
+    "id": 2165,
+    "blockNumber": 7907871,
+    "blockHash": "0xc81dfe0a933d377364d217b28cb9bb70bc05ff7292b592cf629abd4c033fa093",
+    "transactionIndex": 76,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x0000000000000000000000006cc9b0daa109c6baca09121158b107735b8f336a",
+      "0x0000000000000000000000000000000000000000000847b33442357837bab930",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "transactionHash": "0x64b68d6a6381f469ed0004c14f3aeed78e786c06a381cbe0404ccfd358cc86cd",
+    "logIndex": 373,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x6Cc9B0dAa109c6baCA09121158B107735b8f336a",
+      {
+        "type": "BigNumber",
+        "hex": "0x0847b33442357837bab930"
+      },
+      3
+    ]
   }
 ]
