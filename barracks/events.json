@@ -129742,5 +129742,71 @@
       },
       3
     ]
+  },
+  {
+    "id": 2190,
+    "blockNumber": 7909935,
+    "blockHash": "0x2ff095d0eb91c305b3c090d03ac2063f2f4a3fd956845be12011d28dcb6995cf",
+    "transactionIndex": 178,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000a987f487639920a3c2efe58c8fbdedb96253ed9b",
+      "0x00000000000000000000000000000000000000000000d42e87a9915cf4bb98b8",
+      "0x0000000000000000000000000000000000000000000000000000000000000002"
+    ],
+    "transactionHash": "0x2248b69232665740fb30764fca6f2739780c9aee7fd0efa3657d9357db684117",
+    "logIndex": 687,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
+      {
+        "type": "BigNumber",
+        "hex": "0xd42e87a9915cf4bb98b8"
+      },
+      2
+    ]
   }
 ]
