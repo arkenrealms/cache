@@ -1,54 +1,80 @@
 [
   {
     "owner": "0x0D9c1aa78a21cD51a2848b9455FF78fa9ba6e5f3",
-    "from": "0x0000000000000000000000000000000000000000",
-    "status": "created",
+    "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+    "status": "transferred_in",
     "tokenId": "1003000070920010052008043200910000000000000000000000000000000000000000000607",
-    "createdAt": 1622265859929,
+    "createdAt": 1622539948145,
     "details": {
       "Type": "Gloves",
+      "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 24 - June 24",
+      "Date": "May 25 - June 25",
       "Max Supply": "Limited"
     },
     "branches": {
       "1": {
         "description": [
-          ""
+          "These handwraps have an unknown origin and emit a dark aura."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 1,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 8,
             "min": 25,
             "max": 100,
-            "desc": "Remove {value}% Fees"
+            "description": "Remove {value}% Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
-            "desc": "Unstake Locked Until Completion"
+            "description": "Unstake Locked Until Completion"
           }
         ],
         "perfection": [
           5,
-          100,
           100
         ]
       },
       "2": {
         "description": "",
-        "attributes": []
+        "attributes": [
+          {
+            "id": 1,
+            "value": 5,
+            "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+          },
+          {
+            "id": 2,
+            "value": 100,
+            "description": "{value}% Increased Block Speed"
+          },
+          {
+            "id": 2,
+            "value": 230,
+            "description": "{value}% Enhanced Defense"
+          },
+          {
+            "id": 2,
+            "min": 41,
+            "max": 50,
+            "description": "Physical Damage Reduced by {value}"
+          },
+          {
+            "id": 2,
+            "description": "Half Freeze Duration"
+          }
+        ]
       }
     },
-    "shorthand": "5-43-100",
+    "shorthand": "5-43",
     "mods": [
       {
         "variant": 2,
@@ -115,7 +141,7 @@
         "id": 1,
         "min": 1,
         "max": 5,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 5
@@ -124,7 +150,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "desc": "Remove {value}% Fees",
+        "description": "Remove {value}% Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 43
@@ -133,13 +159,13 @@
         "id": 9,
         "min": 100,
         "max": 100,
-        "desc": "Unstake Locked Until Completion",
+        "description": "Unstake Locked Until Completion",
         "variant": 2,
         "attributeId": 9,
         "value": 100
       }
     ],
-    "perfection": 0.7466666666666667,
+    "perfection": 0.62,
     "meta": {
       "harvestYield": 5,
       "harvestFees": {},
@@ -152,12 +178,12 @@
     "category": "armor",
     "icon": "undefinedimages/items/00007.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": false,
+    "isCraftable": true,
     "isDisabled": false,
     "isRuneword": true,
     "isLimited": true,
