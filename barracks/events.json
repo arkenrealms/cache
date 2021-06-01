@@ -132349,5 +132349,71 @@
       },
       7
     ]
+  },
+  {
+    "id": 2236,
+    "blockNumber": 7911810,
+    "blockHash": "0x6c62959b4fbb403f96b361ade6bc6baa5cfae131febdff5712e1d7f3aa72bb85",
+    "transactionIndex": 196,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x000000000000000000000000dd3fbb23648da1391ca065aded3ab1fcbd0bd07a",
+      "0x0237ad8c526c3f1b5414dc2f9232ee8cf8f9c877c09a29cfa8dcc0000000015e",
+      "0x0000000000000000000000000000000000000000000000000000000000000007"
+    ],
+    "transactionHash": "0x3e286aafb1984b9355e402469062c596b0f53c31eddafe606426a7585c2bc243",
+    "logIndex": 819,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0xdD3fbb23648da1391CA065Aded3aB1fCbD0bD07a",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8c526c3f1b5414dc2f9232ee8cf8f9c877c09a29cfa8dcc0000000015e"
+      },
+      7
+    ]
   }
 ]
