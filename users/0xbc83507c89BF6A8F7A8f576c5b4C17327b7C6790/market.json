@@ -2103,22 +2103,23 @@
     {
       "id": 390,
       "seller": "0xbc83507c89BF6A8F7A8f576c5b4C17327b7C6790",
-      "buyer": "0x0000000000000000000000000000000000000000",
+      "buyer": "0xEB16739C0286115A0Bf00a4a22E3721a0764F04e",
       "tokenId": "1003000060720010032008020201100200000000000000000000000000000000000000000908",
       "price": 0.0725,
-      "status": "available",
+      "status": "sold",
       "hotness": 0,
       "createdAt": 1622497761307,
-      "updatedAt": 1622497761307,
-      "blockNumber": 7899475,
+      "updatedAt": 1622586999876,
+      "blockNumber": 7929080,
       "item": {
         "tokenId": "1003000060720010032008020201100200000000000000000000000000000000000000000908",
         "details": {
           "Type": "Armor",
+          "Subtype": "Templar Forge",
           "Rune Word": "Tal Ort Thul Eld Nef",
           "Distribution": "Crafted",
           "Date": "May 24 - Now",
-          "Max Supply": "Infinite"
+          "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
@@ -2130,23 +2131,23 @@
                 "id": 1,
                 "min": 2,
                 "max": 5,
-                "desc": "{value}% Increased Harvest Yield"
+                "description": "{value}% Increased Harvest Yield"
               },
               {
                 "id": 8,
                 "min": 10,
                 "max": 20,
-                "desc": "Remove {value}% Fees"
+                "description": "Remove {value}% Fees"
               },
               {
                 "id": 11,
                 "min": 1,
                 "max": 2,
-                "desc": "{value}% Random Rune Exchange"
+                "description": "{value}% Random Rune Exchange"
               }
             ],
             "perfection": [
-              3,
+              5,
               20,
               2
             ]
@@ -2223,7 +2224,7 @@
             "id": 1,
             "min": 2,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield",
+            "description": "{value}% Increased Harvest Yield",
             "variant": 2,
             "attributeId": 1,
             "value": 3
@@ -2232,7 +2233,7 @@
             "id": 8,
             "min": 10,
             "max": 20,
-            "desc": "Remove {value}% Fees",
+            "description": "Remove {value}% Fees",
             "variant": 2,
             "attributeId": 8,
             "value": 20
@@ -2241,13 +2242,14 @@
             "id": 11,
             "min": 1,
             "max": 2,
-            "desc": "{value}% Random Rune Exchange",
+            "description": "{value}% Random Rune Exchange",
             "variant": 2,
             "attributeId": 11,
             "value": 2
           }
         ],
-        "perfection": 1,
+        "perfection": 0.7777777777777777,
+        "category": "armor",
         "meta": {
           "harvestYield": 3,
           "harvestFees": {},
@@ -2257,15 +2259,14 @@
         },
         "id": 6,
         "name": "Titan",
-        "category": "armor",
         "icon": "undefinedimages/items/00006.png",
         "value": "0",
-        "isNew": true,
+        "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
         "isTransferable": true,
-        "isCraftable": false,
+        "isCraftable": true,
         "isDisabled": false,
         "isRuneword": true,
         "createdDate": 12111,

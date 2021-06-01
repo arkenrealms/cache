@@ -5,18 +5,18 @@
     "buyer": "0x0000000000000000000000000000000000000000",
     "tokenId": "10010000410001000173411398",
     "price": 0.69,
-    "status": "available",
+    "status": "delisted",
     "hotness": 0,
     "createdAt": 1622360606752,
-    "updatedAt": 1622360606752,
-    "blockNumber": 7843990,
+    "updatedAt": 1622583187041,
+    "blockNumber": 7927811,
     "item": {
       "tokenId": "10010000410001000173411398",
       "details": {
         "Type": "Relic",
         "Distribution": "Claimable",
         "Date": "May 3 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -26,10 +26,13 @@
           "attributes": [
             {
               "id": 32,
-              "min": 100,
-              "max": 100,
-              "desc": "{value}% Chance To Transmute Item (SOON)"
+              "min": 0,
+              "max": 0,
+              "description": "100% Chance To Transmute Item"
             }
+          ],
+          "perfection": [
+            0
           ]
         },
         "2": {
@@ -43,7 +46,7 @@
           ]
         }
       },
-      "shorthand": "",
+      "shorthand": "0",
       "mods": [
         {
           "variant": 1,
@@ -66,15 +69,16 @@
       "attributes": [
         {
           "id": 32,
-          "min": 100,
-          "max": 100,
-          "desc": "{value}% Chance To Transmute Item (SOON)",
+          "min": 0,
+          "max": 0,
+          "description": "100% Chance To Transmute Item",
           "variant": 1,
           "value": 0,
           "attributeId": 7
         }
       ],
-      "perfection": null,
+      "perfection": 1,
+      "category": "accessory",
       "meta": {
         "harvestYield": 0,
         "harvestFees": {},
@@ -84,10 +88,9 @@
       },
       "id": 4,
       "name": "Worldstone Shard",
-      "category": "accessory",
       "icon": "undefinedimages/items/00004.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": false,
       "isTradeable": false,
       "isTransferable": false,

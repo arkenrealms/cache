@@ -414,18 +414,18 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "10010000410001000173411398",
       "price": 0.69,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622360606752,
-      "updatedAt": 1622360606752,
-      "blockNumber": 7843990,
+      "updatedAt": 1622583187041,
+      "blockNumber": 7927811,
       "item": {
         "tokenId": "10010000410001000173411398",
         "details": {
           "Type": "Relic",
           "Distribution": "Claimable",
           "Date": "May 3 - Now",
-          "Max Supply": "Infinite"
+          "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
@@ -435,10 +435,13 @@
             "attributes": [
               {
                 "id": 32,
-                "min": 100,
-                "max": 100,
-                "desc": "{value}% Chance To Transmute Item (SOON)"
+                "min": 0,
+                "max": 0,
+                "description": "100% Chance To Transmute Item"
               }
+            ],
+            "perfection": [
+              0
             ]
           },
           "2": {
@@ -452,7 +455,7 @@
             ]
           }
         },
-        "shorthand": "",
+        "shorthand": "0",
         "mods": [
           {
             "variant": 1,
@@ -475,15 +478,16 @@
         "attributes": [
           {
             "id": 32,
-            "min": 100,
-            "max": 100,
-            "desc": "{value}% Chance To Transmute Item (SOON)",
+            "min": 0,
+            "max": 0,
+            "description": "100% Chance To Transmute Item",
             "variant": 1,
             "value": 0,
             "attributeId": 7
           }
         ],
-        "perfection": null,
+        "perfection": 1,
+        "category": "accessory",
         "meta": {
           "harvestYield": 0,
           "harvestFees": {},
@@ -493,10 +497,9 @@
         },
         "id": 4,
         "name": "Worldstone Shard",
-        "category": "accessory",
         "icon": "undefinedimages/items/00004.png",
         "value": "0",
-        "isNew": true,
+        "isNew": false,
         "isEquipable": false,
         "isTradeable": false,
         "isTransferable": false,
@@ -5465,11 +5468,11 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "10010000410001000148711828",
       "price": 0.1987,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622564094034,
-      "updatedAt": 1622564094034,
-      "blockNumber": 7921472,
+      "updatedAt": 1622583157656,
+      "blockNumber": 7927799,
       "item": {
         "tokenId": "10010000410001000148711828",
         "details": {
@@ -5561,6 +5564,430 @@
         "version": 1,
         "type": 0,
         "shortTokenId": "10010000410001000148711...828"
+      }
+    },
+    {
+      "id": 652,
+      "seller": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
+      "buyer": "0x0000000000000000000000000000000000000000",
+      "tokenId": "100300003050003000100870000000000000000000000000000000000000000000000000908",
+      "price": 0.136,
+      "status": "available",
+      "hotness": 0,
+      "createdAt": 1622573458895,
+      "updatedAt": 1622573458895,
+      "blockNumber": 7924590,
+      "item": {
+        "tokenId": "100300003050003000100870000000000000000000000000000000000000000000000000908",
+        "details": {
+          "Type": "Helm",
+          "Subtype": "Full Helm",
+          "Rune Word": "Nef Tir",
+          "Distribution": "Crafted",
+          "Date": "April 25 - Now",
+          "Max Supply": "Unknown"
+        },
+        "branches": {
+          "1": {
+            "description": [
+              "A once unbreakable helm, it's seen its best days."
+            ],
+            "attributes": [
+              {
+                "id": 1,
+                "min": 1,
+                "max": 3,
+                "description": "{value}% Increased Harvest Yield"
+              },
+              {
+                "id": 6,
+                "min": 1,
+                "max": 3,
+                "description": "{value}% Harvest Burn"
+              },
+              {
+                "id": 7,
+                "min": 100,
+                "max": 100,
+                "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              }
+            ],
+            "perfection": [
+              3,
+              1
+            ]
+          },
+          "2": {
+            "description": "A once unbreakable helm, it's seen its best days.",
+            "attributes": [
+              {
+                "id": 1,
+                "value": 5,
+                "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+              },
+              {
+                "id": 2,
+                "value": 100,
+                "description": "{value}% Increased Block Speed"
+              },
+              {
+                "id": 2,
+                "value": 230,
+                "description": "{value}% Enhanced Defense"
+              },
+              {
+                "id": 2,
+                "min": 41,
+                "max": 50,
+                "description": "Physical Damage Reduced by {value}"
+              },
+              {
+                "id": 2,
+                "description": "Half Freeze Duration"
+              }
+            ]
+          }
+        },
+        "shorthand": "3-1",
+        "mods": [
+          {
+            "variant": 0,
+            "value": 3,
+            "attributeId": 1
+          },
+          {
+            "variant": 0,
+            "value": 1,
+            "attributeId": 6
+          },
+          {
+            "variant": 0,
+            "value": 87
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 908
+          }
+        ],
+        "attributes": [
+          {
+            "id": 1,
+            "min": 1,
+            "max": 3,
+            "description": "{value}% Increased Harvest Yield",
+            "variant": 0,
+            "value": 3,
+            "attributeId": 1
+          },
+          {
+            "id": 6,
+            "min": 1,
+            "max": 3,
+            "description": "{value}% Harvest Burn",
+            "variant": 0,
+            "value": 1,
+            "attributeId": 6
+          }
+        ],
+        "perfection": 1,
+        "category": "armor",
+        "meta": {
+          "harvestYield": 3,
+          "harvestFees": {},
+          "chanceToSendHarvestToHiddenPool": 0,
+          "chanceToLoseHarvest": 0,
+          "harvestBurn": 1
+        },
+        "id": 3,
+        "name": "Lorekeeper",
+        "icon": "undefinedimages/items/00003.png",
+        "value": "0",
+        "isNew": false,
+        "isEquipable": true,
+        "isUnequipable": false,
+        "isTradeable": true,
+        "isTransferable": true,
+        "isCraftable": true,
+        "isDisabled": false,
+        "isRuneword": true,
+        "createdDate": 12111,
+        "hotnessScore": 1,
+        "recipe": {
+          "requirement": [
+            {
+              "id": 4,
+              "quantity": 1
+            },
+            {
+              "id": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "version": 3,
+        "type": 5,
+        "shortTokenId": "10030000305000300010087...908",
+        "slotId": 3
+      }
+    },
+    {
+      "id": 657,
+      "seller": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
+      "buyer": "0x0000000000000000000000000000000000000000",
+      "tokenId": "100300003050003000200540000000000000000000000000000000000000000000000000187",
+      "price": 0.0139,
+      "status": "available",
+      "hotness": 0,
+      "createdAt": 1622582030570,
+      "updatedAt": 1622582030570,
+      "blockNumber": 7927427,
+      "item": {
+        "tokenId": "100300003050003000200540000000000000000000000000000000000000000000000000187",
+        "details": {
+          "Type": "Helm",
+          "Subtype": "Full Helm",
+          "Rune Word": "Nef Tir",
+          "Distribution": "Crafted",
+          "Date": "April 25 - Now",
+          "Max Supply": "Unknown"
+        },
+        "branches": {
+          "1": {
+            "description": [
+              "A once unbreakable helm, it's seen its best days."
+            ],
+            "attributes": [
+              {
+                "id": 1,
+                "min": 1,
+                "max": 3,
+                "description": "{value}% Increased Harvest Yield"
+              },
+              {
+                "id": 6,
+                "min": 1,
+                "max": 3,
+                "description": "{value}% Harvest Burn"
+              },
+              {
+                "id": 7,
+                "min": 100,
+                "max": 100,
+                "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              }
+            ],
+            "perfection": [
+              3,
+              1
+            ]
+          },
+          "2": {
+            "description": "A once unbreakable helm, it's seen its best days.",
+            "attributes": [
+              {
+                "id": 1,
+                "value": 5,
+                "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+              },
+              {
+                "id": 2,
+                "value": 100,
+                "description": "{value}% Increased Block Speed"
+              },
+              {
+                "id": 2,
+                "value": 230,
+                "description": "{value}% Enhanced Defense"
+              },
+              {
+                "id": 2,
+                "min": 41,
+                "max": 50,
+                "description": "Physical Damage Reduced by {value}"
+              },
+              {
+                "id": 2,
+                "description": "Half Freeze Duration"
+              }
+            ]
+          }
+        },
+        "shorthand": "3-2",
+        "mods": [
+          {
+            "variant": 0,
+            "value": 3,
+            "attributeId": 1
+          },
+          {
+            "variant": 0,
+            "value": 2,
+            "attributeId": 6
+          },
+          {
+            "variant": 0,
+            "value": 54
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 187
+          }
+        ],
+        "attributes": [
+          {
+            "id": 1,
+            "min": 1,
+            "max": 3,
+            "description": "{value}% Increased Harvest Yield",
+            "variant": 0,
+            "value": 3,
+            "attributeId": 1
+          },
+          {
+            "id": 6,
+            "min": 1,
+            "max": 3,
+            "description": "{value}% Harvest Burn",
+            "variant": 0,
+            "value": 2,
+            "attributeId": 6
+          }
+        ],
+        "perfection": 0.75,
+        "category": "armor",
+        "meta": {
+          "harvestYield": 3,
+          "harvestFees": {},
+          "chanceToSendHarvestToHiddenPool": 0,
+          "chanceToLoseHarvest": 0,
+          "harvestBurn": 2
+        },
+        "id": 3,
+        "name": "Lorekeeper",
+        "icon": "undefinedimages/items/00003.png",
+        "value": "0",
+        "isNew": false,
+        "isEquipable": true,
+        "isUnequipable": false,
+        "isTradeable": true,
+        "isTransferable": true,
+        "isCraftable": true,
+        "isDisabled": false,
+        "isRuneword": true,
+        "createdDate": 12111,
+        "hotnessScore": 1,
+        "recipe": {
+          "requirement": [
+            {
+              "id": 4,
+              "quantity": 1
+            },
+            {
+              "id": 3,
+              "quantity": 1
+            }
+          ]
+        },
+        "version": 3,
+        "type": 5,
+        "shortTokenId": "10030000305000300020054...187",
+        "slotId": 3
       }
     }
   ]

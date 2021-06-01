@@ -187,15 +187,15 @@
   },
   {
     "owner": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
-    "from": "0xae283934793166E4D6a9758023a6864DF3fdf5ae",
+    "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
     "status": "transferred_in",
     "tokenId": "10010000410001000148711828",
-    "createdAt": 1622359778893,
+    "createdAt": 1622583155882,
     "details": {
       "Type": "Relic",
       "Distribution": "Claimable",
       "Date": "May 3 - Now",
-      "Max Supply": "Infinite"
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
@@ -205,10 +205,13 @@
         "attributes": [
           {
             "id": 32,
-            "min": 100,
-            "max": 100,
-            "desc": "{value}% Chance To Transmute Item (SOON)"
+            "min": 0,
+            "max": 0,
+            "description": "100% Chance To Transmute Item"
           }
+        ],
+        "perfection": [
+          0
         ]
       },
       "2": {
@@ -222,7 +225,7 @@
         ]
       }
     },
-    "shorthand": "",
+    "shorthand": "0",
     "mods": [
       {
         "variant": 1,
@@ -245,15 +248,15 @@
     "attributes": [
       {
         "id": 32,
-        "min": 100,
-        "max": 100,
-        "desc": "{value}% Chance To Transmute Item (SOON)",
+        "min": 0,
+        "max": 0,
+        "description": "100% Chance To Transmute Item",
         "variant": 1,
         "value": 0,
         "attributeId": 7
       }
     ],
-    "perfection": null,
+    "perfection": 1,
     "meta": {
       "harvestYield": 0,
       "harvestFees": {},
@@ -266,7 +269,7 @@
     "category": "accessory",
     "icon": "undefinedimages/items/00004.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": false,
     "isTradeable": false,
     "isTransferable": false,
