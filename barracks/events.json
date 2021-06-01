@@ -121943,5 +121943,137 @@
         "hex": "0x0f0b276b804b7608"
       }
     ]
+  },
+  {
+    "id": 2048,
+    "blockNumber": 7902158,
+    "blockHash": "0x64b691f1a420e479c046a8d9fb6ffc4c0a511f9f97930c7afe6da74e43536535",
+    "transactionIndex": 12,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x000000000000000000000000b0dbc08529044f7db1d1cf61a7b34403e01b08f5",
+      "0x0237ad8b96691ce1a881375a3d8d089519c7ee2f7b7ae9e6cf6ca000000000bb",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0x7e4caf3fb869c0b9c61e33477c55a84234fb868bbbeb67eb6926fe1760ea809b",
+    "logIndex": 63,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0xB0Dbc08529044F7dB1D1cf61a7b34403E01b08f5",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce1a881375a3d8d089519c7ee2f7b7ae9e6cf6ca000000000bb"
+      },
+      5
+    ]
+  },
+  {
+    "id": 2049,
+    "blockNumber": 7902158,
+    "blockHash": "0x64b691f1a420e479c046a8d9fb6ffc4c0a511f9f97930c7afe6da74e43536535",
+    "transactionIndex": 39,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000e913d836f41a89c8a8dc667da5e4d9030bea0961",
+      "0x0038c48de1dc7827e674f2aed01c351382b4950f50e2c4cb09f000000000001d",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "transactionHash": "0xef63d0cb0675d24016505da363dc9f07660d6675fcbf96a9ec2f84411229ee42",
+    "logIndex": 160,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xE913D836f41A89C8a8dc667dA5E4d9030beA0961",
+      {
+        "type": "BigNumber",
+        "hex": "0x38c48de1dc7827e674f2aed01c351382b4950f50e2c4cb09f000000000001d"
+      },
+      3
+    ]
   }
 ]
