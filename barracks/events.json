@@ -135510,5 +135510,71 @@
         "hex": "0x02d5bd78632b4406"
       }
     ]
+  },
+  {
+    "id": 2288,
+    "blockNumber": 7914004,
+    "blockHash": "0xacabf1a7d1bde01776d2f97a5475bc056763af7e8ca1b553575acf8cfa434db5",
+    "transactionIndex": 162,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x0000000000000000000000009a3a55723dc8974289ec64ee6517fcfb20577b40",
+      "0x0237ad8b96691ce1a881375a3dac6c3036f30973b3f4e656d73810000000015a",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0xb9a493785f47bd431c833429a99b7353930fbd80983b7b300bb9c54032a4333c",
+    "logIndex": 316,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x9a3a55723DC8974289Ec64EE6517FcFb20577B40",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce1a881375a3dac6c3036f30973b3f4e656d73810000000015a"
+      },
+      5
+    ]
   }
 ]
