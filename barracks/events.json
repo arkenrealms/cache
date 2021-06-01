@@ -131132,5 +131132,71 @@
       },
       1
     ]
+  },
+  {
+    "id": 2215,
+    "blockNumber": 7910397,
+    "blockHash": "0x6e663d5363975a7473f0ba0bdb949246fbbc161c8b89da5285ce7bc88f3436fd",
+    "transactionIndex": 83,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x0000000000000000000000008b3795e43e8b248037423a4f1cdf411cb887bd43",
+      "0x00000000000000000000000000000000000000000052ccffeed947a060b61e51",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0x9f635901c615d8b407dda5c2a9a3f00b77a0701ff47fa125608e5b90d03a3601",
+    "logIndex": 291,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x8B3795e43E8b248037423A4F1cdF411cb887Bd43",
+      {
+        "type": "BigNumber",
+        "hex": "0x52ccffeed947a060b61e51"
+      },
+      1
+    ]
   }
 ]
