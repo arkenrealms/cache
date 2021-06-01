@@ -135179,5 +135179,71 @@
       },
       1
     ]
+  },
+  {
+    "id": 2282,
+    "blockNumber": 7913644,
+    "blockHash": "0x61003abd2e00dc4a9031c6490df683c1b6ca93ee1583fbaf1b747a1dccf17da4",
+    "transactionIndex": 49,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x0000000000000000000000006b05e4b288239d0293fc595166a76ea88ec97912",
+      "0x0038c48de1dc78c7359cb92414b9fb047a652d37517c88453c5000000000024a",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "transactionHash": "0x18957bcbde7f28b981c568844da1be6b7a506790386216eca42009800bdf2750",
+    "logIndex": 242,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x6B05E4b288239d0293Fc595166A76EA88eC97912",
+      {
+        "type": "BigNumber",
+        "hex": "0x38c48de1dc78c7359cb92414b9fb047a652d37517c88453c5000000000024a"
+      },
+      3
+    ]
   }
 ]
