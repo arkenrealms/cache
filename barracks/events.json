@@ -128392,5 +128392,71 @@
       },
       3
     ]
+  },
+  {
+    "id": 2166,
+    "blockNumber": 7907886,
+    "blockHash": "0x60e50bf85d55df78500dfbe585a2c082be9116394f9130fe3f616da728e17b23",
+    "transactionIndex": 103,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x0000000000000000000000006cc9b0daa109c6baca09121158b107735b8f336a",
+      "0x0237ad8b96691ce4d82af83a2401b8e4c8545af6f682e671b4030000000002b4",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0x7bc60da60c060154a0b626760be2495f12d31274ff74d59b8f525e6763ef5626",
+    "logIndex": 511,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0x6Cc9B0dAa109c6baCA09121158B107735b8f336a",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce4d82af83a2401b8e4c8545af6f682e671b4030000000002b4"
+      },
+      5
+    ]
   }
 ]
