@@ -133473,5 +133473,71 @@
       },
       1
     ]
+  },
+  {
+    "id": 2253,
+    "blockNumber": 7912728,
+    "blockHash": "0x5f44ac0742746b22ad43780d25d83cc62295cf58ca2f81ee98cbe7a0a61cf243",
+    "transactionIndex": 154,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000a2f5ba76c3c6945431fd7652fb0070e37121ef53",
+      "0x0000000000000000000000000000000000000000033cd5c27eb3f9c8fdf804f3",
+      "0x0000000000000000000000000000000000000000000000000000000000000003"
+    ],
+    "transactionHash": "0x811cb7248982cbd2049cced7075f171f044c4b2e6461c509edf2e7224c8bfddf",
+    "logIndex": 567,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xA2F5BA76c3C6945431fD7652FB0070e37121eF53",
+      {
+        "type": "BigNumber",
+        "hex": "0x033cd5c27eb3f9c8fdf804f3"
+      },
+      3
+    ]
   }
 ]
