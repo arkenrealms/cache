@@ -125227,5 +125227,71 @@
       },
       2
     ]
+  },
+  {
+    "id": 2108,
+    "blockNumber": 7906075,
+    "blockHash": "0xf0c4a81fdf7db9a2629d6ea0a60b980a9322011a3d562eb8f49b6c8150ce75ca",
+    "transactionIndex": 61,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000ac1773e7fcbbb5d7a0fdb09cdeeae8d5de1c42df",
+      "0x0038c48dce7d8921149bc49a81168a1327d9b486ae26b3144b20000000000096",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0x84444056f15f2f98ffbdbed6b447783febf45d8ed7239c831354950732511ed9",
+    "logIndex": 275,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xaC1773e7fcBBb5d7a0Fdb09CdEeAe8D5dE1c42df",
+      {
+        "type": "BigNumber",
+        "hex": "0x38c48dce7d8921149bc49a81168a1327d9b486ae26b3144b20000000000096"
+      },
+      1
+    ]
   }
 ]
