@@ -22476,22 +22476,23 @@
   {
     "id": 557,
     "seller": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
-    "buyer": "0x0000000000000000000000000000000000000000",
+    "buyer": "0x7c35b0C0fFd4FCbD11fcd4b82EFA57BDDcF15fd1",
     "tokenId": "100300003050003000100870000000000000000000000000000000000000000000000000090",
     "price": 0.0967,
-    "status": "available",
+    "status": "sold",
     "hotness": 0,
     "createdAt": 1622475035482,
-    "updatedAt": 1622475035482,
-    "blockNumber": 7891921,
+    "updatedAt": 1622540384022,
+    "blockNumber": 7913589,
     "item": {
       "tokenId": "100300003050003000100870000000000000000000000000000000000000000000000000090",
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -22503,19 +22504,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -22628,7 +22629,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 3,
           "attributeId": 1
@@ -22637,13 +22638,14 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 0,
           "value": 1,
           "attributeId": 6
         }
       ],
       "perfection": 1,
+      "category": "armor",
       "meta": {
         "harvestYield": 3,
         "harvestFees": {},
@@ -22653,10 +22655,9 @@
       },
       "id": 3,
       "name": "Lorekeeper",
-      "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
