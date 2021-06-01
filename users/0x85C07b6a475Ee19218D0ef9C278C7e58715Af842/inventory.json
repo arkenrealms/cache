@@ -12999,13 +12999,14 @@
       "from": "0x519933B63383a172f2DB2aA6E5786f82F660f0eA",
       "status": "transferred_out",
       "tokenId": "10010000310031001100040126",
-      "createdAt": 1622265666742,
+      "createdAt": 1622564965122,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -13017,19 +13018,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -13094,7 +13095,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 3,
           "attributeId": 1
@@ -13103,7 +13104,7 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 1,
           "value": 1,
           "attributeId": 6
@@ -13122,7 +13123,7 @@
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -43052,13 +43053,14 @@
       "from": "0x519933B63383a172f2DB2aA6E5786f82F660f0eA",
       "status": "transferred_out",
       "tokenId": "1002000030500010001000043565",
-      "createdAt": 1622265659855,
+      "createdAt": 1622564665499,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -43070,19 +43072,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -43147,7 +43149,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 1,
           "attributeId": 1
@@ -43156,7 +43158,7 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 0,
           "value": 1,
           "attributeId": 6
@@ -43175,7 +43177,7 @@
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -123198,51 +123200,77 @@
       "from": "0xa3134f4a21c29BC1353B3c26761EF9B8FFFe9033",
       "status": "transferred_out",
       "tokenId": "1003000070920010012008099200910000000000000000000000000000000000000000000900",
-      "createdAt": 1622266100525,
+      "createdAt": 1622563793740,
       "details": {
         "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 24 - June 24",
+        "Date": "May 25 - June 25",
         "Max Supply": "Limited"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "These handwraps have an unknown origin and emit a dark aura."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 25,
               "max": 100,
-              "desc": "Remove {value}% Fees"
+              "description": "Remove {value}% Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
-              "desc": "Unstake Locked Until Completion"
+              "description": "Unstake Locked Until Completion"
             }
           ],
           "perfection": [
             5,
-            100,
             100
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
-      "shorthand": "1-99-100",
+      "shorthand": "1-99",
       "mods": [
         {
           "variant": 2,
@@ -123309,7 +123337,7 @@
           "id": 1,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 1
@@ -123318,7 +123346,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "desc": "Remove {value}% Fees",
+          "description": "Remove {value}% Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 99
@@ -123327,13 +123355,13 @@
           "id": 9,
           "min": 100,
           "max": 100,
-          "desc": "Unstake Locked Until Completion",
+          "description": "Unstake Locked Until Completion",
           "variant": 2,
           "attributeId": 9,
           "value": 100
         }
       ],
-      "perfection": 0.6622222222222223,
+      "perfection": 0.49333333333333335,
       "meta": {
         "harvestYield": 1,
         "harvestFees": {},
@@ -123346,12 +123374,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00007.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -123387,13 +123415,14 @@
       "from": "0xB7648b44871D65174Ca4e78e06EAd1DE96E055b5",
       "status": "transferred_out",
       "tokenId": "1003000051120010092006002200401400000000000000000000000000000000000000000259",
-      "createdAt": 1622266100686,
+      "createdAt": 1622564408664,
       "details": {
         "Type": "Greaves",
+        "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
         "Date": "May 17 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -123405,30 +123434,56 @@
               "id": 1,
               "min": 1,
               "max": 10,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 4,
               "min": 10,
               "max": 20,
-              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
             }
           ],
           "perfection": [
-            3,
+            10,
             1,
-            100
+            20
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
       "shorthand": "9-2-14",
@@ -123498,7 +123553,7 @@
           "id": 1,
           "min": 1,
           "max": 10,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 9
@@ -123507,7 +123562,7 @@
           "id": 6,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 2,
           "attributeId": 6,
           "value": 2
@@ -123516,13 +123571,13 @@
           "id": 4,
           "min": 10,
           "max": 20,
-          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
           "variant": 2,
           "attributeId": 4,
           "value": 14
         }
       ],
-      "perfection": 0.27261904761904765,
+      "perfection": 0.6796296296296296,
       "meta": {
         "harvestYield": 9,
         "harvestFees": {},
@@ -123535,12 +123590,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00005.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -123575,13 +123630,14 @@
       "from": "0xB7648b44871D65174Ca4e78e06EAd1DE96E055b5",
       "status": "transferred_out",
       "tokenId": "100300003050003000100250000000000000000000000000000000000000000000000000835",
-      "createdAt": 1622266101028,
+      "createdAt": 1622564363658,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -123593,19 +123649,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -123718,7 +123774,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 3,
           "attributeId": 1
@@ -123727,7 +123783,7 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 0,
           "value": 1,
           "attributeId": 6
@@ -123746,7 +123802,7 @@
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -125010,51 +125066,77 @@
       "from": "0xa3134f4a21c29BC1353B3c26761EF9B8FFFe9033",
       "status": "transferred_out",
       "tokenId": "1003000070920010052008073200910000000000000000000000000000000000000000000736",
-      "createdAt": 1622476025819,
+      "createdAt": 1622563974143,
       "details": {
         "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 24 - June 24",
+        "Date": "May 25 - June 25",
         "Max Supply": "Limited"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "These handwraps have an unknown origin and emit a dark aura."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 25,
               "max": 100,
-              "desc": "Remove {value}% Fees"
+              "description": "Remove {value}% Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
-              "desc": "Unstake Locked Until Completion"
+              "description": "Unstake Locked Until Completion"
             }
           ],
           "perfection": [
             5,
-            100,
             100
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
-      "shorthand": "5-73-100",
+      "shorthand": "5-73",
       "mods": [
         {
           "variant": 2,
@@ -125121,7 +125203,7 @@
           "id": 1,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 5
@@ -125130,7 +125212,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "desc": "Remove {value}% Fees",
+          "description": "Remove {value}% Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 73
@@ -125139,13 +125221,13 @@
           "id": 9,
           "min": 100,
           "max": 100,
-          "desc": "Unstake Locked Until Completion",
+          "description": "Unstake Locked Until Completion",
           "variant": 2,
           "attributeId": 9,
           "value": 100
         }
       ],
-      "perfection": 0.88,
+      "perfection": 0.8200000000000001,
       "meta": {
         "harvestYield": 5,
         "harvestFees": {},
@@ -125158,12 +125240,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00007.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -127621,13 +127703,14 @@
       "from": "0xB7648b44871D65174Ca4e78e06EAd1DE96E055b5",
       "status": "transferred_out",
       "tokenId": "100300001010012000400010000000000000000000000000000000000000000000000000451",
-      "createdAt": 1622266131773,
+      "createdAt": 1622565940969,
       "details": {
-        "Type": "Long Sword",
+        "Type": "Sword",
+        "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
         "Date": "April 20 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -127639,23 +127722,32 @@
               "id": 1,
               "min": 5,
               "max": 15,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 2,
               "min": 3,
               "max": 5,
-              "desc": "{value}% Harvest Fee"
+              "description": "{value}% Harvest Fee"
             },
             {
               "id": 3,
               "min": 0,
               "max": 2,
-              "desc": "Harvest Fee Token: {value}",
+              "description": "Harvest Fee Token: {value}",
               "map": {
-                "0": "ITH",
-                "1": "EL",
-                "2": "TIR"
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL"
               }
             }
           ],
@@ -127780,7 +127872,7 @@
           "id": 1,
           "min": 5,
           "max": 15,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 12,
           "attributeId": 1
@@ -127789,7 +127881,7 @@
           "id": 2,
           "min": 3,
           "max": 5,
-          "desc": "{value}% Harvest Fee",
+          "description": "{value}% Harvest Fee",
           "variant": 0,
           "value": 4,
           "attributeId": 2
@@ -127798,11 +127890,20 @@
           "id": 3,
           "min": 0,
           "max": 2,
-          "desc": "Harvest Fee Token: {value}",
+          "description": "Harvest Fee Token: {value}",
           "map": {
-            "0": "ITH",
-            "1": "EL",
-            "2": "TIR"
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL"
           },
           "variant": 0,
           "value": 1,
@@ -127812,10 +127913,10 @@
       "perfection": 0.44999999999999996,
       "meta": {
         "harvestYield": 12,
-        "harvestFeeToken": "EL",
+        "harvestFeeToken": "ELD",
         "harvestFeePercent": 4,
         "harvestFees": {
-          "EL": 4
+          "ELD": 4
         },
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
@@ -167127,7 +167228,7 @@
       "from": "0xB7648b44871D65174Ca4e78e06EAd1DE96E055b5",
       "status": "transferred_out",
       "tokenId": "1003000060720010052008017201100200000000000000000000000000000000000000000824",
-      "createdAt": 1622562517514,
+      "createdAt": 1622564605041,
       "details": {
         "Type": "Armor",
         "Subtype": "Templar Forge",
@@ -167320,7 +167421,7 @@
       "from": "0xB7648b44871D65174Ca4e78e06EAd1DE96E055b5",
       "status": "transferred_out",
       "tokenId": "1003000070920010042008074200910000000000000000000000000000000000000000000511",
-      "createdAt": 1622562908477,
+      "createdAt": 1622564348686,
       "details": {
         "Type": "Gloves",
         "Subtype": "Shadow Wraps",
@@ -168101,6 +168202,2709 @@
       "type": 11,
       "shortTokenId": "10030000511200100920060...266",
       "slotId": 12
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xa3134f4a21c29BC1353B3c26761EF9B8FFFe9033",
+      "status": "transferred_out",
+      "tokenId": "1003000060720010042008019201100200000000000000000000000000000000000000000051",
+      "createdAt": 1622563583437,
+      "details": {
+        "Type": "Armor",
+        "Subtype": "Templar Forge",
+        "Rune Word": "Tal Ort Thul Eld Nef",
+        "Distribution": "Crafted",
+        "Date": "May 24 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 10,
+              "max": 20,
+              "description": "Remove {value}% Fees"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            }
+          ],
+          "perfection": [
+            5,
+            20,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "4-19-2",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 19
+        },
+        {
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 51
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 8,
+          "min": 10,
+          "max": 20,
+          "description": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 19
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        }
+      ],
+      "perfection": 0.8555555555555555,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 6,
+      "name": "Titan",
+      "icon": "undefinedimages/items/00006.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 7,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 7,
+      "shortTokenId": "10030000607200100420080...051",
+      "slotId": 7
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xC87a91dB991FD20dB903DCcCcb6F1DA470dD5DF1",
+      "status": "transferred_out",
+      "tokenId": "1003000060720010032008017201100100000000000000000000000000000000000000000169",
+      "createdAt": 1622563613975,
+      "details": {
+        "Type": "Armor",
+        "Subtype": "Templar Forge",
+        "Rune Word": "Tal Ort Thul Eld Nef",
+        "Distribution": "Crafted",
+        "Date": "May 24 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 10,
+              "max": 20,
+              "description": "Remove {value}% Fees"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            }
+          ],
+          "perfection": [
+            5,
+            20,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "3-17-1",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 17
+        },
+        {
+          "variant": 2,
+          "attributeId": 11,
+          "value": 1
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 169
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 8,
+          "min": 10,
+          "max": 20,
+          "description": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 17
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 11,
+          "value": 1
+        }
+      ],
+      "perfection": 0.3444444444444444,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 6,
+      "name": "Titan",
+      "icon": "undefinedimages/items/00006.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 7,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 7,
+      "shortTokenId": "10030000607200100320080...169",
+      "slotId": 7
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xEB16739C0286115A0Bf00a4a22E3721a0764F04e",
+      "status": "transferred_out",
+      "tokenId": "100300003050003000100930000000000000000000000000000000000000000000000000469",
+      "createdAt": 1622563853809,
+      "details": {
+        "Type": "Helm",
+        "Subtype": "Full Helm",
+        "Rune Word": "Nef Tir",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A once unbreakable helm, it's seen its best days."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 3,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 3,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 7,
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            }
+          ],
+          "perfection": [
+            3,
+            1
+          ]
+        },
+        "2": {
+          "description": "A once unbreakable helm, it's seen its best days.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-1",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 1,
+          "attributeId": 6
+        },
+        {
+          "variant": 0,
+          "value": 93
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 469
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 3,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 3,
+          "description": "{value}% Harvest Burn",
+          "variant": 0,
+          "value": 1,
+          "attributeId": 6
+        }
+      ],
+      "perfection": 1,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 1
+      },
+      "id": 3,
+      "name": "Lorekeeper",
+      "icon": "undefinedimages/items/00003.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 5,
+      "shortTokenId": "10030000305000300010093...469",
+      "slotId": 3
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x519933B63383a172f2DB2aA6E5786f82F660f0eA",
+      "status": "transferred_out",
+      "tokenId": "1003000070920010012008092200910000000000000000000000000000000000000000000904",
+      "createdAt": 1622564288562,
+      "details": {
+        "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
+        "Rune Word": "Thul Ith Ort Ral",
+        "Distribution": "Crafted",
+        "Date": "May 25 - June 25",
+        "Max Supply": "Limited"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "These handwraps have an unknown origin and emit a dark aura."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 25,
+              "max": 100,
+              "description": "Remove {value}% Fees"
+            },
+            {
+              "id": 9,
+              "min": 100,
+              "max": 100,
+              "description": "Unstake Locked Until Completion"
+            }
+          ],
+          "perfection": [
+            5,
+            100
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "1-92",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 92
+        },
+        {
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 904
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 1
+        },
+        {
+          "id": 8,
+          "min": 25,
+          "max": 100,
+          "description": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 92
+        },
+        {
+          "id": 9,
+          "min": 100,
+          "max": 100,
+          "description": "Unstake Locked Until Completion",
+          "variant": 2,
+          "attributeId": 9,
+          "value": 100
+        }
+      ],
+      "perfection": 0.44666666666666666,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 1,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 7,
+      "name": "Smoke",
+      "icon": "undefinedimages/items/00007.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isLimited": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 9,
+      "shortTokenId": "10030000709200100120080...904",
+      "slotId": 9
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x76176615C5E06705BdADC40Ff938a39fE762584E",
+      "status": "transferred_out",
+      "tokenId": "100300010022001036200401520070152006012200200820030072039001202100100000648",
+      "createdAt": 1622565055785,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Cloudstrike Sword",
+        "Rune Word": "Sol Ral Ith Eld Ort",
+        "Distribution": "Crafted",
+        "Date": "June 1 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Crafted with the finest Kora materials, this Cloudstrike Sword is imbued with the power of wind."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 7,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            },
+            {
+              "id": 6,
+              "min": 10,
+              "max": 15,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 2,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 1,
+              "max": 1,
+              "description": "Use Skill: {value} (Coming soon)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot"
+              }
+            },
+            {
+              "id": 21,
+              "min": 1,
+              "max": 1,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            }
+          ],
+          "perfection": [
+            40,
+            null,
+            null,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "36-12-8",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 36
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 12
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 8
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 7
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 1
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 648
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 36
+        },
+        {
+          "id": 4,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "id": 7,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "id": 6,
+          "min": 10,
+          "max": 15,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 12
+        },
+        {
+          "id": 2,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 8
+        },
+        {
+          "id": 3,
+          "min": 6,
+          "max": 8,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 7
+        },
+        {
+          "id": 39,
+          "min": 1,
+          "max": 1,
+          "description": "Use Skill: {value} (Coming soon)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 1
+        },
+        {
+          "id": 21,
+          "min": 1,
+          "max": 1,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 1
+        }
+      ],
+      "perfection": 0.7222222222222223,
+      "category": "weapon",
+      "meta": {
+        "harvestYield": 36,
+        "harvestFeeToken": "RAL",
+        "harvestFeePercent": 8,
+        "harvestFees": {
+          "RAL": 8
+        },
+        "chanceToSendHarvestToHiddenPool": 15,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 12
+      },
+      "id": 10,
+      "name": "Glory",
+      "icon": "undefinedimages/items/00010.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 2,
+      "shortTokenId": "10030001002200103620040...648",
+      "slotId": 1
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xC87a91dB991FD20dB903DCcCcb6F1DA470dD5DF1",
+      "status": "transferred_out",
+      "tokenId": "100300003050003000200830000000000000000000000000000000000000000000000000357",
+      "createdAt": 1622566586022,
+      "details": {
+        "Type": "Helm",
+        "Subtype": "Full Helm",
+        "Rune Word": "Nef Tir",
+        "Distribution": "Crafted",
+        "Date": "April 25 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A once unbreakable helm, it's seen its best days."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 3,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 3,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 7,
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            }
+          ],
+          "perfection": [
+            3,
+            1
+          ]
+        },
+        "2": {
+          "description": "A once unbreakable helm, it's seen its best days.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-2",
+      "mods": [
+        {
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        },
+        {
+          "variant": 0,
+          "value": 83
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 357
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 3,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 0,
+          "value": 3,
+          "attributeId": 1
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 3,
+          "description": "{value}% Harvest Burn",
+          "variant": 0,
+          "value": 2,
+          "attributeId": 6
+        }
+      ],
+      "perfection": 0.75,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 2
+      },
+      "id": 3,
+      "name": "Lorekeeper",
+      "icon": "undefinedimages/items/00003.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 5,
+      "shortTokenId": "10030000305000300020083...357",
+      "slotId": 3
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xC87a91dB991FD20dB903DCcCcb6F1DA470dD5DF1",
+      "status": "transferred_out",
+      "tokenId": "1003000051120010082006001200401600000000000000000000000000000000000000000426",
+      "createdAt": 1622566646098,
+      "details": {
+        "Type": "Greaves",
+        "Subtype": "Astral Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            10,
+            1,
+            20
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "8-1-16",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 8
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 16
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 426
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 8
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 1
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 16
+        }
+      ],
+      "perfection": 0.7925925925925926,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 8,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 16,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 1
+      },
+      "id": 5,
+      "name": "Flash",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100820060...426",
+      "slotId": 12
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0xC87a91dB991FD20dB903DCcCcb6F1DA470dD5DF1",
+      "status": "transferred_out",
+      "tokenId": "100300013022001022200401520070152006015200201120030112039005202100200000824",
+      "createdAt": 1622566931253,
+      "details": {
+        "Type": "Staff",
+        "Subtype": "Chrono Staff",
+        "Rune Word": "Sol Amn Ort Thul Ral",
+        "Distribution": "Crafted",
+        "Date": "June 1 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A mysterious staff that appears to be of Archon origin, imbued with what appears to be the power of time."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 7,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            },
+            {
+              "id": 6,
+              "min": 10,
+              "max": 15,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 2,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 9,
+              "max": 11,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 5,
+              "max": 5,
+              "description": "Use Skill: {value} (Coming soon)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot"
+              }
+            },
+            {
+              "id": 21,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            }
+          ],
+          "perfection": [
+            40,
+            null,
+            null,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "22-15-11",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 22
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 11
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 11
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 2
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 824
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 22
+        },
+        {
+          "id": 4,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "id": 7,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "id": 6,
+          "min": 10,
+          "max": 15,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 15
+        },
+        {
+          "id": 2,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 11
+        },
+        {
+          "id": 3,
+          "min": 9,
+          "max": 11,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 11
+        },
+        {
+          "id": 39,
+          "min": 5,
+          "max": 5,
+          "description": "Use Skill: {value} (Coming soon)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 5
+        },
+        {
+          "id": 21,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 2
+        }
+      ],
+      "perfection": 0.26666666666666666,
+      "category": "weapon",
+      "meta": {
+        "harvestYield": 22,
+        "harvestFeeToken": "SOL",
+        "harvestFeePercent": 11,
+        "harvestFees": {
+          "SOL": 11
+        },
+        "chanceToSendHarvestToHiddenPool": 15,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 15
+      },
+      "id": 13,
+      "name": "Destiny",
+      "icon": "undefinedimages/items/00013.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 2,
+      "shortTokenId": "10030001302200102220040...824",
+      "slotId": 1
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x5d00b3889e316B08EA9932F290190dB32B942950",
+      "status": "transferred_out",
+      "tokenId": "1003000051120010052006001200402000000000000000000000000000000000000000000588",
+      "createdAt": 1622568056631,
+      "details": {
+        "Type": "Greaves",
+        "Subtype": "Astral Greaves",
+        "Rune Word": "Ith Eld Ral Tal",
+        "Distribution": "Crafted",
+        "Date": "May 17 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 1,
+              "max": 10,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 5,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 20,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            }
+          ],
+          "perfection": [
+            10,
+            1,
+            20
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "5-1-20",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 20
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 588
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 1,
+          "max": 10,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "id": 6,
+          "min": 1,
+          "max": 5,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 1
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 20,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 20
+        }
+      ],
+      "perfection": 0.8148148148148149,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 20,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 1
+      },
+      "id": 5,
+      "name": "Flash",
+      "icon": "undefinedimages/items/00005.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 7,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 11,
+      "shortTokenId": "10030000511200100520060...588",
+      "slotId": 12
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x5d00b3889e316B08EA9932F290190dB32B942950",
+      "status": "transferred_out",
+      "tokenId": "1003000060720010052008017201100200000000000000000000000000000000000000000695",
+      "createdAt": 1622568681227,
+      "details": {
+        "Type": "Armor",
+        "Subtype": "Templar Forge",
+        "Rune Word": "Tal Ort Thul Eld Nef",
+        "Distribution": "Crafted",
+        "Date": "May 24 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            ""
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 8,
+              "min": 10,
+              "max": 20,
+              "description": "Remove {value}% Fees"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            }
+          ],
+          "perfection": [
+            5,
+            20,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": []
+        }
+      },
+      "shorthand": "5-17-2",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 8,
+          "value": 17
+        },
+        {
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 695
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 5
+        },
+        {
+          "id": 8,
+          "min": 10,
+          "max": 20,
+          "description": "Remove {value}% Fees",
+          "variant": 2,
+          "attributeId": 8,
+          "value": 17
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 11,
+          "value": 2
+        }
+      ],
+      "perfection": 0.9,
+      "category": "armor",
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 6,
+      "name": "Titan",
+      "icon": "undefinedimages/items/00006.png",
+      "value": "0",
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 7,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 7,
+      "shortTokenId": "10030000607200100520080...695",
+      "slotId": 7
+    },
+    {
+      "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x09B0dD2d4FF9a992DeeffdCA4aeC48c44194f5fb",
+      "status": "transferred_out",
+      "tokenId": "100300010022001037200401520070152006014200200520030062039001202100100000389",
+      "createdAt": 1622569056151,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Cloudstrike Sword",
+        "Rune Word": "Sol Ral Ith Eld Ort",
+        "Distribution": "Crafted",
+        "Date": "June 1 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Crafted with the finest Kora materials, this Cloudstrike Sword is imbued with the power of wind."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 7,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            },
+            {
+              "id": 6,
+              "min": 10,
+              "max": 15,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 2,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 1,
+              "max": 1,
+              "description": "Use Skill: {value} (Coming soon)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot"
+              }
+            },
+            {
+              "id": 21,
+              "min": 1,
+              "max": 1,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            }
+          ],
+          "perfection": [
+            40,
+            null,
+            null,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "37-14-5",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 37
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 14
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 6
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 1
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 389
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 37
+        },
+        {
+          "id": 4,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "id": 7,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "id": 6,
+          "min": 10,
+          "max": 15,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 14
+        },
+        {
+          "id": 2,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 5
+        },
+        {
+          "id": 3,
+          "min": 6,
+          "max": 8,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 6
+        },
+        {
+          "id": 39,
+          "min": 1,
+          "max": 1,
+          "description": "Use Skill: {value} (Coming soon)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 1
+        },
+        {
+          "id": 21,
+          "min": 1,
+          "max": 1,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 1
+        }
+      ],
+      "perfection": 0.7000000000000001,
+      "category": "weapon",
+      "meta": {
+        "harvestYield": 37,
+        "harvestFeeToken": "TAL",
+        "harvestFeePercent": 5,
+        "harvestFees": {
+          "TAL": 5
+        },
+        "chanceToSendHarvestToHiddenPool": 15,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 14
+      },
+      "id": 10,
+      "name": "Glory",
+      "icon": "undefinedimages/items/00010.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotnessScore": 1,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          },
+          {
+            "id": 6,
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "type": 2,
+      "shortTokenId": "10030001002200103720040...389",
+      "slotId": 1
     }
   ]
 }
