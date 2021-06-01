@@ -126114,5 +126114,71 @@
         "hex": "0x039181e094490a1b"
       }
     ]
+  },
+  {
+    "id": 2124,
+    "blockNumber": 7906934,
+    "blockHash": "0xd752cb996f3bb0e444cc6635246c32e570bac8bed1b25ba7708d938969569c30",
+    "transactionIndex": 131,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x0000000000000000000000007208334f77c03917ec3a7eafb026bf5095dd894f",
+      "0x0237ad8b96691ce1a8813f5eec8293b76eb397883b1567c2135ec00000000075",
+      "0x0000000000000000000000000000000000000000000000000000000000000005"
+    ],
+    "transactionHash": "0xf36793d264d5b5b3c28e4e1614a9a38b372260c53d1326223d9e940e36a410d3",
+    "logIndex": 331,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0x7208334f77c03917ec3a7EafB026BF5095dD894f",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce1a8813f5eec8293b76eb397883b1567c2135ec00000000075"
+      },
+      5
+    ]
   }
 ]
