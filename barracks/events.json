@@ -137337,5 +137337,58 @@
         "hex": "0x056f4b32eae5113c"
       }
     ]
+  },
+  {
+    "id": 2321,
+    "blockNumber": 7915037,
+    "blockHash": "0xd5883099b7baae6dd92811f63363f07cd5718f279ed5e2c7c7affaed9258ee82",
+    "transactionIndex": 120,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x0000000000000000000000000000000000000000000000000343383be4c2dfcd",
+    "topics": [
+      "0xbd6c81b22f61e66bb371451577d2d772376e4204095bdfd92ff6a48aa86837ef",
+      "0x0000000000000000000000008b3795e43e8b248037423a4f1cdf411cb887bd43"
+    ],
+    "transactionHash": "0xb2f7e9441d3bd7be8c98b61c0c9bbe4dc71d9e3ad124668b08a25f85ce6cfbc9",
+    "logIndex": 488,
+    "eventFragment": {
+      "name": "ActionBurn",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "amount",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "ActionBurn",
+    "signature": "ActionBurn(address,uint256)",
+    "topic": "0xbd6c81b22f61e66bb371451577d2d772376e4204095bdfd92ff6a48aa86837ef",
+    "args": [
+      "0x8B3795e43E8b248037423A4F1cdF411cb887Bd43",
+      {
+        "type": "BigNumber",
+        "hex": "0x0343383be4c2dfcd"
+      }
+    ]
   }
 ]
