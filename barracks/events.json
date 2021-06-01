@@ -130086,5 +130086,71 @@
         "hex": "0x087cf6e7e6efac"
       }
     ]
+  },
+  {
+    "id": 2196,
+    "blockNumber": 7910104,
+    "blockHash": "0x08cd5aa500b23e9617412ed67ada401a99bd52021d2c64bb0cec2faefc6ac3ec",
+    "transactionIndex": 80,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000b0dbc08529044f7db1d1cf61a7b34403e01b08f5",
+      "0x00000000000000000000000000000000000000000052e22cf05c17f8fdaf80c6",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0x3ea4ee4275678826a11606264f9d576435d945132208ef4e12c390de419f4017",
+    "logIndex": 384,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xB0Dbc08529044F7dB1D1cf61a7b34403E01b08f5",
+      {
+        "type": "BigNumber",
+        "hex": "0x52e22cf05c17f8fdaf80c6"
+      },
+      1
+    ]
   }
 ]
