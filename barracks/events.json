@@ -135576,5 +135576,71 @@
       },
       5
     ]
+  },
+  {
+    "id": 2289,
+    "blockNumber": 7914275,
+    "blockHash": "0x1deabbc33bec3a703f1780874d85ac63dc664825fd499b6fe7306cde736198b0",
+    "transactionIndex": 99,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+      "0x000000000000000000000000f0659403c811154b704afc121cb6152104b5d289",
+      "0x0038c48e241075cdf48af2c9fd551b8055cda34d07e303098f551474f8adea48",
+      "0x000000000000000000000000000000000000000000000000000000000000000a"
+    ],
+    "transactionHash": "0x0aeb4786c539282a1476b148a47a746b36b855c6e72b6e884fad53a3527d8712",
+    "logIndex": 424,
+    "eventFragment": {
+      "name": "Equip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Equip",
+    "signature": "Equip(address,uint256,uint16)",
+    "topic": "0x7d4d4607f618490ec85e393587c2b6ccaddf8d1054b2278c6ff55bfc858806f0",
+    "args": [
+      "0xF0659403c811154b704afC121Cb6152104B5d289",
+      {
+        "type": "BigNumber",
+        "hex": "0x38c48e241075cdf48af2c9fd551b8055cda34d07e303098f551474f8adea48"
+      },
+      10
+    ]
   }
 ]
