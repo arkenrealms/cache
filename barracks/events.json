@@ -136980,5 +136980,71 @@
       },
       3
     ]
+  },
+  {
+    "id": 2315,
+    "blockNumber": 7914969,
+    "blockHash": "0x1bc3b0c9bfdfde48a255c7c99a1aaf271424d3d281b5fbf164f14df662b43e93",
+    "transactionIndex": 80,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x0000000000000000000000009247754182b7a517b3d9ac265de7177d07b7b5b6",
+      "0x0000000000000000000000000000000000000000033c01ff546e9649349c1687",
+      "0x0000000000000000000000000000000000000000000000000000000000000001"
+    ],
+    "transactionHash": "0xe855692fa5630b96bff6f17970f29e2c75f11a66b8f362607d728df2a3b1cc75",
+    "logIndex": 279,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0x9247754182B7A517B3d9Ac265dE7177D07b7b5B6",
+      {
+        "type": "BigNumber",
+        "hex": "0x033c01ff546e9649349c1687"
+      },
+      1
+    ]
   }
 ]
