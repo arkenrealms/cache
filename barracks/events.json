@@ -132283,5 +132283,71 @@
       },
       7
     ]
+  },
+  {
+    "id": 2235,
+    "blockNumber": 7911779,
+    "blockHash": "0x04b6abbcb69d0712a8955648ac94cb7d03eb61a37157030419201f4c160aef07",
+    "transactionIndex": 158,
+    "removed": false,
+    "address": "0x5fE24631136D570D12920C9Fa0FEcaDA84E47673",
+    "data": "0x",
+    "topics": [
+      "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+      "0x000000000000000000000000dd3fbb23648da1391ca065aded3ab1fcbd0bd07a",
+      "0x0237ad8c526c3f1e83be523917ecae3b00aa6ac780f5587c2164c00000000231",
+      "0x0000000000000000000000000000000000000000000000000000000000000007"
+    ],
+    "transactionHash": "0x7e37f105f0ae957fdb5372fc2371808f06a35222ad4e85f746f85d64d54f7e58",
+    "logIndex": 511,
+    "eventFragment": {
+      "name": "Unequip",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "user",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "itemId",
+          "type": "uint16",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint16",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Unequip",
+    "signature": "Unequip(address,uint256,uint16)",
+    "topic": "0x8e29323119c8e859ebb0c8c9d973026002b1d95e109e0744554e944905030a63",
+    "args": [
+      "0xdD3fbb23648da1391CA065Aded3aB1fCbD0bD07a",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8c526c3f1e83be523917ecae3b00aa6ac780f5587c2164c00000000231"
+      },
+      7
+    ]
   }
 ]
