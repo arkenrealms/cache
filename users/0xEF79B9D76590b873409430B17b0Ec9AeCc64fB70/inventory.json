@@ -590,15 +590,16 @@
       "createdAt": 1622265906530
     },
     {
-      "status": "created",
+      "status": "unequipped",
       "tokenId": "1003000051120010092006002200401500000000000000000000000000000000000000000459",
-      "updatedAt": 1622261011334,
+      "updatedAt": 1622608294386,
       "details": {
         "Type": "Greaves",
+        "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
         "Date": "May 17 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -610,30 +611,56 @@
               "id": 1,
               "min": 1,
               "max": 10,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 4,
               "min": 10,
               "max": 20,
-              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
             }
           ],
           "perfection": [
-            3,
+            10,
             1,
-            100
+            20
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
       "shorthand": "9-2-15",
@@ -703,7 +730,7 @@
           "id": 1,
           "min": 1,
           "max": 10,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 9
@@ -712,7 +739,7 @@
           "id": 6,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 2,
           "attributeId": 6,
           "value": 2
@@ -721,13 +748,13 @@
           "id": 4,
           "min": 10,
           "max": 20,
-          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
           "variant": 2,
           "attributeId": 4,
           "value": 15
         }
       ],
-      "perfection": 0.2767857142857143,
+      "perfection": 0.7129629629629629,
       "meta": {
         "harvestYield": 9,
         "harvestFees": {},
@@ -740,12 +767,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00005.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -775,8 +802,9 @@
       "shortTokenId": "10030000511200100920060...459",
       "slotId": 12,
       "owner": "0xEF79B9D76590b873409430B17b0Ec9AeCc64fB70",
-      "from": "0x0000000000000000000000000000000000000000",
-      "createdAt": 1622265917033
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1622608293875,
+      "itemId": 5
     },
     {
       "status": "created",
