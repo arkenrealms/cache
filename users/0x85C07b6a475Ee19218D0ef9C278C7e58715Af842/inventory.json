@@ -47187,54 +47187,80 @@
     },
     {
       "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "from": "0x8B3795e43E8b248037423A4F1cdF411cb887Bd43",
+      "from": "0xbB9fC4435A122bA947Cc7C6fE330AB12e7DE2e59",
       "status": "transferred_out",
       "tokenId": "1003000070920010032008098200910000000000000000000000000000000000000000000021",
-      "createdAt": 1622265670788,
+      "createdAt": 1622600264281,
       "details": {
         "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 24 - June 24",
+        "Date": "May 25 - June 25",
         "Max Supply": "Limited"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "These handwraps have an unknown origin and emit a dark aura."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 25,
               "max": 100,
-              "desc": "Remove {value}% Fees"
+              "description": "Remove {value}% Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
-              "desc": "Unstake Locked Until Completion"
+              "description": "Unstake Locked Until Completion"
             }
           ],
           "perfection": [
             5,
-            100,
             100
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
-      "shorthand": "3-98-100",
+      "shorthand": "3-98",
       "mods": [
         {
           "variant": 2,
@@ -47301,7 +47327,7 @@
           "id": 1,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 3
@@ -47310,7 +47336,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "desc": "Remove {value}% Fees",
+          "description": "Remove {value}% Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 98
@@ -47319,13 +47345,13 @@
           "id": 9,
           "min": 100,
           "max": 100,
-          "desc": "Unstake Locked Until Completion",
+          "description": "Unstake Locked Until Completion",
           "variant": 2,
           "attributeId": 9,
           "value": 100
         }
       ],
-      "perfection": 0.8244444444444445,
+      "perfection": 0.7366666666666667,
       "meta": {
         "harvestYield": 3,
         "harvestFees": {},
@@ -47338,12 +47364,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00007.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
