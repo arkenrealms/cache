@@ -945,15 +945,16 @@
       "createdAt": 1622266248300
     },
     {
-      "status": "transferred_out",
+      "status": "equipped",
       "tokenId": "10010000210071040102531117",
-      "updatedAt": 1622261179514,
+      "updatedAt": 1622601735450,
       "details": {
-        "Type": "Ancient Sword",
+        "Type": "Sword",
+        "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -965,19 +966,19 @@
               "id": 1,
               "min": 3,
               "max": 7,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 4,
               "min": 20,
               "max": 40,
-              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
             },
             {
               "id": 5,
               "min": 20,
               "max": 40,
-              "desc": "{value}% Chance To Burn Harvest"
+              "description": "{value}% Chance To Burn Harvest"
             }
           ],
           "perfection": [
@@ -1047,7 +1048,7 @@
           "id": 1,
           "min": 3,
           "max": 7,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 7,
           "attributeId": 1
@@ -1056,7 +1057,7 @@
           "id": 4,
           "min": 20,
           "max": 40,
-          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
           "variant": 1,
           "value": 40,
           "attributeId": 4
@@ -1065,7 +1066,7 @@
           "id": 5,
           "min": 20,
           "max": 40,
-          "desc": "{value}% Chance To Burn Harvest",
+          "description": "{value}% Chance To Burn Harvest",
           "variant": 1,
           "value": 25,
           "attributeId": 5
@@ -1084,7 +1085,7 @@
       "category": "weapon",
       "icon": "undefinedimages/items/00002.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
