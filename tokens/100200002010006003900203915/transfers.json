@@ -359,13 +359,14 @@
     "from": "0x0B0185c82B7e6A7e0825a2E29dcDedb824fB874A",
     "status": "transferred_in",
     "tokenId": "100200002010006003900203915",
-    "createdAt": 1622467323067,
+    "createdAt": 1622676211428,
     "details": {
-      "Type": "Ancient Sword",
+      "Type": "Sword",
+      "Subtype": "War Sword",
       "Rune Word": "Nef Eld Tir El",
       "Distribution": "Crafted",
       "Date": "April 25 - Now",
-      "Max Supply": "Infinite"
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
@@ -377,19 +378,19 @@
             "id": 1,
             "min": 3,
             "max": 7,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 4,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            "description": "{value}% Chance To Send Harvest To Hidden Pool"
           },
           {
             "id": 5,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Burn Harvest"
+            "description": "{value}% Chance To Burn Harvest"
           }
         ],
         "perfection": [
@@ -459,7 +460,7 @@
         "id": 1,
         "min": 3,
         "max": 7,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 0,
         "value": 6,
         "attributeId": 1
@@ -468,7 +469,7 @@
         "id": 4,
         "min": 20,
         "max": 40,
-        "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+        "description": "{value}% Chance To Send Harvest To Hidden Pool",
         "variant": 0,
         "value": 39,
         "attributeId": 4
@@ -477,7 +478,7 @@
         "id": 5,
         "min": 20,
         "max": 40,
-        "desc": "{value}% Chance To Burn Harvest",
+        "description": "{value}% Chance To Burn Harvest",
         "variant": 0,
         "value": 20,
         "attributeId": 5
@@ -496,7 +497,7 @@
     "category": "weapon",
     "icon": "undefinedimages/items/00002.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
