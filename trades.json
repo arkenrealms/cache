@@ -24420,60 +24420,86 @@
   {
     "id": 572,
     "seller": "0xbc83507c89BF6A8F7A8f576c5b4C17327b7C6790",
-    "buyer": "0x0000000000000000000000000000000000000000",
+    "buyer": "0x85362d4700d2f8d55D1d779b31B837C863aE3C14",
     "tokenId": "1003000070920010052008027200910000000000000000000000000000000000000000000851",
     "price": 0.0155,
-    "status": "available",
+    "status": "sold",
     "hotness": 0,
     "createdAt": 1622497566632,
-    "updatedAt": 1622497566632,
-    "blockNumber": 7899412,
+    "updatedAt": 1622628656455,
+    "blockNumber": 7942955,
     "item": {
       "tokenId": "1003000070920010052008027200910000000000000000000000000000000000000000000851",
       "details": {
         "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 24 - June 24",
+        "Date": "May 25 - June 25",
         "Max Supply": "Limited"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "These handwraps have an unknown origin and emit a dark aura."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 25,
               "max": 100,
-              "desc": "Remove {value}% Fees"
+              "description": "Remove {value}% Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
-              "desc": "Unstake Locked Until Completion"
+              "description": "Unstake Locked Until Completion"
             }
           ],
           "perfection": [
             5,
-            100,
             100
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
-      "shorthand": "5-27-100",
+      "shorthand": "5-27",
       "mods": [
         {
           "variant": 2,
@@ -24540,7 +24566,7 @@
           "id": 1,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 5
@@ -24549,7 +24575,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "desc": "Remove {value}% Fees",
+          "description": "Remove {value}% Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 27
@@ -24558,13 +24584,14 @@
           "id": 9,
           "min": 100,
           "max": 100,
-          "desc": "Unstake Locked Until Completion",
+          "description": "Unstake Locked Until Completion",
           "variant": 2,
           "attributeId": 9,
           "value": 100
         }
       ],
-      "perfection": 0.6755555555555555,
+      "perfection": 0.5133333333333333,
+      "category": "armor",
       "meta": {
         "harvestYield": 5,
         "harvestFees": {},
@@ -24574,15 +24601,14 @@
       },
       "id": 7,
       "name": "Smoke",
-      "category": "armor",
-      "icon": "https://rune.farm/images/items/00007.png",
+      "icon": "undefinedimages/items/00007.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
