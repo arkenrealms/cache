@@ -1099,13 +1099,14 @@
       "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
       "status": "transferred_out",
       "tokenId": "1003000051120010072006001200401600000000000000000000000000000000000000000044",
-      "createdAt": 1622320915775,
+      "createdAt": 1622686120301,
       "details": {
         "Type": "Greaves",
+        "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
         "Date": "May 17 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -1117,30 +1118,56 @@
               "id": 1,
               "min": 1,
               "max": 10,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 4,
               "min": 10,
               "max": 20,
-              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
             }
           ],
           "perfection": [
-            3,
+            10,
             1,
-            100
+            20
           ]
         },
         "2": {
           "description": "",
-          "attributes": []
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
       "shorthand": "7-1-16",
@@ -1210,7 +1237,7 @@
           "id": 1,
           "min": 1,
           "max": 10,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 7
@@ -1219,7 +1246,7 @@
           "id": 6,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 2,
           "attributeId": 6,
           "value": 1
@@ -1228,13 +1255,13 @@
           "id": 4,
           "min": 10,
           "max": 20,
-          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
           "variant": 2,
           "attributeId": 4,
           "value": 16
         }
       ],
-      "perfection": 0.4595238095238095,
+      "perfection": 0.7555555555555555,
       "meta": {
         "harvestYield": 7,
         "harvestFees": {},
@@ -1247,12 +1274,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00005.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
