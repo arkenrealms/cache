@@ -18702,5 +18702,58 @@
         "hex": "0xec9c58de0a8000"
       }
     ]
+  },
+  {
+    "id": 837,
+    "blockNumber": 7960222,
+    "blockHash": "0x954a97e17cff7cf8318202951f2bc6ea97456c0c6f9b97e961894abfe4bfa2b6",
+    "transactionIndex": 112,
+    "removed": false,
+    "address": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+    "data": "0x0237ad8c526c3f1cebe96315e40e114978b8a41450d063e4b9f4c00000000036",
+    "topics": [
+      "0x8fcc1d45240b67aa8f5859c01c295e240be99a9d5e4c11873bb82cf40be7533c",
+      "0x000000000000000000000000bc83507c89bf6a8f7a8f576c5b4c17327b7c6790"
+    ],
+    "transactionHash": "0x63cf90c9b9a920e54b24826523283d1a5838c5ce164bf61d5b30cc47572a7593",
+    "logIndex": 365,
+    "eventFragment": {
+      "name": "Delist",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "seller",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Delist",
+    "signature": "Delist(address,uint256)",
+    "topic": "0x8fcc1d45240b67aa8f5859c01c295e240be99a9d5e4c11873bb82cf40be7533c",
+    "args": [
+      "0xbc83507c89BF6A8F7A8f576c5b4C17327b7C6790",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8c526c3f1cebe96315e40e114978b8a41450d063e4b9f4c00000000036"
+      }
+    ]
   }
 ]
