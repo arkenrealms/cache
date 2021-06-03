@@ -202,19 +202,20 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "100300001010012000500000000000000000000000000000000000000000000000000000226",
       "price": 0.06,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622318114572,
-      "updatedAt": 1622318114572,
-      "blockNumber": 7839792,
+      "updatedAt": 1622686135413,
+      "blockNumber": 7962046,
       "item": {
         "tokenId": "100300001010012000500000000000000000000000000000000000000000000000000000226",
         "details": {
-          "Type": "Long Sword",
+          "Type": "Sword",
+          "Subtype": "Night Blade",
           "Rune Word": "Tir El",
           "Distribution": "Crafted",
           "Date": "April 20 - Now",
-          "Max Supply": "Infinite"
+          "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
@@ -226,23 +227,32 @@
                 "id": 1,
                 "min": 5,
                 "max": 15,
-                "desc": "{value}% Increased Harvest Yield"
+                "description": "{value}% Increased Harvest Yield"
               },
               {
                 "id": 2,
                 "min": 3,
                 "max": 5,
-                "desc": "{value}% Harvest Fee"
+                "description": "{value}% Harvest Fee"
               },
               {
                 "id": 3,
                 "min": 0,
                 "max": 2,
-                "desc": "Harvest Fee Token: {value}",
+                "description": "Harvest Fee Token: {value}",
                 "map": {
-                  "0": "ITH",
-                  "1": "EL",
-                  "2": "TIR"
+                  "0": "EL",
+                  "1": "ELD",
+                  "2": "TIR",
+                  "3": "NEF",
+                  "4": "ITH",
+                  "5": "ITH",
+                  "6": "TAL",
+                  "7": "RAL",
+                  "8": "ORT",
+                  "9": "THUL",
+                  "10": "AMN",
+                  "11": "SOL"
                 }
               }
             ],
@@ -367,7 +377,7 @@
             "id": 1,
             "min": 5,
             "max": 15,
-            "desc": "{value}% Increased Harvest Yield",
+            "description": "{value}% Increased Harvest Yield",
             "variant": 0,
             "value": 12,
             "attributeId": 1
@@ -376,7 +386,7 @@
             "id": 2,
             "min": 3,
             "max": 5,
-            "desc": "{value}% Harvest Fee",
+            "description": "{value}% Harvest Fee",
             "variant": 0,
             "value": 5,
             "attributeId": 2
@@ -385,11 +395,20 @@
             "id": 3,
             "min": 0,
             "max": 2,
-            "desc": "Harvest Fee Token: {value}",
+            "description": "Harvest Fee Token: {value}",
             "map": {
-              "0": "ITH",
-              "1": "EL",
-              "2": "TIR"
+              "0": "EL",
+              "1": "ELD",
+              "2": "TIR",
+              "3": "NEF",
+              "4": "ITH",
+              "5": "ITH",
+              "6": "TAL",
+              "7": "RAL",
+              "8": "ORT",
+              "9": "THUL",
+              "10": "AMN",
+              "11": "SOL"
             },
             "variant": 0,
             "value": 0,
@@ -397,12 +416,13 @@
           }
         ],
         "perfection": 0.35,
+        "category": "weapon",
         "meta": {
           "harvestYield": 12,
-          "harvestFeeToken": "ITH",
+          "harvestFeeToken": "EL",
           "harvestFeePercent": 5,
           "harvestFees": {
-            "ITH": 5
+            "EL": 5
           },
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
@@ -410,7 +430,6 @@
         },
         "id": 1,
         "name": "Steel",
-        "category": "weapon",
         "icon": "undefinedimages/items/00001.png",
         "value": "0",
         "isNew": false,
@@ -1134,12 +1153,12 @@
       "seller": "0xbac7eb249d1D92f379aB740D52dc240A31D0f285",
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "1003000051120010072006001200401600000000000000000000000000000000000000000044",
-      "price": 0.077,
-      "status": "delisted",
+      "price": 0.03,
+      "status": "available",
       "hotness": 0,
-      "createdAt": 1622321390743,
-      "updatedAt": 1622686121055,
-      "blockNumber": 7962042,
+      "createdAt": 1622686164880,
+      "updatedAt": 1622686164880,
+      "blockNumber": 7962059,
       "item": {
         "tokenId": "1003000051120010072006001200401600000000000000000000000000000000000000000044",
         "details": {
