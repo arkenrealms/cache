@@ -6,19 +6,20 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "10010000210071029102418364",
       "price": 0.15,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622434071295,
-      "updatedAt": 1622434071295,
-      "blockNumber": 7870132,
+      "updatedAt": 1622680986824,
+      "blockNumber": 7960330,
       "item": {
         "tokenId": "10010000210071029102418364",
         "details": {
-          "Type": "Ancient Sword",
+          "Type": "Sword",
+          "Subtype": "War Sword",
           "Rune Word": "Nef Eld Tir El",
           "Distribution": "Crafted",
           "Date": "April 25 - Now",
-          "Max Supply": "Infinite"
+          "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
@@ -30,19 +31,19 @@
                 "id": 1,
                 "min": 3,
                 "max": 7,
-                "desc": "{value}% Increased Harvest Yield"
+                "description": "{value}% Increased Harvest Yield"
               },
               {
                 "id": 4,
                 "min": 20,
                 "max": 40,
-                "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+                "description": "{value}% Chance To Send Harvest To Hidden Pool"
               },
               {
                 "id": 5,
                 "min": 20,
                 "max": 40,
-                "desc": "{value}% Chance To Burn Harvest"
+                "description": "{value}% Chance To Burn Harvest"
               }
             ],
             "perfection": [
@@ -112,7 +113,7 @@
             "id": 1,
             "min": 3,
             "max": 7,
-            "desc": "{value}% Increased Harvest Yield",
+            "description": "{value}% Increased Harvest Yield",
             "variant": 1,
             "value": 7,
             "attributeId": 1
@@ -121,7 +122,7 @@
             "id": 4,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+            "description": "{value}% Chance To Send Harvest To Hidden Pool",
             "variant": 1,
             "value": 29,
             "attributeId": 4
@@ -130,13 +131,14 @@
             "id": 5,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Burn Harvest",
+            "description": "{value}% Chance To Burn Harvest",
             "variant": 1,
             "value": 24,
             "attributeId": 5
           }
         ],
         "perfection": 0.75,
+        "category": "weapon",
         "meta": {
           "harvestYield": 7,
           "harvestFees": {},
@@ -146,10 +148,9 @@
         },
         "id": 2,
         "name": "Fury",
-        "category": "weapon",
         "icon": "undefinedimages/items/00002.png",
         "value": "0",
-        "isNew": true,
+        "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
