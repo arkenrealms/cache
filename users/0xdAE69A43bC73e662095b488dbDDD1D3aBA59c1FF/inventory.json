@@ -56843,16 +56843,17 @@
     },
     {
       "owner": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
-      "from": "0xbc83507c89BF6A8F7A8f576c5b4C17327b7C6790",
+      "from": "0xC7edb0A9c9284218706467B0DB0aD892d4A1B697",
       "status": "transferred_out",
       "tokenId": "100300001010014000400000000000000000000000000000000000000000000000000000985",
-      "createdAt": 1622266018880,
+      "createdAt": 1622861266597,
       "details": {
-        "Type": "Long Sword",
+        "Type": "Sword",
+        "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
         "Date": "April 20 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -56864,23 +56865,32 @@
               "id": 1,
               "min": 5,
               "max": 15,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 2,
               "min": 3,
               "max": 5,
-              "desc": "{value}% Harvest Fee"
+              "description": "{value}% Harvest Fee"
             },
             {
               "id": 3,
               "min": 0,
               "max": 2,
-              "desc": "Harvest Fee Token: {value}",
+              "description": "Harvest Fee Token: {value}",
               "map": {
-                "0": "ITH",
-                "1": "EL",
-                "2": "TIR"
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL"
               }
             }
           ],
@@ -57005,7 +57015,7 @@
           "id": 1,
           "min": 5,
           "max": 15,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 14,
           "attributeId": 1
@@ -57014,7 +57024,7 @@
           "id": 2,
           "min": 3,
           "max": 5,
-          "desc": "{value}% Harvest Fee",
+          "description": "{value}% Harvest Fee",
           "variant": 0,
           "value": 4,
           "attributeId": 2
@@ -57023,11 +57033,20 @@
           "id": 3,
           "min": 0,
           "max": 2,
-          "desc": "Harvest Fee Token: {value}",
+          "description": "Harvest Fee Token: {value}",
           "map": {
-            "0": "ITH",
-            "1": "EL",
-            "2": "TIR"
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL"
           },
           "variant": 0,
           "value": 0,
@@ -57037,10 +57056,10 @@
       "perfection": 0.55,
       "meta": {
         "harvestYield": 14,
-        "harvestFeeToken": "ITH",
+        "harvestFeeToken": "EL",
         "harvestFeePercent": 4,
         "harvestFees": {
-          "ITH": 4
+          "EL": 4
         },
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
