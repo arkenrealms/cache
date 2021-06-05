@@ -197,13 +197,14 @@
     "from": "0xbac7eb249d1D92f379aB740D52dc240A31D0f285",
     "status": "transferred_in",
     "tokenId": "1003000060720010032008013201100200000000000000000000000000000000000000000961",
-    "createdAt": 1622319253953,
+    "createdAt": 1622890504596,
     "details": {
       "Type": "Armor",
+      "Subtype": "Templar Forge",
       "Rune Word": "Tal Ort Thul Eld Nef",
       "Distribution": "Crafted",
       "Date": "May 24 - Now",
-      "Max Supply": "Infinite"
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
@@ -215,23 +216,23 @@
             "id": 1,
             "min": 2,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 8,
             "min": 10,
             "max": 20,
-            "desc": "Remove {value}% Fees"
+            "description": "Remove {value}% Fees"
           },
           {
             "id": 11,
             "min": 1,
             "max": 2,
-            "desc": "{value}% Random Rune Exchange"
+            "description": "{value}% Random Rune Exchange"
           }
         ],
         "perfection": [
-          3,
+          5,
           20,
           2
         ]
@@ -308,7 +309,7 @@
         "id": 1,
         "min": 2,
         "max": 5,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 3
@@ -317,7 +318,7 @@
         "id": 8,
         "min": 10,
         "max": 20,
-        "desc": "Remove {value}% Fees",
+        "description": "Remove {value}% Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 13
@@ -326,13 +327,13 @@
         "id": 11,
         "min": 1,
         "max": 2,
-        "desc": "{value}% Random Rune Exchange",
+        "description": "{value}% Random Rune Exchange",
         "variant": 2,
         "attributeId": 11,
         "value": 2
       }
     ],
-    "perfection": 0.7666666666666666,
+    "perfection": 0.5444444444444444,
     "meta": {
       "harvestYield": 3,
       "harvestFees": {},
@@ -345,12 +346,12 @@
     "category": "armor",
     "icon": "undefinedimages/items/00006.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": false,
+    "isCraftable": true,
     "isDisabled": false,
     "isRuneword": true,
     "createdDate": 12111,
