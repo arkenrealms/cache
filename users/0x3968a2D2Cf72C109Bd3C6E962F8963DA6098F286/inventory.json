@@ -1171,15 +1171,16 @@
       "createdAt": 1622265864362
     },
     {
-      "status": "transferred_out",
+      "status": "unequipped",
       "tokenId": "10010000310031001100026754",
-      "updatedAt": 1622261007240,
+      "updatedAt": 1623026200611,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -1191,19 +1192,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -1269,7 +1270,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 3,
           "attributeId": 1
@@ -1278,7 +1279,7 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 1,
           "value": 1,
           "attributeId": 6
@@ -1297,7 +1298,7 @@
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -1325,7 +1326,8 @@
       "slotId": 3,
       "owner": "0x3968a2D2Cf72C109Bd3C6E962F8963DA6098F286",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1622265648167
+      "createdAt": 1623026200031,
+      "itemId": 3
     },
     {
       "owner": "0x3968a2D2Cf72C109Bd3C6E962F8963DA6098F286",
