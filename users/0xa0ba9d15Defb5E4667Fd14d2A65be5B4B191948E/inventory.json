@@ -812,15 +812,16 @@
       "createdAt": 1622265843895
     },
     {
-      "status": "created",
+      "status": "unequipped",
       "tokenId": "100300003050002000100690000000000000000000000000000000000000000000000000045",
-      "updatedAt": 1622261003583,
+      "updatedAt": 1623241828491,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Full Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
         "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -832,19 +833,19 @@
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
             }
           ],
           "perfection": [
@@ -957,7 +958,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 2,
           "attributeId": 1
@@ -966,7 +967,7 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 0,
           "value": 1,
           "attributeId": 6
@@ -985,7 +986,7 @@
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -1012,8 +1013,9 @@
       "shortTokenId": "10030000305000200010069...045",
       "slotId": 3,
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
-      "from": "0x0000000000000000000000000000000000000000",
-      "createdAt": 1622265844751
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1623241828002,
+      "itemId": 3
     },
     {
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
