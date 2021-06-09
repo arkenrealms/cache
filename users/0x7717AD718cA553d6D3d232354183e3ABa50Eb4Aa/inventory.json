@@ -568,15 +568,16 @@
       "itemId": 5
     },
     {
-      "status": "created",
+      "status": "unequipped",
       "tokenId": "1003000060720010042008018201100100000000000000000000000000000000000000000875",
-      "updatedAt": 1622261050996,
+      "updatedAt": 1623247488198,
       "details": {
         "Type": "Armor",
+        "Subtype": "Templar Forge",
         "Rune Word": "Tal Ort Thul Eld Nef",
         "Distribution": "Crafted",
         "Date": "May 24 - Now",
-        "Max Supply": "Infinite"
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
@@ -588,23 +589,23 @@
               "id": 1,
               "min": 2,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 10,
               "max": 20,
-              "desc": "Remove {value}% Fees"
+              "description": "Remove {value}% Fees"
             },
             {
               "id": 11,
               "min": 1,
               "max": 2,
-              "desc": "{value}% Random Rune Exchange"
+              "description": "{value}% Random Rune Exchange"
             }
           ],
           "perfection": [
-            3,
+            5,
             20,
             2
           ]
@@ -681,7 +682,7 @@
           "id": 1,
           "min": 2,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 4
@@ -690,7 +691,7 @@
           "id": 8,
           "min": 10,
           "max": 20,
-          "desc": "Remove {value}% Fees",
+          "description": "Remove {value}% Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 18
@@ -699,13 +700,13 @@
           "id": 11,
           "min": 1,
           "max": 2,
-          "desc": "{value}% Random Rune Exchange",
+          "description": "{value}% Random Rune Exchange",
           "variant": 2,
           "attributeId": 11,
           "value": 1
         }
       ],
-      "perfection": 0.43333333333333335,
+      "perfection": 0.48888888888888893,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
@@ -718,12 +719,12 @@
       "category": "armor",
       "icon": "undefinedimages/items/00006.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": false,
+      "isCraftable": true,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -757,8 +758,9 @@
       "shortTokenId": "10030000607200100420080...875",
       "slotId": 7,
       "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
-      "from": "0x0000000000000000000000000000000000000000",
-      "createdAt": 1622266015675
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "createdAt": 1623247487738,
+      "itemId": 6
     },
     {
       "owner": "0x7717AD718cA553d6D3d232354183e3ABa50Eb4Aa",
