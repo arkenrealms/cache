@@ -248,22 +248,23 @@
     {
       "id": 474,
       "seller": "0xF6c5C2dC2A6E478E5ca1eC984B14E89Db9C9a167",
-      "buyer": "0x0000000000000000000000000000000000000000",
+      "buyer": "0x5545cD7620fd5319bDc9A4877CEECd706749C796",
       "tokenId": "100300001010006000500020000000000000000000000000000000000000000000000000957",
       "price": 0.01,
-      "status": "available",
+      "status": "sold",
       "hotness": 0,
       "createdAt": 1622360608048,
-      "updatedAt": 1622360608048,
-      "blockNumber": 7852755,
+      "updatedAt": 1623377657822,
+      "blockNumber": 8191925,
       "item": {
         "tokenId": "100300001010006000500020000000000000000000000000000000000000000000000000957",
         "details": {
-          "Type": "Long Sword",
+          "Type": "Sword",
+          "Subtype": "Night Blade",
           "Rune Word": "Tir El",
           "Distribution": "Crafted",
           "Date": "April 20 - Now",
-          "Max Supply": "Infinite"
+          "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
@@ -275,23 +276,32 @@
                 "id": 1,
                 "min": 5,
                 "max": 15,
-                "desc": "{value}% Increased Harvest Yield"
+                "description": "{value}% Increased Harvest Yield"
               },
               {
                 "id": 2,
                 "min": 3,
                 "max": 5,
-                "desc": "{value}% Harvest Fee"
+                "description": "{value}% Harvest Fee"
               },
               {
                 "id": 3,
                 "min": 0,
                 "max": 2,
-                "desc": "Harvest Fee Token: {value}",
+                "description": "Harvest Fee Token: {value}",
                 "map": {
-                  "0": "ITH",
-                  "1": "EL",
-                  "2": "TIR"
+                  "0": "EL",
+                  "1": "ELD",
+                  "2": "TIR",
+                  "3": "NEF",
+                  "4": "ITH",
+                  "5": "ITH",
+                  "6": "TAL",
+                  "7": "RAL",
+                  "8": "ORT",
+                  "9": "THUL",
+                  "10": "AMN",
+                  "11": "SOL"
                 }
               }
             ],
@@ -416,7 +426,7 @@
             "id": 1,
             "min": 5,
             "max": 15,
-            "desc": "{value}% Increased Harvest Yield",
+            "description": "{value}% Increased Harvest Yield",
             "variant": 0,
             "value": 6,
             "attributeId": 1
@@ -425,7 +435,7 @@
             "id": 2,
             "min": 3,
             "max": 5,
-            "desc": "{value}% Harvest Fee",
+            "description": "{value}% Harvest Fee",
             "variant": 0,
             "value": 5,
             "attributeId": 2
@@ -434,11 +444,20 @@
             "id": 3,
             "min": 0,
             "max": 2,
-            "desc": "Harvest Fee Token: {value}",
+            "description": "Harvest Fee Token: {value}",
             "map": {
-              "0": "ITH",
-              "1": "EL",
-              "2": "TIR"
+              "0": "EL",
+              "1": "ELD",
+              "2": "TIR",
+              "3": "NEF",
+              "4": "ITH",
+              "5": "ITH",
+              "6": "TAL",
+              "7": "RAL",
+              "8": "ORT",
+              "9": "THUL",
+              "10": "AMN",
+              "11": "SOL"
             },
             "variant": 0,
             "value": 2,
@@ -446,6 +465,7 @@
           }
         ],
         "perfection": 0.05,
+        "category": "weapon",
         "meta": {
           "harvestYield": 6,
           "harvestFeeToken": "TIR",
@@ -459,7 +479,6 @@
         },
         "id": 1,
         "name": "Steel",
-        "category": "weapon",
         "icon": "undefinedimages/items/00001.png",
         "value": "0",
         "isNew": false,
