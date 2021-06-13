@@ -1,12 +1,61 @@
 [
   {
     "owner": "0x191727d22f2693100acef8e48F8FeaEaa06d30b1",
-    "from": "0x0000000000000000000000000000000000000000",
-    "status": "created",
+    "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+    "status": "transferred_in",
     "tokenId": "1003012001420400032001004201302000000000000000000000000000000000000000000001",
-    "createdAt": 1623566910456,
-    "details": {},
-    "branches": {},
+    "createdAt": 1623617524445,
+    "details": {
+      "Type": "Trinket",
+      "Subtype": "Codex",
+      "Distribution": "Reward",
+      "Date": "June 12, 2021 - June 12, 2021",
+      "Max Supply": "10"
+    },
+    "branches": {
+      "1": {
+        "description": [
+          "Rewarded to Rune Scholars for their noble service."
+        ],
+        "attributes": [
+          {
+            "id": 40,
+            "min": 3,
+            "max": 6,
+            "description": "Rarity: {value}",
+            "map": {
+              "1": "Legendary",
+              "2": "Unique",
+              "3": "Mythic",
+              "4": "Epic",
+              "5": "Rare",
+              "6": "Magical",
+              "7": "Normal",
+              "8": "Set",
+              "9": "Quest",
+              "10": "Trash"
+            }
+          },
+          {
+            "id": 1,
+            "min": 1,
+            "max": 4,
+            "description": "{value}% Increased Harvest Yield"
+          },
+          {
+            "id": 13,
+            "min": 1,
+            "max": 20,
+            "description": "{value}% Magic Find"
+          }
+        ],
+        "perfection": []
+      },
+      "2": {
+        "description": "Rewarded to Rune Scholars for their noble service.",
+        "attributes": []
+      }
+    },
     "shorthand": "",
     "mods": [
       {
@@ -71,9 +120,30 @@
     ],
     "attributes": [
       {
+        "id": 40,
+        "min": 3,
+        "max": 6,
+        "description": "Rarity: {value}",
+        "map": {
+          "1": "Legendary",
+          "2": "Unique",
+          "3": "Mythic",
+          "4": "Epic",
+          "5": "Rare",
+          "6": "Magical",
+          "7": "Normal",
+          "8": "Set",
+          "9": "Quest",
+          "10": "Trash"
+        },
+        "variant": 2,
+        "attributeId": 40,
+        "value": 3
+      },
+      {
         "id": 1,
-        "min": 0,
-        "max": 50,
+        "min": 1,
+        "max": 4,
         "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
@@ -81,8 +151,8 @@
       },
       {
         "id": 13,
-        "min": 0,
-        "max": 999,
+        "min": 1,
+        "max": 20,
         "description": "{value}% Magic Find",
         "variant": 2,
         "attributeId": 13,
@@ -90,7 +160,7 @@
       }
     ],
     "perfection": null,
-    "category": "weapon",
+    "category": "accessory",
     "meta": {
       "harvestYield": 4,
       "harvestFees": {},
@@ -101,7 +171,27 @@
     "version": 3,
     "id": 1200,
     "type": 14,
-    "shortTokenId": "10030120014204000320010...001"
+    "shortTokenId": "10030120014204000320010...001",
+    "rarity": "Mythic",
+    "slots": [
+      15,
+      16,
+      17
+    ],
+    "name": "Scholar's Codex",
+    "icon": "undefinedimages/items/01200.png",
+    "value": "0",
+    "isNew": true,
+    "isEquipable": true,
+    "isUnequipable": false,
+    "isTradeable": true,
+    "isTransferable": true,
+    "isCraftable": false,
+    "isDisabled": false,
+    "isRuneword": false,
+    "createdDate": 12111,
+    "hotness": 1,
+    "slotId": 15
   },
   {
     "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
