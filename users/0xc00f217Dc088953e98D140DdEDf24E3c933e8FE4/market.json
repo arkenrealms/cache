@@ -22838,28 +22838,28 @@
     {
       "id": 2198,
       "seller": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
-      "buyer": "0x0000000000000000000000000000000000000000",
+      "buyer": "0xDbCE66C4468AC0EFE660cea7B667E9e222BE8C0C",
       "tokenId": "1001000031003100110009881",
       "price": 0.1963,
-      "status": "available",
+      "status": "sold",
       "hotness": 0,
       "createdAt": 1623602399742,
-      "updatedAt": 1623602399742,
-      "blockNumber": 8266424,
+      "updatedAt": 1623625963257,
+      "blockNumber": 8274189,
       "item": {
         "tokenId": "1001000031003100110009881",
         "details": {
           "Type": "Helm",
-          "Subtype": "Full Helm",
+          "Subtype": "Archon Helm",
           "Rune Word": "Nef Tir",
           "Distribution": "Crafted",
-          "Date": "April 25 - Now",
+          "Date": "April 25, 2021 - June 3, 2021",
           "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
             "description": [
-              "A once unbreakable helm, it's seen its best days."
+              "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
             ],
             "attributes": [
               {
@@ -22878,7 +22878,15 @@
                 "id": 7,
                 "min": 100,
                 "max": 100,
-                "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+                "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+                "value": 100
+              },
+              {
+                "id": 55,
+                "min": 2,
+                "max": 2,
+                "description": "{value} Sockets",
+                "value": 2
               }
             ],
             "perfection": [
@@ -22887,7 +22895,7 @@
             ]
           },
           "2": {
-            "description": "A once unbreakable helm, it's seen its best days.",
+            "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
             "attributes": [
               {
                 "id": 1,
@@ -22918,6 +22926,7 @@
           }
         },
         "shorthand": "3-1",
+        "rarity": "Mythic",
         "mods": [
           {
             "variant": 1,
@@ -22931,7 +22940,8 @@
           },
           {
             "variant": 1,
-            "value": 0
+            "value": 100,
+            "attributeId": 7
           },
           {
             "variant": 9,
@@ -22956,31 +22966,53 @@
             "variant": 1,
             "value": 1,
             "attributeId": 6
+          },
+          {
+            "id": 7,
+            "min": 100,
+            "max": 100,
+            "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+            "value": 100,
+            "variant": 1,
+            "attributeId": 7
+          },
+          {
+            "id": 55,
+            "min": 2,
+            "max": 2,
+            "description": "{value} Sockets",
+            "value": 2
           }
         ],
         "perfection": 1,
         "category": "armor",
+        "slots": [
+          3
+        ],
         "meta": {
           "harvestYield": 3,
           "harvestFees": {},
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
-          "harvestBurn": 1
+          "harvestBurn": 1,
+          "worldstoneShardChance": 100
         },
         "id": 3,
         "name": "Lorekeeper",
         "icon": "undefinedimages/items/00003.png",
         "value": "0",
+        "type": 0,
         "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
         "isTransferable": true,
-        "isCraftable": true,
+        "isCraftable": false,
         "isDisabled": false,
         "isRuneword": true,
+        "isRetired": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 7,
         "recipe": {
           "requirement": [
             {
@@ -22994,7 +23026,6 @@
           ]
         },
         "version": 1,
-        "type": 0,
         "shortTokenId": "10010000310031001100098...881",
         "slotId": 3
       }
