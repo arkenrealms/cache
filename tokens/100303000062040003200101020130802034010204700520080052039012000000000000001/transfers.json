@@ -407,9 +407,104 @@
     "from": "0xEB16739C0286115A0Bf00a4a22E3721a0764F04e",
     "status": "transferred_in",
     "tokenId": "100303000062040003200101020130802034010204700520080052039012000000000000001",
-    "createdAt": 1623613299089,
-    "details": {},
-    "branches": {},
+    "createdAt": 1623614364208,
+    "details": {
+      "Type": "Pet",
+      "Subtype": "Battle Pet",
+      "Distribution": "Fundraiser",
+      "Date": "June 12, 2021 - June 12, 2021",
+      "Max Supply": "4"
+    },
+    "branches": {
+      "1": {
+        "description": [
+          ""
+        ],
+        "attributes": [
+          {
+            "id": 40,
+            "min": 3,
+            "max": 6,
+            "description": "Rarity: {value}",
+            "map": {
+              "1": "Legendary",
+              "2": "Unique",
+              "3": "Mythic",
+              "4": "Epic",
+              "5": "Rare",
+              "6": "Magical",
+              "7": "Normal",
+              "8": "Set",
+              "9": "Quest",
+              "10": "Trash"
+            }
+          },
+          {
+            "id": 1,
+            "min": 3,
+            "max": 10,
+            "description": "{value}% Increased Harvest Yield"
+          },
+          {
+            "id": 13,
+            "min": 20,
+            "max": 80,
+            "description": "{value}% Magic Find"
+          },
+          {
+            "id": 34,
+            "min": 3,
+            "max": 10,
+            "description": "{value}% Avoid All Burns"
+          },
+          {
+            "id": 47,
+            "min": 2,
+            "max": 5,
+            "description": "{value}% Reduced Burn"
+          },
+          {
+            "id": 8,
+            "min": 2,
+            "max": 5,
+            "description": "{value}% Reduced Harvest Fees"
+          },
+          {
+            "id": 39,
+            "min": 12,
+            "max": 12,
+            "description": "Use Skill: {value} (SOON)",
+            "map": {
+              "0": "None",
+              "1": "Whirlwind",
+              "2": "Fire Wall",
+              "3": "Sanctuary Aura",
+              "4": "Wolf Strike",
+              "5": "Time Warp",
+              "6": "Sacrifice",
+              "7": "Hidden Shot",
+              "8": "Fade",
+              "9": "Fade",
+              "10": "Fade",
+              "11": "Mystic Insight",
+              "12": "Battle Rage",
+              "13": "White Lightning",
+              "14": "Inferno Fire Blast",
+              "15": "Cosmic Flare",
+              "16": "Veil of Night",
+              "17": "Sky Swarm",
+              "18": "Flurry Assault",
+              "19": "Destructive Impact"
+            }
+          }
+        ],
+        "perfection": []
+      },
+      "2": {
+        "description": "",
+        "attributes": []
+      }
+    },
     "shorthand": "",
     "mods": [
       {
@@ -466,9 +561,30 @@
     ],
     "attributes": [
       {
+        "id": 40,
+        "min": 3,
+        "max": 6,
+        "description": "Rarity: {value}",
+        "map": {
+          "1": "Legendary",
+          "2": "Unique",
+          "3": "Mythic",
+          "4": "Epic",
+          "5": "Rare",
+          "6": "Magical",
+          "7": "Normal",
+          "8": "Set",
+          "9": "Quest",
+          "10": "Trash"
+        },
+        "variant": 2,
+        "attributeId": 40,
+        "value": 3
+      },
+      {
         "id": 1,
-        "min": 0,
-        "max": 50,
+        "min": 3,
+        "max": 10,
         "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
@@ -476,44 +592,103 @@
       },
       {
         "id": 13,
-        "min": 0,
-        "max": 999,
+        "min": 20,
+        "max": 80,
         "description": "{value}% Magic Find",
         "variant": 2,
         "attributeId": 13,
         "value": 80
       },
       {
+        "id": 34,
+        "min": 3,
+        "max": 10,
+        "description": "{value}% Avoid All Burns",
+        "variant": 2,
+        "attributeId": 34,
+        "value": 10
+      },
+      {
+        "id": 47,
+        "min": 2,
+        "max": 5,
+        "description": "{value}% Reduced Burn",
+        "variant": 2,
+        "attributeId": 47,
+        "value": 5
+      },
+      {
         "id": 8,
-        "min": 0,
-        "max": 100,
-        "description": "Remove {value}% Fees",
+        "min": 2,
+        "max": 5,
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 5
       },
       {
         "id": 39,
-        "min": 0,
-        "max": 999,
-        "description": "Use Skill: {value} (Coming soon)",
+        "min": 12,
+        "max": 12,
+        "description": "Use Skill: {value} (SOON)",
+        "map": {
+          "0": "None",
+          "1": "Whirlwind",
+          "2": "Fire Wall",
+          "3": "Sanctuary Aura",
+          "4": "Wolf Strike",
+          "5": "Time Warp",
+          "6": "Sacrifice",
+          "7": "Hidden Shot",
+          "8": "Fade",
+          "9": "Fade",
+          "10": "Fade",
+          "11": "Mystic Insight",
+          "12": "Battle Rage",
+          "13": "White Lightning",
+          "14": "Inferno Fire Blast",
+          "15": "Cosmic Flare",
+          "16": "Veil of Night",
+          "17": "Sky Swarm",
+          "18": "Flurry Assault",
+          "19": "Destructive Impact"
+        },
         "variant": 2,
         "attributeId": 39,
         "value": 12
       }
     ],
     "perfection": null,
-    "category": "weapon",
+    "category": "accessory",
     "meta": {
       "harvestYield": 10,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 5
     },
     "version": 3,
     "id": 3000,
     "type": 6,
-    "shortTokenId": "10030300006204000320010...001"
+    "shortTokenId": "10030300006204000320010...001",
+    "rarity": "Mythic",
+    "slots": [
+      4
+    ],
+    "name": "Golden Lion Cub",
+    "icon": "undefinedimages/items/03000.png",
+    "value": "0",
+    "isNew": true,
+    "isEquipable": true,
+    "isUnequipable": false,
+    "isTradeable": true,
+    "isTransferable": true,
+    "isCraftable": false,
+    "isDisabled": false,
+    "isRuneword": false,
+    "createdDate": 12111,
+    "hotness": 1,
+    "slotId": 4
   }
 ]
