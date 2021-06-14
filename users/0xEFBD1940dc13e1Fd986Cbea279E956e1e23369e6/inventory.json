@@ -763,15 +763,15 @@
       "createdAt": 1622265659076
     },
     {
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "1003000070920010042008086200910000000000000000000000000000000000000000000604",
-      "updatedAt": 1623592297818,
+      "updatedAt": 1623703391725,
       "details": {
         "Type": "Gloves",
         "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 25 - June 25",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
@@ -790,13 +790,20 @@
               "id": 8,
               "min": 25,
               "max": 100,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
               "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -805,7 +812,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
           "attributes": [
             {
               "id": 1,
@@ -911,7 +918,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 86
@@ -924,15 +931,24 @@
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.7816666666666667,
+      "perfection": 0.78,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 86,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
@@ -944,7 +960,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -977,7 +993,13 @@
       "owner": "0xEFBD1940dc13e1Fd986Cbea279E956e1e23369e6",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
       "createdAt": 1623592297128,
-      "itemId": 7
+      "itemId": 7,
+      "rarity": "Rare",
+      "slots": [
+        9
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "status": "equipped",
@@ -1818,7 +1840,7 @@
       "type": 5,
       "shortTokenId": "10030000305000200010046...958",
       "slotId": 3,
-      "updatedAt": 1623703345019,
+      "updatedAt": 1623703391583,
       "itemId": 3,
       "rarity": "Rare",
       "slots": [
@@ -1828,21 +1850,21 @@
       "hotness": 7
     },
     {
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "1003000051120010092006001200401100000000000000000000000000000000000000000446",
-      "updatedAt": 1623592282492,
+      "updatedAt": 1623703391833,
       "details": {
         "Type": "Greaves",
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -1862,6 +1884,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -1871,7 +1900,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -1990,9 +2019,16 @@
           "variant": 2,
           "attributeId": 4,
           "value": 11
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.662962962962963,
+      "perfection": 0.66,
       "category": "armor",
       "meta": {
         "harvestYield": 9,
@@ -2042,7 +2078,12 @@
       "owner": "0xEFBD1940dc13e1Fd986Cbea279E956e1e23369e6",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
       "createdAt": 1623592281885,
-      "itemId": 5
+      "itemId": 5,
+      "rarity": "Magical",
+      "slots": [
+        12
+      ],
+      "hotness": 6
     },
     {
       "owner": "0xEFBD1940dc13e1Fd986Cbea279E956e1e23369e6",
