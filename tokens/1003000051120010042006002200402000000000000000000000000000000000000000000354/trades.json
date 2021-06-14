@@ -5,11 +5,11 @@
     "buyer": "0x0000000000000000000000000000000000000000",
     "tokenId": "1003000051120010042006002200402000000000000000000000000000000000000000000354",
     "price": 0.2,
-    "status": "available",
+    "status": "delisted",
     "hotness": 0,
     "createdAt": 1623475015223,
-    "updatedAt": 1623475015223,
-    "blockNumber": 8224270,
+    "updatedAt": 1623637839083,
+    "blockNumber": 8278040,
     "item": {
       "tokenId": "1003000051120010042006002200402000000000000000000000000000000000000000000354",
       "details": {
@@ -17,13 +17,13 @@
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -43,6 +43,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -52,7 +59,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -83,6 +90,7 @@
         }
       },
       "shorthand": "4-2-20",
+      "rarity": "Magical",
       "mods": [
         {
           "variant": 2,
@@ -171,10 +179,20 @@
           "variant": 2,
           "attributeId": 4,
           "value": 20
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.6944444444444443,
+      "perfection": 0.69,
       "category": "armor",
+      "slots": [
+        12
+      ],
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
@@ -186,6 +204,7 @@
       "name": "Flash",
       "icon": "undefinedimages/items/00005.png",
       "value": "0",
+      "type": 11,
       "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
@@ -195,7 +214,7 @@
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
-      "hotnessScore": 1,
+      "hotness": 6,
       "recipe": {
         "requirement": [
           {
@@ -217,7 +236,6 @@
         ]
       },
       "version": 3,
-      "type": 11,
       "shortTokenId": "10030000511200100420060...354",
       "slotId": 12
     }
