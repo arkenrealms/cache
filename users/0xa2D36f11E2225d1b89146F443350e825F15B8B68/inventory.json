@@ -637,22 +637,22 @@
     },
     {
       "owner": "0xa2D36f11E2225d1b89146F443350e825F15B8B68",
-      "from": "0x0000000000000000000000000000000000000000",
-      "status": "equipped",
+      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "status": "unequipped",
       "tokenId": "1003000060720010032008018201100200000000000000000000000000000000000000000625",
-      "createdAt": 1622585962735,
+      "createdAt": 1623698317592,
       "details": {
         "Type": "Armor",
         "Subtype": "Templar Forge",
         "Rune Word": "Tal Ort Thul Eld Nef",
         "Distribution": "Crafted",
-        "Date": "May 24 - Now",
+        "Date": "May 24, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Made from light-weight Templar material, it provides quality protection."
           ],
           "attributes": [
             {
@@ -665,13 +665,20 @@
               "id": 8,
               "min": 10,
               "max": 20,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 11,
               "min": 1,
               "max": 2,
               "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -681,7 +688,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Made from light-weight Templar material, it provides quality protection.",
           "attributes": []
         }
       },
@@ -761,7 +768,7 @@
           "id": 8,
           "min": 10,
           "max": 20,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 18
@@ -774,16 +781,25 @@
           "variant": 2,
           "attributeId": 11,
           "value": 2
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.7111111111111111,
+      "perfection": 0.71,
       "category": "armor",
       "meta": {
         "harvestYield": 3,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 18,
+        "randomRuneExchange": 2
       },
       "id": 6,
       "name": "Titan",
@@ -826,8 +842,14 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100320080...625",
-      "slotId": 7,
-      "updatedAt": 1622585963253
+      "slotId": 18,
+      "updatedAt": 1623698318396,
+      "rarity": "Rare",
+      "slots": [
+        18
+      ],
+      "hotness": 6,
+      "itemId": 6
     },
     {
       "owner": "0xa2D36f11E2225d1b89146F443350e825F15B8B68",
