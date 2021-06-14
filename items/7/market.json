@@ -15292,11 +15292,11 @@
     "buyer": "0x0000000000000000000000000000000000000000",
     "tokenId": "1003000070920010052008094200910000000000000000000000000000000000000000000662",
     "price": 1,
-    "status": "available",
+    "status": "delisted",
     "hotness": 0,
     "createdAt": 1622950802532,
-    "updatedAt": 1622950802532,
-    "blockNumber": 8050020,
+    "updatedAt": 1623635257623,
+    "blockNumber": 8277218,
     "item": {
       "tokenId": "1003000070920010052008094200910000000000000000000000000000000000000000000662",
       "details": {
@@ -15304,7 +15304,7 @@
         "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 25 - June 25",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
@@ -15323,13 +15323,20 @@
               "id": 8,
               "min": 25,
               "max": 100,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
               "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -15338,7 +15345,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
           "attributes": [
             {
               "id": 1,
@@ -15369,6 +15376,7 @@
         }
       },
       "shorthand": "5-94",
+      "rarity": "Epic",
       "mods": [
         {
           "variant": 2,
@@ -15444,7 +15452,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 94
@@ -15457,32 +15465,46 @@
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
       "perfection": 0.96,
       "category": "armor",
+      "slots": [
+        9
+      ],
       "meta": {
         "harvestYield": 5,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 94,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
       "icon": "undefinedimages/items/00007.png",
       "value": "0",
+      "type": 9,
       "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
+      "isRetired": true,
       "createdDate": 12111,
-      "hotnessScore": 1,
+      "hotness": 7,
       "recipe": {
         "requirement": [
           {
@@ -15504,7 +15526,6 @@
         ]
       },
       "version": 3,
-      "type": 9,
       "shortTokenId": "10030000709200100520080...662",
       "slotId": 9
     }

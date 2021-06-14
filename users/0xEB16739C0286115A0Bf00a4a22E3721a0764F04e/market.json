@@ -38346,11 +38346,11 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "1003000070920010052008094200910000000000000000000000000000000000000000000662",
       "price": 1,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622950802532,
-      "updatedAt": 1622950802532,
-      "blockNumber": 8050020,
+      "updatedAt": 1623635257623,
+      "blockNumber": 8277218,
       "item": {
         "tokenId": "1003000070920010052008094200910000000000000000000000000000000000000000000662",
         "details": {
@@ -38358,7 +38358,7 @@
           "Subtype": "Shadow Wraps",
           "Rune Word": "Thul Ith Ort Ral",
           "Distribution": "Crafted",
-          "Date": "May 25 - June 25",
+          "Date": "May 25, 2021 - June 25, 2021",
           "Max Supply": "Limited"
         },
         "branches": {
@@ -38377,13 +38377,20 @@
                 "id": 8,
                 "min": 25,
                 "max": 100,
-                "description": "Remove {value}% Fees"
+                "description": "{value}% Reduced Harvest Fees"
               },
               {
                 "id": 9,
                 "min": 100,
                 "max": 100,
                 "description": "Unstake Locked Until Completion"
+              },
+              {
+                "id": 55,
+                "min": 4,
+                "max": 4,
+                "description": "{value} Sockets",
+                "value": 4
               }
             ],
             "perfection": [
@@ -38392,7 +38399,7 @@
             ]
           },
           "2": {
-            "description": "",
+            "description": "These handwraps have an unknown origin and emit a dark aura.",
             "attributes": [
               {
                 "id": 1,
@@ -38423,6 +38430,7 @@
           }
         },
         "shorthand": "5-94",
+        "rarity": "Epic",
         "mods": [
           {
             "variant": 2,
@@ -38498,7 +38506,7 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "description": "Remove {value}% Fees",
+            "description": "{value}% Reduced Harvest Fees",
             "variant": 2,
             "attributeId": 8,
             "value": 94
@@ -38511,32 +38519,46 @@
             "variant": 2,
             "attributeId": 9,
             "value": 100
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": 0.96,
         "category": "armor",
+        "slots": [
+          9
+        ],
         "meta": {
           "harvestYield": 5,
           "harvestFees": {},
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
-          "harvestBurn": 0
+          "harvestBurn": 0,
+          "feeReduction": 94,
+          "unstakeLocked": true
         },
         "id": 7,
         "name": "Smoke",
         "icon": "undefinedimages/items/00007.png",
         "value": "0",
+        "type": 9,
         "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
         "isTransferable": true,
-        "isCraftable": true,
+        "isCraftable": false,
         "isDisabled": false,
         "isRuneword": true,
         "isLimited": true,
+        "isRetired": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 7,
         "recipe": {
           "requirement": [
             {
@@ -38558,7 +38580,6 @@
           ]
         },
         "version": 3,
-        "type": 9,
         "shortTokenId": "10030000709200100520080...662",
         "slotId": 9
       }
@@ -45770,11 +45791,11 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "1003000051120010092006001200402000000000000000000000000000000000000000000578",
       "price": 3,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1623379704540,
-      "updatedAt": 1623379704540,
-      "blockNumber": 8192606,
+      "updatedAt": 1623635333181,
+      "blockNumber": 8277243,
       "item": {
         "tokenId": "1003000051120010092006001200402000000000000000000000000000000000000000000578",
         "details": {
@@ -45782,13 +45803,13 @@
           "Subtype": "Astral Greaves",
           "Rune Word": "Ith Eld Ral Tal",
           "Distribution": "Crafted",
-          "Date": "May 17 - Now",
+          "Date": "May 17, 2021 - Now",
           "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
             "description": [
-              ""
+              "Although common in another world, these Sourcer boots are considered high quality."
             ],
             "attributes": [
               {
@@ -45808,6 +45829,13 @@
                 "min": 10,
                 "max": 20,
                 "description": "{value}% Chance To Send Harvest To Hidden Pool"
+              },
+              {
+                "id": 55,
+                "min": 4,
+                "max": 4,
+                "description": "{value} Sockets",
+                "value": 4
               }
             ],
             "perfection": [
@@ -45817,7 +45845,7 @@
             ]
           },
           "2": {
-            "description": "",
+            "description": "Although common in another world, these Sourcer boots are considered high quality.",
             "attributes": [
               {
                 "id": 1,
@@ -45848,6 +45876,7 @@
           }
         },
         "shorthand": "9-1-20",
+        "rarity": "Epic",
         "mods": [
           {
             "variant": 2,
@@ -45936,10 +45965,20 @@
             "variant": 2,
             "attributeId": 4,
             "value": 20
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
-        "perfection": 0.9629629629629629,
+        "perfection": 0.96,
         "category": "armor",
+        "slots": [
+          12
+        ],
         "meta": {
           "harvestYield": 9,
           "harvestFees": {},
@@ -45951,6 +45990,7 @@
         "name": "Flash",
         "icon": "undefinedimages/items/00005.png",
         "value": "0",
+        "type": 11,
         "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
@@ -45960,7 +46000,7 @@
         "isDisabled": false,
         "isRuneword": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 6,
         "recipe": {
           "requirement": [
             {
@@ -45982,7 +46022,6 @@
           ]
         },
         "version": 3,
-        "type": 11,
         "shortTokenId": "10030000511200100920060...578",
         "slotId": 12
       }
