@@ -3,14 +3,14 @@
     {
       "id": 688,
       "seller": "0x35Dd04077AeE9e0F9e8Ca889EcF4E7e7fd08ef58",
-      "buyer": "0x0000000000000000000000000000000000000000",
+      "buyer": "0x628D1614F2C7Ea08dE410CFB29a9Ff9c8699b68b",
       "tokenId": "100100001101110011001118111",
       "price": 0.2,
-      "status": "available",
+      "status": "sold",
       "hotness": 0,
       "createdAt": 1622595387587,
-      "updatedAt": 1622595387587,
-      "blockNumber": 7930291,
+      "updatedAt": 1623631457882,
+      "blockNumber": 8275977,
       "item": {
         "tokenId": "100100001101110011001118111",
         "details": {
@@ -18,13 +18,13 @@
           "Subtype": "Night Blade",
           "Rune Word": "Tir El",
           "Distribution": "Crafted",
-          "Date": "April 20 - Now",
+          "Date": "April 20, 2021 - June 4, 2021",
           "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
             "description": [
-              "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+              "Made by Men, this blade is common but has minimal downsides."
             ],
             "attributes": [
               {
@@ -35,7 +35,7 @@
               },
               {
                 "id": 2,
-                "min": 3,
+                "min": 0,
                 "max": 5,
                 "description": "{value}% Harvest Fee"
               },
@@ -56,8 +56,16 @@
                   "8": "ORT",
                   "9": "THUL",
                   "10": "AMN",
-                  "11": "SOL"
+                  "11": "SOL",
+                  "12": "SHAEL"
                 }
+              },
+              {
+                "id": 55,
+                "min": 2,
+                "max": 2,
+                "description": "{value} Sockets",
+                "value": 2
               }
             ],
             "perfection": [
@@ -66,7 +74,7 @@
             ]
           },
           "2": {
-            "description": "Easy to make, but can be useful to melee characters in the early game.",
+            "description": "Made by Men, this blade is common but has minimal downsides.",
             "attributes": [
               {
                 "id": 1,
@@ -107,6 +115,7 @@
           }
         },
         "shorthand": "11-1",
+        "rarity": "Rare",
         "mods": [
           {
             "variant": 1,
@@ -144,7 +153,7 @@
           },
           {
             "id": 2,
-            "min": 3,
+            "min": 0,
             "max": 5,
             "description": "{value}% Harvest Fee",
             "variant": 1,
@@ -168,22 +177,30 @@
               "8": "ORT",
               "9": "THUL",
               "10": "AMN",
-              "11": "SOL"
+              "11": "SOL",
+              "12": "SHAEL"
             },
             "variant": 1,
             "value": 1,
             "attributeId": 3
+          },
+          {
+            "id": 55,
+            "min": 2,
+            "max": 2,
+            "description": "{value} Sockets",
+            "value": 2
           }
         ],
         "perfection": 0.7,
         "category": "weapon",
+        "slots": [
+          1,
+          2
+        ],
         "meta": {
           "harvestYield": 11,
-          "harvestFeeToken": "ELD",
-          "harvestFeePercent": 1,
-          "harvestFees": {
-            "ELD": 1
-          },
+          "harvestFees": {},
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
           "harvestBurn": 0
@@ -192,16 +209,18 @@
         "name": "Steel",
         "icon": "undefinedimages/items/00001.png",
         "value": "0",
+        "type": 0,
         "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
         "isTransferable": true,
-        "isCraftable": true,
+        "isCraftable": false,
         "isDisabled": false,
         "isRuneword": true,
+        "isRetired": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 6,
         "recipe": {
           "requirement": [
             {
@@ -215,7 +234,6 @@
           ]
         },
         "version": 1,
-        "type": 0,
         "shortTokenId": "10010000110111001100111...111",
         "slotId": 1
       }
