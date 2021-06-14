@@ -5087,11 +5087,11 @@
     "buyer": "0x0000000000000000000000000000000000000000",
     "tokenId": "100300011022001040200402520070102006011200200920030102039007202100300000409",
     "price": 1.4,
-    "status": "available",
+    "status": "delisted",
     "hotness": 0,
     "createdAt": 1622808684579,
-    "updatedAt": 1622808684579,
-    "blockNumber": 8002734,
+    "updatedAt": 1623637734012,
+    "blockNumber": 8278009,
     "item": {
       "tokenId": "100300011022001040200402520070102006011200200920030102039007202100300000409",
       "details": {
@@ -5099,7 +5099,7 @@
         "Subtype": "Sage Bow",
         "Rune Word": "Sol Ith Nef El Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -5153,14 +5153,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 7,
               "max": 7,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -5169,7 +5170,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -5187,6 +5200,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -5229,6 +5249,7 @@
         }
       },
       "shorthand": "40-11-9",
+      "rarity": "Rare",
       "mods": [
         {
           "variant": 2,
@@ -5342,7 +5363,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -5352,7 +5374,7 @@
           "id": 39,
           "min": 7,
           "max": 7,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -5361,7 +5383,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -5385,25 +5419,34 @@
           "variant": 2,
           "attributeId": 21,
           "value": 3
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.7999999999999999,
+      "perfection": 0.8,
       "category": "weapon",
+      "slots": [
+        1
+      ],
       "meta": {
         "harvestYield": 40,
-        "harvestFeeToken": "AMN",
-        "harvestFeePercent": 9,
-        "harvestFees": {
-          "AMN": 9
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 25,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 11
+        "harvestBurn": 11,
+        "worldstoneShardChance": 10,
+        "classRequired": 3
       },
       "id": 11,
       "name": "Grace",
       "icon": "undefinedimages/items/00011.png",
       "value": "0",
+      "type": 2,
       "isNew": true,
       "isEquipable": true,
       "isUnequipable": false,
@@ -5413,7 +5456,7 @@
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
-      "hotnessScore": 1,
+      "hotness": 9,
       "recipe": {
         "requirement": [
           {
@@ -5439,7 +5482,6 @@
         ]
       },
       "version": 3,
-      "type": 2,
       "shortTokenId": "10030001102200104020040...409",
       "slotId": 1
     }
