@@ -649,57 +649,91 @@
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "1003000070920010052008097200910000000000000000000000000000000000000000000906",
       "price": 1.05,
-      "status": "available",
+      "status": "delisted",
       "hotness": 0,
       "createdAt": 1622458497993,
-      "updatedAt": 1622458497993,
-      "blockNumber": 7879977,
+      "updatedAt": 1623744183246,
+      "blockNumber": 8313073,
       "item": {
         "tokenId": "1003000070920010052008097200910000000000000000000000000000000000000000000906",
         "details": {
           "Type": "Gloves",
+          "Subtype": "Shadow Wraps",
           "Rune Word": "Thul Ith Ort Ral",
           "Distribution": "Crafted",
-          "Date": "May 24 - June 24",
+          "Date": "May 25, 2021 - June 25, 2021",
           "Max Supply": "Limited"
         },
         "branches": {
           "1": {
             "description": [
-              ""
+              "These handwraps have an unknown origin and emit a dark aura."
             ],
             "attributes": [
               {
                 "id": 1,
                 "min": 1,
                 "max": 5,
-                "desc": "{value}% Increased Harvest Yield"
+                "description": "{value}% Increased Harvest Yield"
               },
               {
                 "id": 8,
                 "min": 25,
                 "max": 100,
-                "desc": "Remove {value}% Fees"
+                "description": "{value}% Reduced Harvest Fees"
               },
               {
                 "id": 9,
                 "min": 100,
                 "max": 100,
-                "desc": "Unstake Locked Until Completion"
+                "description": "Unstake Locked Until Completion"
+              },
+              {
+                "id": 55,
+                "min": 4,
+                "max": 4,
+                "description": "{value} Sockets",
+                "value": 4
               }
             ],
             "perfection": [
               5,
-              100,
               100
             ]
           },
           "2": {
-            "description": "",
-            "attributes": []
+            "description": "These handwraps have an unknown origin and emit a dark aura.",
+            "attributes": [
+              {
+                "id": 1,
+                "value": 5,
+                "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+              },
+              {
+                "id": 2,
+                "value": 100,
+                "description": "{value}% Increased Block Speed"
+              },
+              {
+                "id": 2,
+                "value": 230,
+                "description": "{value}% Enhanced Defense"
+              },
+              {
+                "id": 2,
+                "min": 41,
+                "max": 50,
+                "description": "Physical Damage Reduced by {value}"
+              },
+              {
+                "id": 2,
+                "description": "Half Freeze Duration"
+              }
+            ]
           }
         },
-        "shorthand": "5-97-100",
+        "shorthand": "5-97",
+        "rarity": "Epic",
         "mods": [
           {
             "variant": 2,
@@ -766,7 +800,7 @@
             "id": 1,
             "min": 1,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield",
+            "description": "{value}% Increased Harvest Yield",
             "variant": 2,
             "attributeId": 1,
             "value": 5
@@ -775,7 +809,7 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "desc": "Remove {value}% Fees",
+            "description": "{value}% Reduced Harvest Fees",
             "variant": 2,
             "attributeId": 8,
             "value": 97
@@ -784,26 +818,39 @@
             "id": 9,
             "min": 100,
             "max": 100,
-            "desc": "Unstake Locked Until Completion",
+            "description": "Unstake Locked Until Completion",
             "variant": 2,
             "attributeId": 9,
             "value": 100
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
-        "perfection": 0.9866666666666667,
+        "perfection": 0.98,
+        "category": "armor",
+        "slots": [
+          9
+        ],
         "meta": {
           "harvestYield": 5,
           "harvestFees": {},
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
-          "harvestBurn": 0
+          "harvestBurn": 0,
+          "feeReduction": 97,
+          "unstakeLocked": true
         },
         "id": 7,
         "name": "Smoke",
-        "category": "armor",
         "icon": "undefinedimages/items/00007.png",
         "value": "0",
-        "isNew": true,
+        "type": 9,
+        "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
@@ -812,8 +859,9 @@
         "isDisabled": false,
         "isRuneword": true,
         "isLimited": true,
+        "isRetired": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 7,
         "recipe": {
           "requirement": [
             {
@@ -835,7 +883,6 @@
           ]
         },
         "version": 3,
-        "type": 9,
         "shortTokenId": "10030000709200100520080...906",
         "slotId": 9
       }
@@ -845,12 +892,12 @@
       "seller": "0x44ab424dD639c64d87C959Aa13b4Dcae528C7907",
       "buyer": "0x0000000000000000000000000000000000000000",
       "tokenId": "1003000070920010052008074200910000000000000000000000000000000000000000000521",
-      "price": 0.19,
-      "status": "delisted",
+      "price": 0.1,
+      "status": "available",
       "hotness": 0,
-      "createdAt": 1622458498009,
-      "updatedAt": 1623744092875,
-      "blockNumber": 8313042,
+      "createdAt": 1623744137579,
+      "updatedAt": 1623744137579,
+      "blockNumber": 8313056,
       "item": {
         "tokenId": "1003000070920010052008074200910000000000000000000000000000000000000000000521",
         "details": {
@@ -4375,6 +4422,250 @@
         "id": 19,
         "type": 5,
         "shortTokenId": "10030001905200700520060...090"
+      }
+    },
+    {
+      "id": 299,
+      "seller": "0x44ab424dD639c64d87C959Aa13b4Dcae528C7907",
+      "buyer": "0x0000000000000000000000000000000000000000",
+      "tokenId": "1003000070920010052008081200910000000000000000000000000000000000000000000451",
+      "price": 0.4,
+      "status": "delisted",
+      "hotness": 0,
+      "createdAt": 1622076529082,
+      "updatedAt": 1623744183136,
+      "blockNumber": 8313071,
+      "item": {
+        "tokenId": "1003000070920010052008081200910000000000000000000000000000000000000000000451",
+        "details": {
+          "Type": "Gloves",
+          "Subtype": "Shadow Wraps",
+          "Rune Word": "Thul Ith Ort Ral",
+          "Distribution": "Crafted",
+          "Date": "May 25, 2021 - June 25, 2021",
+          "Max Supply": "Limited"
+        },
+        "branches": {
+          "1": {
+            "description": [
+              "These handwraps have an unknown origin and emit a dark aura."
+            ],
+            "attributes": [
+              {
+                "id": 1,
+                "min": 1,
+                "max": 5,
+                "description": "{value}% Increased Harvest Yield"
+              },
+              {
+                "id": 8,
+                "min": 25,
+                "max": 100,
+                "description": "{value}% Reduced Harvest Fees"
+              },
+              {
+                "id": 9,
+                "min": 100,
+                "max": 100,
+                "description": "Unstake Locked Until Completion"
+              },
+              {
+                "id": 55,
+                "min": 4,
+                "max": 4,
+                "description": "{value} Sockets",
+                "value": 4
+              }
+            ],
+            "perfection": [
+              5,
+              100
+            ]
+          },
+          "2": {
+            "description": "These handwraps have an unknown origin and emit a dark aura.",
+            "attributes": [
+              {
+                "id": 1,
+                "value": 5,
+                "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+              },
+              {
+                "id": 2,
+                "value": 100,
+                "description": "{value}% Increased Block Speed"
+              },
+              {
+                "id": 2,
+                "value": 230,
+                "description": "{value}% Enhanced Defense"
+              },
+              {
+                "id": 2,
+                "min": 41,
+                "max": 50,
+                "description": "Physical Damage Reduced by {value}"
+              },
+              {
+                "id": 2,
+                "description": "Half Freeze Duration"
+              }
+            ]
+          }
+        },
+        "shorthand": "5-81",
+        "rarity": "Rare",
+        "mods": [
+          {
+            "variant": 2,
+            "attributeId": 1,
+            "value": 5
+          },
+          {
+            "variant": 2,
+            "attributeId": 8,
+            "value": 81
+          },
+          {
+            "variant": 2,
+            "attributeId": 9,
+            "value": 100
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 0
+          },
+          {
+            "variant": 0,
+            "value": 451
+          }
+        ],
+        "attributes": [
+          {
+            "id": 1,
+            "min": 1,
+            "max": 5,
+            "description": "{value}% Increased Harvest Yield",
+            "variant": 2,
+            "attributeId": 1,
+            "value": 5
+          },
+          {
+            "id": 8,
+            "min": 25,
+            "max": 100,
+            "description": "{value}% Reduced Harvest Fees",
+            "variant": 2,
+            "attributeId": 8,
+            "value": 81
+          },
+          {
+            "id": 9,
+            "min": 100,
+            "max": 100,
+            "description": "Unstake Locked Until Completion",
+            "variant": 2,
+            "attributeId": 9,
+            "value": 100
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
+          }
+        ],
+        "perfection": 0.87,
+        "category": "armor",
+        "slots": [
+          9
+        ],
+        "meta": {
+          "harvestYield": 5,
+          "harvestFees": {},
+          "chanceToSendHarvestToHiddenPool": 0,
+          "chanceToLoseHarvest": 0,
+          "harvestBurn": 0,
+          "feeReduction": 81,
+          "unstakeLocked": true
+        },
+        "id": 7,
+        "name": "Smoke",
+        "icon": "undefinedimages/items/00007.png",
+        "value": "0",
+        "type": 9,
+        "isNew": false,
+        "isEquipable": true,
+        "isUnequipable": false,
+        "isTradeable": true,
+        "isTransferable": true,
+        "isCraftable": false,
+        "isDisabled": false,
+        "isRuneword": true,
+        "isLimited": true,
+        "isRetired": true,
+        "createdDate": 12111,
+        "hotness": 7,
+        "recipe": {
+          "requirement": [
+            {
+              "id": 10,
+              "quantity": 1
+            },
+            {
+              "id": 6,
+              "quantity": 1
+            },
+            {
+              "id": 9,
+              "quantity": 1
+            },
+            {
+              "id": 8,
+              "quantity": 1
+            }
+          ]
+        },
+        "version": 3,
+        "shortTokenId": "10030000709200100520080...451",
+        "slotId": 9
       }
     }
   ]
