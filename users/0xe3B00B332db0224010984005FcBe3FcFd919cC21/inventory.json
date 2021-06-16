@@ -157,44 +157,62 @@
       "createdAt": 1622265864721
     },
     {
-      "status": "equipped",
+      "status": "created",
       "tokenId": "10010000110051000100011111",
       "updatedAt": 1622261007213,
       "details": {
-        "Type": "Long Sword",
+        "Type": "Sword",
+        "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
-        "Date": "April 20 - Now",
-        "Max Supply": "Infinite"
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+            "Made by Men, this blade is common but has minimal downsides."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 5,
               "max": 15,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 2,
-              "min": 3,
+              "min": 0,
               "max": 5,
-              "desc": "{value}% Harvest Fee"
+              "description": "{value}% Harvest Fee"
             },
             {
               "id": 3,
               "min": 0,
               "max": 2,
-              "desc": "Harvest Fee Token: {value}",
+              "description": "Harvest Fee Token: {value}",
               "map": {
-                "0": "ITH",
-                "1": "EL",
-                "2": "TIR"
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
               }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -203,7 +221,7 @@
           ]
         },
         "2": {
-          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "description": "Made by Men, this blade is common but has minimal downsides.",
           "attributes": [
             {
               "id": 1,
@@ -270,16 +288,16 @@
           "id": 1,
           "min": 5,
           "max": 15,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 5,
           "attributeId": 1
         },
         {
           "id": 2,
-          "min": 3,
+          "min": 0,
           "max": 5,
-          "desc": "{value}% Harvest Fee",
+          "description": "{value}% Harvest Fee",
           "variant": 1,
           "value": 0,
           "attributeId": 2
@@ -288,25 +306,38 @@
           "id": 3,
           "min": 0,
           "max": 2,
-          "desc": "Harvest Fee Token: {value}",
+          "description": "Harvest Fee Token: {value}",
           "map": {
-            "0": "ITH",
-            "1": "EL",
-            "2": "TIR"
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 1,
           "value": 0,
           "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.5,
       "meta": {
         "harvestYield": 5,
-        "harvestFeeToken": "ITH",
-        "harvestFeePercent": 0,
-        "harvestFees": {
-          "ITH": 0
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
         "harvestBurn": 0
@@ -321,7 +352,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -341,7 +372,17 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000110051000100011...111",
-      "slotId": 1
+      "slotId": 1,
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "createdAt": 1623881653247,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "isRetired": true,
+      "hotness": 6
     },
     {
       "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
@@ -519,6 +560,1834 @@
       "type": 0,
       "shortTokenId": "10010000210061026102879...978",
       "slotId": 2
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x6Bf051ce847A0EBBc10fA22884C01D550BD40269",
+      "status": "transferred_out",
+      "tokenId": "10010000110051002100011111",
+      "createdAt": 1623881642352,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "5-2",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 111
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.3,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110051002100011...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100100001100710021001111121",
+      "createdAt": 1623881642806,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "7-2",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 111
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.4,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 7,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110071002100111...121",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x6Bf051ce847A0EBBc10fA22884C01D550BD40269",
+      "status": "transferred_out",
+      "tokenId": "10010000110111002100111111",
+      "createdAt": 1623881672769,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "11-2",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 111
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.6,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 11,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110111002100111...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x6Bf051ce847A0EBBc10fA22884C01D550BD40269",
+      "status": "transferred_out",
+      "tokenId": "100100001100910011001113111",
+      "createdAt": 1623881676380,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "9-1",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 9,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 131
+        },
+        {
+          "variant": 1,
+          "value": 1
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 9,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.6,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 9,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110091001100111...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x6Bf051ce847A0EBBc10fA22884C01D550BD40269",
+      "status": "transferred_out",
+      "tokenId": "100100001101110011002112111",
+      "createdAt": 1623881797624,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "11-1",
+      "rarity": "Rare",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 121
+        },
+        {
+          "variant": 1,
+          "value": 1
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 11,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 2,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.7,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 11,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110111001100211...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1001000011005100210011112111",
+      "createdAt": 1623881795773,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "5-2",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 112
+        },
+        {
+          "variant": 1,
+          "value": 11
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 5,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 1,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.3,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 5,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110051002100111...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100100001100710021000141111",
+      "createdAt": 1623881796221,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "7-2",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 411
+        },
+        {
+          "variant": 1,
+          "value": 1
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 7,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 2,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 0,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.4,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 7,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110071002100014...111",
+      "slotId": 1
+    },
+    {
+      "owner": "0xe3B00B332db0224010984005FcBe3FcFd919cC21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "100100001101210011002111151",
+      "createdAt": 1623881797406,
+      "details": {
+        "Type": "Sword",
+        "Subtype": "Night Blade",
+        "Rune Word": "Tir El",
+        "Distribution": "Crafted",
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Made by Men, this blade is common but has minimal downsides."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 2,
+              "min": 0,
+              "max": 5,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 0,
+              "max": 2,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
+            }
+          ],
+          "perfection": [
+            15,
+            0
+          ]
+        },
+        "2": {
+          "description": "Made by Men, this blade is common but has minimal downsides.",
+          "attributes": [
+            {
+              "id": 1,
+              "min": 16,
+              "max": 20,
+              "description": "{value}% Increased Attack Speed"
+            },
+            {
+              "id": 3,
+              "min": 6,
+              "max": 8,
+              "description": "{value}% Less Damage"
+            },
+            {
+              "id": 4,
+              "min": 81,
+              "max": 100,
+              "description": "{value} Increased Maximum Rage"
+            },
+            {
+              "id": 5,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Elemental Resists"
+            },
+            {
+              "id": 7,
+              "min": 3,
+              "max": 5,
+              "description": "{value} Increased Minion Attack Speed"
+            },
+            {
+              "id": 8,
+              "value": 3,
+              "description": "{value} Increased Light Radius"
+            }
+          ]
+        }
+      },
+      "shorthand": "12-1",
+      "rarity": "Rare",
+      "mods": [
+        {
+          "variant": 1,
+          "value": 12,
+          "attributeId": 1
+        },
+        {
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "variant": 1,
+          "value": 2,
+          "attributeId": 3
+        },
+        {
+          "variant": 1,
+          "value": 111
+        },
+        {
+          "variant": 5,
+          "value": 1
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 1,
+          "value": 12,
+          "attributeId": 1
+        },
+        {
+          "id": 2,
+          "min": 0,
+          "max": 5,
+          "description": "{value}% Harvest Fee",
+          "variant": 1,
+          "value": 1,
+          "attributeId": 2
+        },
+        {
+          "id": 3,
+          "min": 0,
+          "max": 2,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 1,
+          "value": 2,
+          "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
+        }
+      ],
+      "perfection": 0.75,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 12,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0
+      },
+      "id": 1,
+      "name": "Steel",
+      "icon": "undefinedimages/items/00001.png",
+      "value": "0",
+      "type": 0,
+      "isNew": false,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": false,
+      "isDisabled": false,
+      "isRuneword": true,
+      "isRetired": true,
+      "createdDate": 12111,
+      "hotness": 6,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 1,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 1,
+      "shortTokenId": "10010000110121001100211...151",
+      "slotId": 1
     }
   ]
 }
