@@ -600,39 +600,48 @@
     {
       "owner": "0x28a92171a86CA4Ec6Ec6Fc5e4f8f099DF002F6F4",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "transferred_out",
+      "status": "equipped",
       "tokenId": "1002000030500010001000024722",
       "createdAt": 1622265714951,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Date": "April 25, 2021 - June 3, 2021",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -641,7 +650,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -685,7 +694,8 @@
         },
         {
           "variant": 0,
-          "value": 0
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 2,
@@ -698,7 +708,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 1,
           "attributeId": 1
@@ -707,10 +717,26 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 0,
           "value": 1,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.5,
@@ -719,19 +745,20 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 1
+        "harvestBurn": 1,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -751,7 +778,14 @@
       "version": 2,
       "type": 5,
       "shortTokenId": "10020000305000100010000...722",
-      "slotId": 3
+      "slotId": 3,
+      "updatedAt": 1623860896104,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     }
   ]
 }
