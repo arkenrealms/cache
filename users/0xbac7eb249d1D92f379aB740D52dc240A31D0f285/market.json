@@ -226,14 +226,14 @@
     {
       "id": 413,
       "seller": "0xbac7eb249d1D92f379aB740D52dc240A31D0f285",
-      "buyer": "0x0000000000000000000000000000000000000000",
+      "buyer": "0x85362d4700d2f8d55D1d779b31B837C863aE3C14",
       "tokenId": "100300001010012000500000000000000000000000000000000000000000000000000000226",
       "price": 0.019,
-      "status": "available",
+      "status": "sold",
       "hotness": 0,
       "createdAt": 1622690624456,
-      "updatedAt": 1622690624456,
-      "blockNumber": 7963541,
+      "updatedAt": 1623810482699,
+      "blockNumber": 8334858,
       "item": {
         "tokenId": "100300001010012000500000000000000000000000000000000000000000000000000000226",
         "details": {
@@ -241,13 +241,13 @@
           "Subtype": "Night Blade",
           "Rune Word": "Tir El",
           "Distribution": "Crafted",
-          "Date": "April 20 - Now",
+          "Date": "April 20, 2021 - June 4, 2021",
           "Max Supply": "Unknown"
         },
         "branches": {
           "1": {
             "description": [
-              "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+              "Made by Men, this blade is common but has minimal downsides."
             ],
             "attributes": [
               {
@@ -258,7 +258,7 @@
               },
               {
                 "id": 2,
-                "min": 3,
+                "min": 0,
                 "max": 5,
                 "description": "{value}% Harvest Fee"
               },
@@ -279,8 +279,16 @@
                   "8": "ORT",
                   "9": "THUL",
                   "10": "AMN",
-                  "11": "SOL"
+                  "11": "SOL",
+                  "12": "SHAEL"
                 }
+              },
+              {
+                "id": 55,
+                "min": 2,
+                "max": 2,
+                "description": "{value} Sockets",
+                "value": 2
               }
             ],
             "perfection": [
@@ -289,7 +297,7 @@
             ]
           },
           "2": {
-            "description": "Easy to make, but can be useful to melee characters in the early game.",
+            "description": "Made by Men, this blade is common but has minimal downsides.",
             "attributes": [
               {
                 "id": 1,
@@ -330,6 +338,7 @@
           }
         },
         "shorthand": "12-5",
+        "rarity": "Magical",
         "mods": [
           {
             "variant": 0,
@@ -411,7 +420,7 @@
           },
           {
             "id": 2,
-            "min": 3,
+            "min": 0,
             "max": 5,
             "description": "{value}% Harvest Fee",
             "variant": 0,
@@ -435,22 +444,30 @@
               "8": "ORT",
               "9": "THUL",
               "10": "AMN",
-              "11": "SOL"
+              "11": "SOL",
+              "12": "SHAEL"
             },
             "variant": 0,
             "value": 0,
             "attributeId": 3
+          },
+          {
+            "id": 55,
+            "min": 2,
+            "max": 2,
+            "description": "{value} Sockets",
+            "value": 2
           }
         ],
         "perfection": 0.35,
         "category": "weapon",
+        "slots": [
+          1,
+          2
+        ],
         "meta": {
           "harvestYield": 12,
-          "harvestFeeToken": "EL",
-          "harvestFeePercent": 5,
-          "harvestFees": {
-            "EL": 5
-          },
+          "harvestFees": {},
           "chanceToSendHarvestToHiddenPool": 0,
           "chanceToLoseHarvest": 0,
           "harvestBurn": 0
@@ -459,16 +476,18 @@
         "name": "Steel",
         "icon": "undefinedimages/items/00001.png",
         "value": "0",
+        "type": 1,
         "isNew": false,
         "isEquipable": true,
         "isUnequipable": false,
         "isTradeable": true,
         "isTransferable": true,
-        "isCraftable": true,
+        "isCraftable": false,
         "isDisabled": false,
         "isRuneword": true,
+        "isRetired": true,
         "createdDate": 12111,
-        "hotnessScore": 1,
+        "hotness": 6,
         "recipe": {
           "requirement": [
             {
@@ -482,7 +501,6 @@
           ]
         },
         "version": 3,
-        "type": 1,
         "shortTokenId": "10030000101001200050000...226",
         "slotId": 1
       }
