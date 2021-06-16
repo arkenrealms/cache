@@ -1155,44 +1155,62 @@
       "createdAt": 1622529373976
     },
     {
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "100200001010012000500006868",
-      "updatedAt": 1622529434298,
+      "updatedAt": 1623832190330,
       "details": {
-        "Type": "Long Sword",
+        "Type": "Sword",
+        "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
-        "Date": "April 20 - Now",
-        "Max Supply": "Infinite"
+        "Date": "April 20, 2021 - June 4, 2021",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+            "Made by Men, this blade is common but has minimal downsides."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 5,
               "max": 15,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 2,
-              "min": 3,
+              "min": 0,
               "max": 5,
-              "desc": "{value}% Harvest Fee"
+              "description": "{value}% Harvest Fee"
             },
             {
               "id": 3,
               "min": 0,
               "max": 2,
-              "desc": "Harvest Fee Token: {value}",
+              "description": "Harvest Fee Token: {value}",
               "map": {
-                "0": "ITH",
-                "1": "EL",
-                "2": "TIR"
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
               }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -1201,7 +1219,7 @@
           ]
         },
         "2": {
-          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "description": "Made by Men, this blade is common but has minimal downsides.",
           "attributes": [
             {
               "id": 1,
@@ -1268,16 +1286,16 @@
           "id": 1,
           "min": 5,
           "max": 15,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 0,
           "value": 12,
           "attributeId": 1
         },
         {
           "id": 2,
-          "min": 3,
+          "min": 0,
           "max": 5,
-          "desc": "{value}% Harvest Fee",
+          "description": "{value}% Harvest Fee",
           "variant": 0,
           "value": 5,
           "attributeId": 2
@@ -1286,25 +1304,38 @@
           "id": 3,
           "min": 0,
           "max": 2,
-          "desc": "Harvest Fee Token: {value}",
+          "description": "Harvest Fee Token: {value}",
           "map": {
-            "0": "ITH",
-            "1": "EL",
-            "2": "TIR"
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 0,
           "value": 0,
           "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.35,
       "meta": {
         "harvestYield": 12,
-        "harvestFeeToken": "ITH",
-        "harvestFeePercent": 5,
-        "harvestFees": {
-          "ITH": 5
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
         "harvestBurn": 0
@@ -1319,7 +1350,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -1343,7 +1374,14 @@
       "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
       "createdAt": 1622529433885,
-      "itemId": 1
+      "itemId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "isRetired": true,
+      "hotness": 6
     },
     {
       "owner": "0xa987f487639920A3c2eFe58C8FBDedB96253ed9B",
