@@ -1,6 +1,11 @@
 {
   "trades": {
-    "lastBlock": 8383613,
+    "lastBlock": {
+      "List(address,address,uint256,uint256)": 8384334,
+      "Update(address,address,uint256,uint256)": 8379255,
+      "Delist(address,uint256)": 7839255,
+      "Buy(address,address,uint256,uint256)": 7839255
+    },
     "counter": 2657,
     "updating": true
   },
@@ -10,14 +15,18 @@
     "updating": false
   },
   "characters": {
-    "lastBlock": 8383613,
+    "lastBlock": {
+      "Transfer": 8372255
+    },
     "counter": 507,
-    "updating": false
+    "updating": true
   },
   "items": {
-    "lastBlock": 8383613,
-    "counter": 9117,
-    "updating": false
+    "lastBlock": {
+      "Transfer": 8348255
+    },
+    "counter": 11178,
+    "updating": true
   },
   "test": {
     "lastBlock": 7496405,
@@ -25,8 +34,16 @@
     "updating": false
   },
   "barracks": {
-    "lastBlock": 8383613,
-    "counter": 8312,
-    "updating": false
+    "lastBlock": {
+      "Equip(address,uint256,uint16)": 8384334,
+      "Unequip(address,uint256,uint16)": 8319255,
+      "ActionBurn(address,uint256)": 7839255,
+      "ActionBonus(address,uint256)": 7839255,
+      "ActionHiddenPool(address,uint256)": 7839255,
+      "ActionFee(address,address,uint256)": 7839255,
+      "ActionSwap(address,address,uint256)": 7839255
+    },
+    "counter": 8314,
+    "updating": true
   }
 }
