@@ -4,19 +4,19 @@
     "from": "0x0000000000000000000000000000000000000000",
     "status": "created",
     "tokenId": "100300002010003003800380000000000000000000000000000000000000000000000000816",
-    "createdAt": 1622690899562,
+    "createdAt": 1623952696245,
     "details": {
       "Type": "Sword",
       "Subtype": "War Sword",
       "Rune Word": "Nef Eld Tir El",
       "Distribution": "Crafted",
-      "Date": "April 25 - Now",
+      "Date": "April 25, 2021 - Now",
       "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          "The creator is said to have gone mad."
+          "Not much is known about this sword, other than the creator had gone mad."
         ],
         "attributes": [
           {
@@ -36,6 +36,13 @@
             "min": 20,
             "max": 40,
             "description": "{value}% Chance To Burn Harvest"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -45,7 +52,7 @@
         ]
       },
       "2": {
-        "description": "The creator is said to have gone mad.",
+        "description": "Not much is known about this sword, other than the creator had gone mad.",
         "attributes": [
           {
             "id": 1,
@@ -175,9 +182,16 @@
         "variant": 0,
         "value": 38,
         "attributeId": 5
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
-    "perfection": 0.3333333333333333,
+    "perfection": 0.33,
     "category": "weapon",
     "meta": {
       "harvestYield": 3,
@@ -223,6 +237,12 @@
     "version": 3,
     "type": 1,
     "shortTokenId": "10030000201000300380038...816",
-    "slotId": 2
+    "slotId": 2,
+    "rarity": "Magical",
+    "slots": [
+      2,
+      1
+    ],
+    "hotness": 5
   }
 ]

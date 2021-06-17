@@ -3,21 +3,21 @@
     {
       "owner": "0x162043b207B05AE030a5D5371EB9bF3135Bf5A1b",
       "from": "0x0000000000000000000000000000000000000000",
-      "status": "equipped",
+      "status": "created",
       "tokenId": "100300001010007000300020000000000000000000000000000000000000000000000000269",
-      "createdAt": 1622674199997,
+      "createdAt": 1623952603247,
       "details": {
         "Type": "Sword",
         "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
-        "Date": "April 20 - Now",
+        "Date": "April 20, 2021 - June 4, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+            "Made by Men, this blade is common but has minimal downsides."
           ],
           "attributes": [
             {
@@ -28,7 +28,7 @@
             },
             {
               "id": 2,
-              "min": 3,
+              "min": 0,
               "max": 5,
               "description": "{value}% Harvest Fee"
             },
@@ -49,8 +49,16 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -59,7 +67,7 @@
           ]
         },
         "2": {
-          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "description": "Made by Men, this blade is common but has minimal downsides.",
           "attributes": [
             {
               "id": 1,
@@ -181,7 +189,7 @@
         },
         {
           "id": 2,
-          "min": 3,
+          "min": 0,
           "max": 5,
           "description": "{value}% Harvest Fee",
           "variant": 0,
@@ -205,22 +213,26 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 0,
           "value": 2,
           "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
-      "perfection": 0.30000000000000004,
+      "perfection": 0.3,
       "category": "weapon",
       "meta": {
         "harvestYield": 7,
-        "harvestFeeToken": "TIR",
-        "harvestFeePercent": 3,
-        "harvestFees": {
-          "TIR": 3
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
         "harvestBurn": 0
@@ -234,7 +246,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -255,26 +267,33 @@
       "type": 1,
       "shortTokenId": "10030000101000700030002...269",
       "slotId": 1,
-      "updatedAt": 1622674260424
+      "updatedAt": 1623952501705,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "isRetired": true,
+      "hotness": 6
     },
     {
       "owner": "0x162043b207B05AE030a5D5371EB9bF3135Bf5A1b",
       "from": "0x0000000000000000000000000000000000000000",
-      "status": "equipped",
+      "status": "created",
       "tokenId": "100300002010007002200350000000000000000000000000000000000000000000000000856",
-      "createdAt": 1622674470065,
+      "createdAt": 1623952603393,
       "details": {
         "Type": "Sword",
         "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "The creator is said to have gone mad."
+            "Not much is known about this sword, other than the creator had gone mad."
           ],
           "attributes": [
             {
@@ -294,6 +313,13 @@
               "min": 20,
               "max": 40,
               "description": "{value}% Chance To Burn Harvest"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -303,7 +329,7 @@
           ]
         },
         "2": {
-          "description": "The creator is said to have gone mad.",
+          "description": "Not much is known about this sword, other than the creator had gone mad.",
           "attributes": [
             {
               "id": 1,
@@ -433,6 +459,13 @@
           "variant": 0,
           "value": 35,
           "attributeId": 5
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
       "perfection": 0.45,
@@ -482,26 +515,32 @@
       "type": 1,
       "shortTokenId": "10030000201000700220035...856",
       "slotId": 2,
-      "updatedAt": 1622674650815
+      "updatedAt": 1623952501797,
+      "rarity": "Magical",
+      "slots": [
+        2,
+        1
+      ],
+      "hotness": 5
     },
     {
       "owner": "0x162043b207B05AE030a5D5371EB9bF3135Bf5A1b",
       "from": "0x0000000000000000000000000000000000000000",
-      "status": "equipped",
+      "status": "created",
       "tokenId": "1003000051120010102006003200401700000000000000000000000000000000000000000860",
-      "createdAt": 1622674830332,
+      "createdAt": 1623952603547,
       "details": {
         "Type": "Greaves",
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -521,6 +560,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -530,7 +576,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -649,9 +695,16 @@
           "variant": 2,
           "attributeId": 4,
           "value": 17
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.7333333333333334,
+      "perfection": 0.73,
       "category": "armor",
       "meta": {
         "harvestYield": 10,
@@ -698,7 +751,12 @@
       "type": 11,
       "shortTokenId": "10030000511200101020060...860",
       "slotId": 12,
-      "updatedAt": 1622674950718
+      "updatedAt": 1623952501886,
+      "rarity": "Rare",
+      "slots": [
+        12
+      ],
+      "hotness": 6
     }
   ]
 }

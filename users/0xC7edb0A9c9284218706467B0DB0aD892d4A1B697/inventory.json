@@ -1169,19 +1169,19 @@
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "100300001010008000500000000000000000000000000000000000000000000000000000926",
-      "createdAt": 1622643679898,
+      "createdAt": 1623952522218,
       "details": {
         "Type": "Sword",
         "Subtype": "Night Blade",
         "Rune Word": "Tir El",
         "Distribution": "Crafted",
-        "Date": "April 20 - Now",
+        "Date": "April 20, 2021 - June 4, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Easy to make and start raiding. It has a yield bonus, with minimal downsides."
+            "Made by Men, this blade is common but has minimal downsides."
           ],
           "attributes": [
             {
@@ -1192,7 +1192,7 @@
             },
             {
               "id": 2,
-              "min": 3,
+              "min": 0,
               "max": 5,
               "description": "{value}% Harvest Fee"
             },
@@ -1213,8 +1213,16 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -1223,7 +1231,7 @@
           ]
         },
         "2": {
-          "description": "Easy to make, but can be useful to melee characters in the early game.",
+          "description": "Made by Men, this blade is common but has minimal downsides.",
           "attributes": [
             {
               "id": 1,
@@ -1345,7 +1353,7 @@
         },
         {
           "id": 2,
-          "min": 3,
+          "min": 0,
           "max": 5,
           "description": "{value}% Harvest Fee",
           "variant": 0,
@@ -1369,22 +1377,26 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 0,
           "value": 0,
           "attributeId": 3
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.15,
       "category": "weapon",
       "meta": {
         "harvestYield": 8,
-        "harvestFeeToken": "EL",
-        "harvestFeePercent": 5,
-        "harvestFees": {
-          "EL": 5
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
         "harvestBurn": 0
@@ -1398,7 +1410,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -1418,7 +1430,14 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030000101000800050000...926",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "isRetired": true,
+      "hotness": 6
     },
     {
       "owner": "0xC7edb0A9c9284218706467B0DB0aD892d4A1B697",
@@ -1431,7 +1450,7 @@
         "Subtype": "Sage Bow",
         "Rune Word": "Sol Ith Nef El Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -1485,14 +1504,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 7,
               "max": 7,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -1501,7 +1521,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -1519,6 +1551,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -1674,7 +1713,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -1684,7 +1724,7 @@
           "id": 39,
           "min": 7,
           "max": 7,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -1693,7 +1733,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -1717,20 +1769,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 3
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.4000000000000001,
+      "perfection": 0.4,
       "category": "weapon",
       "meta": {
         "harvestYield": 22,
-        "harvestFeeToken": "ORT",
-        "harvestFeePercent": 7,
-        "harvestFees": {
-          "ORT": 7
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 25,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 15
+        "harvestBurn": 15,
+        "worldstoneShardChance": 10,
+        "classRequired": 3
       },
       "id": 11,
       "name": "Grace",
@@ -1774,7 +1831,12 @@
       "type": 2,
       "shortTokenId": "10030001102200102220040...437",
       "slotId": 1,
-      "updatedAt": 1622861177240
+      "updatedAt": 1623952854778,
+      "rarity": "Magical",
+      "slots": [
+        1
+      ],
+      "hotness": 9
     }
   ]
 }

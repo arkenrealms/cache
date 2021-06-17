@@ -3,7 +3,7 @@
     {
       "owner": "0x06fDe681560c39c508792922Edbf7bcc7b3B239C",
       "from": "0x0000000000000000000000000000000000000000",
-      "status": "created",
+      "status": "equipped",
       "tokenId": "100100001101010001001181111",
       "createdAt": 1623949298384,
       "details": {
@@ -223,7 +223,7 @@
       "type": 0,
       "shortTokenId": "10010000110101000100118...111",
       "slotId": 1,
-      "updatedAt": 1623205197047,
+      "updatedAt": 1623951569538,
       "itemId": 1,
       "rarity": "Rare",
       "slots": [
@@ -236,21 +236,21 @@
     {
       "owner": "0x06fDe681560c39c508792922Edbf7bcc7b3B239C",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "1002000030500020001000013594",
       "createdAt": 1623037964769,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -269,7 +269,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -278,7 +286,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -322,7 +330,8 @@
         },
         {
           "variant": 0,
-          "value": 0
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 1,
@@ -347,6 +356,22 @@
           "variant": 0,
           "value": 1,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.75,
@@ -355,7 +380,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 1
+        "harvestBurn": 1,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -367,7 +393,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -388,8 +414,14 @@
       "type": 5,
       "shortTokenId": "10020000305000200010000...594",
       "slotId": 3,
-      "updatedAt": 1623037965211,
-      "itemId": 3
+      "updatedAt": 1623951432350,
+      "itemId": 3,
+      "rarity": "Rare",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0x06fDe681560c39c508792922Edbf7bcc7b3B239C",
@@ -6491,21 +6523,21 @@
     {
       "owner": "0x06fDe681560c39c508792922Edbf7bcc7b3B239C",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "transferred_out",
+      "status": "equipped",
       "tokenId": "100300003050003000100970000000000000000000000000000000000000000000000000785",
       "createdAt": 1623205209345,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -6524,7 +6556,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -6533,7 +6573,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -6577,7 +6617,8 @@
         },
         {
           "variant": 0,
-          "value": 97
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 0,
@@ -6650,6 +6691,22 @@
           "variant": 0,
           "value": 1,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 1,
@@ -6659,7 +6716,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 1
+        "harvestBurn": 1,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -6670,7 +6728,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -6691,8 +6749,14 @@
       "type": 5,
       "shortTokenId": "10030000305000300010097...785",
       "slotId": 3,
-      "updatedAt": 1623205196959,
-      "itemId": 3
+      "updatedAt": 1623951432639,
+      "itemId": 3,
+      "rarity": "Mythic",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0x06fDe681560c39c508792922Edbf7bcc7b3B239C",

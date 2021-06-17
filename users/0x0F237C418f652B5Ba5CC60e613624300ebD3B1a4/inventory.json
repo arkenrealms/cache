@@ -3,21 +3,21 @@
     {
       "owner": "0x0F237C418f652B5Ba5CC60e613624300ebD3B1a4",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "100300013022001034200401520070152006011200200720030092039005202100200000924",
-      "createdAt": 1622717335171,
+      "createdAt": 1623952836404,
       "details": {
         "Type": "Staff",
         "Subtype": "Chrono Staff",
         "Rune Word": "Sol Amn Ort Thul Ral",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A mysterious staff that appears to be of Archon origin, imbued with what appears to be the power of time."
+            "A mysterious staff that appears to be of Archon origin and imbued with the power of time."
           ],
           "attributes": [
             {
@@ -67,14 +67,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 5,
               "max": 5,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -83,7 +84,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -101,6 +114,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -256,7 +276,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -266,7 +287,7 @@
           "id": 39,
           "min": 5,
           "max": 5,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -275,7 +296,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -299,20 +332,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 2
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.8000000000000002,
+      "perfection": 0.8,
       "category": "weapon",
       "meta": {
         "harvestYield": 34,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 7,
-        "harvestFees": {
-          "THUL": 7
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 15,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 11
+        "harvestBurn": 11,
+        "worldstoneShardChance": 15,
+        "classRequired": 2
       },
       "id": 13,
       "name": "Destiny",
@@ -356,27 +394,32 @@
       "type": 2,
       "shortTokenId": "10030001302200103420040...924",
       "slotId": 1,
-      "updatedAt": 1622717335643,
-      "itemId": 13
+      "updatedAt": 1623952487218,
+      "itemId": 13,
+      "rarity": "Rare",
+      "slots": [
+        1
+      ],
+      "hotness": 9
     },
     {
       "owner": "0x0F237C418f652B5Ba5CC60e613624300ebD3B1a4",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "100300010022001022200401520070152006012200201120030072039001202100100000135",
-      "createdAt": 1622717274971,
+      "createdAt": 1623952836390,
       "details": {
         "Type": "Sword",
         "Subtype": "Cloudstrike Sword",
         "Rune Word": "Sol Ral Ith Eld Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Crafted with the finest Kora materials, this Cloudstrike Sword is imbued with the power of wind."
+            "Crafted with the finest Koran materials, this Cloudstrike Sword is imbued with the power of wind."
           ],
           "attributes": [
             {
@@ -426,14 +469,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 1,
               "max": 1,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -442,7 +486,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -460,6 +516,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -615,7 +678,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -625,7 +689,7 @@
           "id": 39,
           "min": 1,
           "max": 1,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -634,7 +698,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -658,20 +734,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 1
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.4666666666666666,
+      "perfection": 0.46,
       "category": "weapon",
       "meta": {
         "harvestYield": 22,
-        "harvestFeeToken": "RAL",
-        "harvestFeePercent": 11,
-        "harvestFees": {
-          "RAL": 11
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 15,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 12
+        "harvestBurn": 12,
+        "worldstoneShardChance": 15,
+        "classRequired": 1
       },
       "id": 10,
       "name": "Glory",
@@ -714,26 +795,31 @@
       "version": 3,
       "type": 2,
       "shortTokenId": "10030001002200102220040...135",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1
+      ],
+      "hotness": 9
     },
     {
       "owner": "0x0F237C418f652B5Ba5CC60e613624300ebD3B1a4",
       "from": "0x0000000000000000000000000000000000000000",
-      "status": "equipped",
+      "status": "created",
       "tokenId": "100300010022001039200401520070152006010200201420030072039001202100100000488",
-      "createdAt": 1622718671961,
+      "createdAt": 1623952836449,
       "details": {
         "Type": "Sword",
         "Subtype": "Cloudstrike Sword",
         "Rune Word": "Sol Ral Ith Eld Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "Crafted with the finest Kora materials, this Cloudstrike Sword is imbued with the power of wind."
+            "Crafted with the finest Koran materials, this Cloudstrike Sword is imbued with the power of wind."
           ],
           "attributes": [
             {
@@ -783,14 +869,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 1,
               "max": 1,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -799,7 +886,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -817,6 +916,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -972,7 +1078,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -982,7 +1089,7 @@
           "id": 39,
           "min": 1,
           "max": 1,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -991,7 +1098,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -1015,20 +1134,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 1
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.688888888888889,
+      "perfection": 0.68,
       "category": "weapon",
       "meta": {
         "harvestYield": 39,
-        "harvestFeeToken": "RAL",
-        "harvestFeePercent": 14,
-        "harvestFees": {
-          "RAL": 14
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 15,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 10
+        "harvestBurn": 10,
+        "worldstoneShardChance": 15,
+        "classRequired": 1
       },
       "id": 10,
       "name": "Glory",
@@ -1072,7 +1196,12 @@
       "type": 2,
       "shortTokenId": "10030001002200103920040...488",
       "slotId": 1,
-      "updatedAt": 1622718674955
+      "updatedAt": 1623952516158,
+      "rarity": "Magical",
+      "slots": [
+        1
+      ],
+      "hotness": 9
     }
   ]
 }

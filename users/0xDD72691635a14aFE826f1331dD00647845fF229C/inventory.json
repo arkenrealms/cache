@@ -5648,7 +5648,7 @@
         "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 25 - June 25",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
@@ -5667,13 +5667,20 @@
               "id": 8,
               "min": 25,
               "max": 100,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
               "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -5682,7 +5689,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
           "attributes": [
             {
               "id": 1,
@@ -5788,7 +5795,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 92
@@ -5801,15 +5808,24 @@
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.8216666666666667,
+      "perfection": 0.82,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 92,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
@@ -5821,7 +5837,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -5851,7 +5867,13 @@
       "type": 9,
       "shortTokenId": "10030000709200100420080...122",
       "slotId": 9,
-      "updatedAt": 1622947184242
+      "updatedAt": 1623953216337,
+      "rarity": "Rare",
+      "slots": [
+        9
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0xDD72691635a14aFE826f1331dD00647845fF229C",
@@ -7368,37 +7390,45 @@
     {
       "status": "equipped",
       "tokenId": "10010000210071033102848485",
-      "updatedAt": 1622503885346,
+      "updatedAt": 1623952011774,
       "details": {
-        "Type": "Ancient Sword",
+        "Type": "Sword",
+        "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Date": "April 25, 2021 - Now",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "The creator is said to have gone mad."
+            "Not much is known about this sword, other than the creator had gone mad."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 3,
               "max": 7,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 4,
               "min": 20,
               "max": 40,
-              "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
             },
             {
               "id": 5,
               "min": 20,
               "max": 40,
-              "desc": "{value}% Chance To Burn Harvest"
+              "description": "{value}% Chance To Burn Harvest"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -7408,7 +7438,7 @@
           ]
         },
         "2": {
-          "description": "The creator is said to have gone mad.",
+          "description": "Not much is known about this sword, other than the creator had gone mad.",
           "attributes": [
             {
               "id": 1,
@@ -7468,7 +7498,7 @@
           "id": 1,
           "min": 3,
           "max": 7,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 7,
           "attributeId": 1
@@ -7477,7 +7507,7 @@
           "id": 4,
           "min": 20,
           "max": 40,
-          "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
           "variant": 1,
           "value": 33,
           "attributeId": 4
@@ -7486,10 +7516,17 @@
           "id": 5,
           "min": 20,
           "max": 40,
-          "desc": "{value}% Chance To Burn Harvest",
+          "description": "{value}% Chance To Burn Harvest",
           "variant": 1,
           "value": 28,
           "attributeId": 5
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
       "perfection": 0.75,
@@ -7505,7 +7542,7 @@
       "category": "weapon",
       "icon": "undefinedimages/items/00002.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -7538,7 +7575,13 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000210071033102848...485",
-      "slotId": 2
+      "slotId": 2,
+      "rarity": "Rare",
+      "slots": [
+        2,
+        1
+      ],
+      "hotness": 5
     },
     {
       "owner": "0xDD72691635a14aFE826f1331dD00647845fF229C",

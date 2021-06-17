@@ -428,53 +428,86 @@
       "createdAt": 1622265843057
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000070920010042008046200910000000000000000000000000000000000000000000305",
       "updatedAt": 1622535759224,
       "details": {
         "Type": "Gloves",
+        "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 24 - June 24",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "These handwraps have an unknown origin and emit a dark aura."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 5,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 8,
               "min": 25,
               "max": 100,
-              "desc": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
-              "desc": "Unstake Locked Until Completion"
+              "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
             5,
-            100,
             100
           ]
         },
         "2": {
-          "description": "",
-          "attributes": []
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
         }
       },
-      "shorthand": "4-46-100",
+      "shorthand": "4-46",
       "mods": [
         {
           "variant": 2,
@@ -541,7 +574,7 @@
           "id": 1,
           "min": 1,
           "max": 5,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
           "value": 4
@@ -550,7 +583,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "desc": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 46
@@ -559,26 +592,35 @@
           "id": 9,
           "min": 100,
           "max": 100,
-          "desc": "Unstake Locked Until Completion",
+          "description": "Unstake Locked Until Completion",
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.6766666666666667,
+      "perfection": 0.51,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 46,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
       "category": "armor",
       "icon": "undefinedimages/items/00007.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
@@ -615,8 +657,14 @@
       "slotId": 9,
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1622535758975,
-      "itemId": 7
+      "createdAt": 1623952066052,
+      "itemId": 7,
+      "rarity": "Magical",
+      "slots": [
+        9
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "status": "created",
@@ -814,19 +862,19 @@
     {
       "status": "equipped",
       "tokenId": "100300003050002000100690000000000000000000000000000000000000000000000000045",
-      "updatedAt": 1623241994068,
+      "updatedAt": 1623951583891,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -845,7 +893,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -854,7 +910,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -898,7 +954,8 @@
         },
         {
           "variant": 0,
-          "value": 69
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 0,
@@ -971,6 +1028,22 @@
           "variant": 0,
           "value": 1,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.75,
@@ -979,7 +1052,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 1
+        "harvestBurn": 1,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -991,7 +1065,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -1015,7 +1089,13 @@
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
       "createdAt": 1623241828002,
-      "itemId": 3
+      "itemId": 3,
+      "rarity": "Rare",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
@@ -5352,29 +5432,34 @@
       "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
       "status": "transferred_out",
       "tokenId": "10010000410001000187319335",
-      "createdAt": 1622535293828,
+      "createdAt": 1623952063743,
       "details": {
-        "Type": "Relic",
+        "Type": "Ingredient",
+        "Subtype": "Relic",
         "Distribution": "Claimable",
-        "Date": "May 3 - Now",
-        "Max Supply": "Infinite"
+        "Date": "May 3, 2021 - Now",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A relic of a broken past."
+            "A relic from a broken time."
           ],
           "attributes": [
             {
-              "id": 32,
-              "min": 100,
-              "max": 100,
-              "desc": "{value}% Chance To Transmute Item (SOON)"
+              "id": 33,
+              "min": 0,
+              "max": 0,
+              "description": "100% Chance To Transmute Item",
+              "value": 100
             }
+          ],
+          "perfection": [
+            100
           ]
         },
         "2": {
-          "description": "A relic of a broken past.",
+          "description": "A relic from a broken time.",
           "attributes": [
             {
               "id": 1,
@@ -5384,11 +5469,11 @@
           ]
         }
       },
-      "shorthand": "",
+      "shorthand": "100",
       "mods": [
         {
           "variant": 1,
-          "value": 0,
+          "value": 100,
           "attributeId": 7
         },
         {
@@ -5406,29 +5491,30 @@
       ],
       "attributes": [
         {
-          "id": 32,
-          "min": 100,
-          "max": 100,
-          "desc": "{value}% Chance To Transmute Item (SOON)",
+          "id": 33,
+          "min": 0,
+          "max": 0,
+          "description": "100% Chance To Transmute Item",
+          "value": 100,
           "variant": 1,
-          "value": 0,
           "attributeId": 7
         }
       ],
-      "perfection": null,
+      "perfection": 1,
       "category": "accessory",
       "meta": {
         "harvestYield": 0,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 100
       },
       "id": 4,
       "name": "Worldstone Shard",
       "icon": "undefinedimages/items/00004.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": false,
       "isTradeable": false,
       "isTransferable": false,
@@ -5438,30 +5524,409 @@
       "hotnessScore": 1,
       "version": 1,
       "type": 0,
-      "shortTokenId": "10010000410001000187319...335"
+      "shortTokenId": "10010000410001000187319...335",
+      "rarity": "Mythic",
+      "slots": [],
+      "hotness": 1
     },
     {
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "100300013022001025200401520070152006014200200920030092039005202100200000557",
-      "createdAt": 1622535923993,
-      "details": {},
-      "branches": {},
-      "shorthand": "",
-      "mods": [],
-      "attributes": [],
-      "perfection": null,
+      "createdAt": 1623952066064,
+      "details": {
+        "Type": "Staff",
+        "Subtype": "Chrono Staff",
+        "Rune Word": "Sol Amn Ort Thul Ral",
+        "Distribution": "Crafted",
+        "Date": "June 1, 2021 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A mysterious staff that appears to be of Archon origin and imbued with the power of time."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 7,
+              "min": 15,
+              "max": 15,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            },
+            {
+              "id": 6,
+              "min": 10,
+              "max": 15,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 2,
+              "min": 5,
+              "max": 15,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 9,
+              "max": 11,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 5,
+              "max": 5,
+              "description": "Use Skill: {value} (SOON)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
+              }
+            },
+            {
+              "id": 21,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
+            }
+          ],
+          "perfection": [
+            40,
+            null,
+            null,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "25-14-9",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 25
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "variant": 2,
+          "attributeId": 6,
+          "value": 14
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 9
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 5
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 2
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 557
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 25
+        },
+        {
+          "id": 4,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 15
+        },
+        {
+          "id": 7,
+          "min": 15,
+          "max": 15,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 15
+        },
+        {
+          "id": 6,
+          "min": 10,
+          "max": 15,
+          "description": "{value}% Harvest Burn",
+          "variant": 2,
+          "attributeId": 6,
+          "value": 14
+        },
+        {
+          "id": 2,
+          "min": 5,
+          "max": 15,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 9
+        },
+        {
+          "id": 3,
+          "min": 9,
+          "max": 11,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "id": 39,
+          "min": 5,
+          "max": 5,
+          "description": "Use Skill: {value} (SOON)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 5
+        },
+        {
+          "id": 21,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 2
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
+        }
+      ],
+      "perfection": 0.43,
       "category": "weapon",
       "meta": {
-        "harvestYield": 0,
-        "harvestFeeToken": "",
-        "harvestFeePercent": 0,
+        "harvestYield": 25,
         "harvestFees": {},
-        "chanceToSendHarvestToHiddenPool": 0,
+        "chanceToSendHarvestToHiddenPool": 15,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
-      }
+        "harvestBurn": 14,
+        "worldstoneShardChance": 15,
+        "classRequired": 2
+      },
+      "rarity": "Magical",
+      "slots": [
+        1
+      ],
+      "id": 13,
+      "name": "Destiny",
+      "icon": "undefinedimages/items/00013.png",
+      "value": "0",
+      "type": 2,
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotness": 9,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "shortTokenId": "10030001302200102520040...557",
+      "slotId": 1
     },
     {
       "owner": "0xa0ba9d15Defb5E4667Fd14d2A65be5B4B191948E",

@@ -4,13 +4,13 @@
     "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
     "status": "transferred_in",
     "tokenId": "1003000070920010052008061200910000000000000000000000000000000000000000000247",
-    "createdAt": 1622559188535,
+    "createdAt": 1623952154674,
     "details": {
       "Type": "Gloves",
       "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 25 - June 25",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
@@ -29,13 +29,20 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "description": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
             "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -44,7 +51,7 @@
         ]
       },
       "2": {
-        "description": "",
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
         "attributes": [
           {
             "id": 1,
@@ -150,7 +157,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "description": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 61
@@ -163,6 +170,13 @@
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
     "perfection": 0.74,
@@ -171,7 +185,9 @@
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 61,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
@@ -183,7 +199,7 @@
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": true,
+    "isCraftable": false,
     "isDisabled": false,
     "isRuneword": true,
     "isLimited": true,
@@ -212,20 +228,26 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100520080...247",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   },
   {
     "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
     "from": "0x8F41AAeF2dA143D1F3CaC6a16C9481680E21879C",
     "status": "transferred_in",
     "tokenId": "1003000070920010052008061200910000000000000000000000000000000000000000000247",
-    "createdAt": 1622648183089,
+    "createdAt": 1623952522783,
     "details": {
       "Type": "Gloves",
       "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 25 - June 25",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
@@ -244,13 +266,20 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "description": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
             "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -259,7 +288,7 @@
         ]
       },
       "2": {
-        "description": "",
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
         "attributes": [
           {
             "id": 1,
@@ -365,7 +394,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "description": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 61
@@ -378,6 +407,13 @@
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
     "perfection": 0.74,
@@ -386,7 +422,9 @@
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 61,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
@@ -398,7 +436,7 @@
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": true,
+    "isCraftable": false,
     "isDisabled": false,
     "isRuneword": true,
     "isLimited": true,
@@ -427,20 +465,26 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100520080...247",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   },
   {
     "owner": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
     "from": "0xF6c5C2dC2A6E478E5ca1eC984B14E89Db9C9a167",
     "status": "transferred_in",
     "tokenId": "1003000070920010052008061200910000000000000000000000000000000000000000000247",
-    "createdAt": 1622641743833,
+    "createdAt": 1623952521078,
     "details": {
       "Type": "Gloves",
       "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 25 - June 25",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
@@ -459,13 +503,20 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "description": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
             "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -474,7 +525,7 @@
         ]
       },
       "2": {
-        "description": "",
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
         "attributes": [
           {
             "id": 1,
@@ -580,7 +631,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "description": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 61
@@ -593,6 +644,13 @@
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
     "perfection": 0.74,
@@ -602,7 +660,9 @@
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 61,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
@@ -613,7 +673,7 @@
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": true,
+    "isCraftable": false,
     "isDisabled": false,
     "isRuneword": true,
     "isLimited": true,
@@ -642,20 +702,26 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100520080...247",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   },
   {
     "owner": "0x8F41AAeF2dA143D1F3CaC6a16C9481680E21879C",
     "from": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
     "status": "transferred_in",
     "tokenId": "1003000070920010052008061200910000000000000000000000000000000000000000000247",
-    "createdAt": 1622648122976,
+    "createdAt": 1623952522745,
     "details": {
       "Type": "Gloves",
       "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 25 - June 25",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
@@ -674,13 +740,20 @@
             "id": 8,
             "min": 25,
             "max": 100,
-            "description": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
             "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -689,7 +762,7 @@
         ]
       },
       "2": {
-        "description": "",
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
         "attributes": [
           {
             "id": 1,
@@ -795,7 +868,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "description": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 61
@@ -808,6 +881,13 @@
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
     "perfection": 0.74,
@@ -817,7 +897,9 @@
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 61,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
@@ -828,7 +910,7 @@
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": true,
+    "isCraftable": false,
     "isDisabled": false,
     "isRuneword": true,
     "isLimited": true,
@@ -857,6 +939,12 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100520080...247",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   }
 ]

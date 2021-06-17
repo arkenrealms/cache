@@ -679,7 +679,7 @@
     {
       "owner": "0x03543337226c99c707a82BBa2A43D256588ADa6b",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "1002000020100040029002937691",
       "createdAt": 1623200214275,
       "details": {
@@ -687,13 +687,13 @@
         "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "The creator is said to have gone mad."
+            "Not much is known about this sword, other than the creator had gone mad."
           ],
           "attributes": [
             {
@@ -713,6 +713,13 @@
               "min": 20,
               "max": 40,
               "description": "{value}% Chance To Burn Harvest"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -722,7 +729,7 @@
           ]
         },
         "2": {
-          "description": "The creator is said to have gone mad.",
+          "description": "Not much is known about this sword, other than the creator had gone mad.",
           "attributes": [
             {
               "id": 1,
@@ -804,9 +811,16 @@
           "variant": 0,
           "value": 29,
           "attributeId": 5
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.4166666666666667,
+      "perfection": 0.41,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
@@ -853,8 +867,14 @@
       "type": 1,
       "shortTokenId": "10020000201000400290029...691",
       "slotId": 2,
-      "updatedAt": 1623200215180,
-      "itemId": 2
+      "updatedAt": 1623953211920,
+      "itemId": 2,
+      "rarity": "Magical",
+      "slots": [
+        2,
+        1
+      ],
+      "hotness": 5
     },
     {
       "owner": "0x03543337226c99c707a82BBa2A43D256588ADa6b",
@@ -1622,13 +1642,13 @@
       "from": "0x0000000000000000000000000000000000000000",
       "status": "equipped",
       "tokenId": "1003000120120010042004019200700220020082003010203900620210040000000000000603",
-      "createdAt": 1622588453806,
+      "createdAt": 1623952289141,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -1640,7 +1660,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -1678,14 +1698,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -1694,7 +1715,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -1712,12 +1745,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -1752,7 +1792,7 @@
           ]
         }
       },
-      "shorthand": "4-19-2-8",
+      "shorthand": "4-19-8",
       "mods": [
         {
           "variant": 2,
@@ -1810,7 +1850,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -1860,7 +1900,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -1870,7 +1911,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -1879,7 +1920,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -1903,20 +1956,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.45,
+      "perfection": 0.4,
       "category": "weapon",
       "meta": {
         "harvestYield": 4,
-        "harvestFeeToken": "AMN",
-        "harvestFeePercent": 8,
-        "harvestFees": {
-          "AMN": 8
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 19,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 2,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -1956,7 +2014,13 @@
       "type": 1,
       "shortTokenId": "10030001201200100420040...603",
       "slotId": 1,
-      "updatedAt": 1622888659268
+      "updatedAt": 1623952994111,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x03543337226c99c707a82BBa2A43D256588ADa6b",
@@ -1969,7 +2033,7 @@
         "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 25 - June 25",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
@@ -1988,13 +2052,20 @@
               "id": 8,
               "min": 25,
               "max": 100,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
               "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -2003,7 +2074,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
           "attributes": [
             {
               "id": 1,
@@ -2109,7 +2180,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 79
@@ -2122,6 +2193,13 @@
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
       "perfection": 0.36,
@@ -2131,7 +2209,9 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 79,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
@@ -2142,7 +2222,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -2172,7 +2252,13 @@
       "type": 9,
       "shortTokenId": "10030000709200100120080...389",
       "slotId": 9,
-      "updatedAt": 1622890941095
+      "updatedAt": 1623952994431,
+      "rarity": "Magical",
+      "slots": [
+        9
+      ],
+      "isRetired": true,
+      "hotness": 7
     }
   ]
 }

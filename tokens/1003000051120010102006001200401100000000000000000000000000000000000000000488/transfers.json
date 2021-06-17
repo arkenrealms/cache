@@ -4,48 +4,82 @@
     "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
     "status": "transferred_in",
     "tokenId": "1003000051120010102006001200401100000000000000000000000000000000000000000488",
-    "createdAt": 1622517816784,
+    "createdAt": 1623952021116,
     "details": {
       "Type": "Greaves",
+      "Subtype": "Astral Greaves",
       "Rune Word": "Ith Eld Ral Tal",
       "Distribution": "Crafted",
-      "Date": "May 17 - Now",
-      "Max Supply": "Infinite"
+      "Date": "May 17, 2021 - Now",
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          ""
+          "Although common in another world, these Sourcer boots are considered high quality."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 1,
             "max": 10,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 6,
             "min": 1,
             "max": 5,
-            "desc": "{value}% Harvest Burn"
+            "description": "{value}% Harvest Burn"
           },
           {
             "id": 4,
             "min": 10,
             "max": 20,
-            "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            "description": "{value}% Chance To Send Harvest To Hidden Pool"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
-          3,
+          10,
           1,
-          100
+          20
         ]
       },
       "2": {
-        "description": "",
-        "attributes": []
+        "description": "Although common in another world, these Sourcer boots are considered high quality.",
+        "attributes": [
+          {
+            "id": 1,
+            "value": 5,
+            "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+          },
+          {
+            "id": 2,
+            "value": 100,
+            "description": "{value}% Increased Block Speed"
+          },
+          {
+            "id": 2,
+            "value": 230,
+            "description": "{value}% Enhanced Defense"
+          },
+          {
+            "id": 2,
+            "min": 41,
+            "max": 50,
+            "description": "Physical Damage Reduced by {value}"
+          },
+          {
+            "id": 2,
+            "description": "Half Freeze Duration"
+          }
+        ]
       }
     },
     "shorthand": "10-1-11",
@@ -115,7 +149,7 @@
         "id": 1,
         "min": 1,
         "max": 10,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 10
@@ -124,7 +158,7 @@
         "id": 6,
         "min": 1,
         "max": 5,
-        "desc": "{value}% Harvest Burn",
+        "description": "{value}% Harvest Burn",
         "variant": 2,
         "attributeId": 6,
         "value": 1
@@ -133,13 +167,20 @@
         "id": 4,
         "min": 10,
         "max": 20,
-        "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+        "description": "{value}% Chance To Send Harvest To Hidden Pool",
         "variant": 2,
         "attributeId": 4,
         "value": 11
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
-    "perfection": 0.29583333333333334,
+    "perfection": 0.7,
     "meta": {
       "harvestYield": 10,
       "harvestFees": {},
@@ -152,12 +193,12 @@
     "category": "armor",
     "icon": "undefinedimages/items/00005.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": false,
+    "isCraftable": true,
     "isDisabled": false,
     "isRuneword": true,
     "createdDate": 12111,
@@ -185,7 +226,12 @@
     "version": 3,
     "type": 11,
     "shortTokenId": "10030000511200101020060...488",
-    "slotId": 12
+    "slotId": 12,
+    "rarity": "Rare",
+    "slots": [
+      12
+    ],
+    "hotness": 6
   },
   {
     "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",

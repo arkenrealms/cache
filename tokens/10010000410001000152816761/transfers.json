@@ -4,32 +4,34 @@
     "from": "0x0000000000000000000000000000000000000000",
     "status": "created",
     "tokenId": "10010000410001000152816761",
-    "createdAt": 1622735034035,
+    "createdAt": 1623953230346,
     "details": {
-      "Type": "Relic",
+      "Type": "Ingredient",
+      "Subtype": "Relic",
       "Distribution": "Claimable",
-      "Date": "May 3 - Now",
+      "Date": "May 3, 2021 - Now",
       "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          "A relic of a broken past."
+          "A relic from a broken time."
         ],
         "attributes": [
           {
-            "id": 32,
+            "id": 33,
             "min": 0,
             "max": 0,
-            "description": "100% Chance To Transmute Item"
+            "description": "100% Chance To Transmute Item",
+            "value": 100
           }
         ],
         "perfection": [
-          0
+          100
         ]
       },
       "2": {
-        "description": "A relic of a broken past.",
+        "description": "A relic from a broken time.",
         "attributes": [
           {
             "id": 1,
@@ -39,11 +41,11 @@
         ]
       }
     },
-    "shorthand": "0",
+    "shorthand": "100",
     "mods": [
       {
         "variant": 1,
-        "value": 0,
+        "value": 100,
         "attributeId": 7
       },
       {
@@ -61,12 +63,12 @@
     ],
     "attributes": [
       {
-        "id": 32,
+        "id": 33,
         "min": 0,
         "max": 0,
         "description": "100% Chance To Transmute Item",
+        "value": 100,
         "variant": 1,
-        "value": 0,
         "attributeId": 7
       }
     ],
@@ -77,7 +79,8 @@
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "worldstoneShardChance": 100
     },
     "id": 4,
     "name": "Worldstone Shard",
@@ -93,6 +96,9 @@
     "hotnessScore": 1,
     "version": 1,
     "type": 0,
-    "shortTokenId": "10010000410001000152816...761"
+    "shortTokenId": "10010000410001000152816...761",
+    "rarity": "Mythic",
+    "slots": [],
+    "hotness": 1
   }
 ]

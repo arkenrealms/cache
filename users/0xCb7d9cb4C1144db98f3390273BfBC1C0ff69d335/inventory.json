@@ -578,21 +578,21 @@
       "itemId": 3
     },
     {
-      "status": "equipped",
+      "status": "transferred_out",
       "tokenId": "1003000051120010092006002200401800000000000000000000000000000000000000000795",
-      "updatedAt": 1622711449007,
+      "updatedAt": 1623952510072,
       "details": {
         "Type": "Greaves",
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -612,6 +612,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -621,7 +628,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -740,9 +747,16 @@
           "variant": 2,
           "attributeId": 4,
           "value": 18
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.812962962962963,
+      "perfection": 0.81,
       "meta": {
         "harvestYield": 9,
         "harvestFees": {},
@@ -791,8 +805,13 @@
       "slotId": 12,
       "owner": "0xCb7d9cb4C1144db98f3390273BfBC1C0ff69d335",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1622711178391,
-      "itemId": 5
+      "createdAt": 1623952820403,
+      "itemId": 5,
+      "rarity": "Rare",
+      "slots": [
+        12
+      ],
+      "hotness": 6
     },
     {
       "status": "unequipped",

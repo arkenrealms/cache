@@ -229,21 +229,21 @@
       "hotness": 6
     },
     {
-      "status": "transferred_out",
+      "status": "equipped",
       "tokenId": "10010000310031001100010533",
-      "updatedAt": 1623055431562,
+      "updatedAt": 1623951432743,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -262,7 +262,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -271,7 +279,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -315,7 +323,8 @@
         },
         {
           "variant": 1,
-          "value": 0
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 1,
@@ -340,6 +349,22 @@
           "variant": 1,
           "value": 1,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 1,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 1,
@@ -348,7 +373,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 1
+        "harvestBurn": 1,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -360,7 +386,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -384,7 +410,13 @@
       "itemId": 3,
       "owner": "0x21e7451056032eF22729D5C5AA47Eb8b4D73184C",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1623055431724
+      "createdAt": 1623055431724,
+      "rarity": "Mythic",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "status": "unequipped",
@@ -581,7 +613,7 @@
       "itemId": 6
     },
     {
-      "status": "unequipped",
+      "status": "transferred_out",
       "tokenId": "1003000051120010102006001200401400000000000000000000000000000000000000000470",
       "updatedAt": 1622676827517,
       "details": {
@@ -589,13 +621,13 @@
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -615,6 +647,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -624,7 +663,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -743,9 +782,16 @@
           "variant": 2,
           "attributeId": 4,
           "value": 14
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.7999999999999999,
+      "perfection": 0.8,
       "meta": {
         "harvestYield": 10,
         "harvestFees": {},
@@ -794,8 +840,13 @@
       "slotId": 12,
       "owner": "0x21e7451056032eF22729D5C5AA47Eb8b4D73184C",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1622676827036,
-      "itemId": 5
+      "createdAt": 1623952605008,
+      "itemId": 5,
+      "rarity": "Rare",
+      "slots": [
+        12
+      ],
+      "hotness": 6
     },
     {
       "status": "transferred_out",

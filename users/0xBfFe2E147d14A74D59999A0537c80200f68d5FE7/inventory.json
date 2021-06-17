@@ -11,13 +11,13 @@
         "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "The creator is said to have gone mad."
+            "Not much is known about this sword, other than the creator had gone mad."
           ],
           "attributes": [
             {
@@ -37,6 +37,13 @@
               "min": 20,
               "max": 40,
               "description": "{value}% Chance To Burn Harvest"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -46,7 +53,7 @@
           ]
         },
         "2": {
-          "description": "The creator is said to have gone mad.",
+          "description": "Not much is known about this sword, other than the creator had gone mad.",
           "attributes": [
             {
               "id": 1,
@@ -128,9 +135,16 @@
           "variant": 0,
           "value": 24,
           "attributeId": 5
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.6833333333333332,
+      "perfection": 0.68,
       "meta": {
         "harvestYield": 5,
         "harvestFees": {},
@@ -177,7 +191,13 @@
       "type": 1,
       "shortTokenId": "10020000201000500350024...373",
       "slotId": 2,
-      "updatedAt": 1623022504544
+      "updatedAt": 1623951429388,
+      "rarity": "Magical",
+      "slots": [
+        2,
+        1
+      ],
+      "hotness": 5
     },
     {
       "owner": "0xBfFe2E147d14A74D59999A0537c80200f68d5FE7",
@@ -364,16 +384,16 @@
       "createdAt": 1622265087978,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -392,7 +412,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -401,7 +429,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -445,7 +473,8 @@
         },
         {
           "variant": 0,
-          "value": 0
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 4,
@@ -470,6 +499,22 @@
           "variant": 0,
           "value": 3,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.25,
@@ -478,7 +523,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 3
+        "harvestBurn": 3,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -490,7 +536,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -511,7 +557,13 @@
       "type": 5,
       "shortTokenId": "10020000305000200030000...186",
       "slotId": 3,
-      "updatedAt": 1623022579533
+      "updatedAt": 1623951429487,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0xBfFe2E147d14A74D59999A0537c80200f68d5FE7",

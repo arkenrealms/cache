@@ -4,47 +4,55 @@
     "from": "0x0000000000000000000000000000000000000000",
     "status": "created",
     "tokenId": "1003000060720010052008011201100200000000000000000000000000000000000000000724",
-    "createdAt": 1622528698697,
+    "createdAt": 1623952035165,
     "details": {
       "Type": "Armor",
+      "Subtype": "Templar Forge",
       "Rune Word": "Tal Ort Thul Eld Nef",
       "Distribution": "Crafted",
-      "Date": "May 24 - Now",
-      "Max Supply": "Infinite"
+      "Date": "May 24, 2021 - Now",
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          ""
+          "Made from light-weight Templar material, it provides quality protection."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 2,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 8,
             "min": 10,
             "max": 20,
-            "desc": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 11,
             "min": 1,
             "max": 2,
-            "desc": "{value}% Random Rune Exchange"
+            "description": "{value}% Random Rune Exchange"
+          },
+          {
+            "id": 55,
+            "min": 5,
+            "max": 5,
+            "description": "{value} Sockets",
+            "value": 5
           }
         ],
         "perfection": [
-          3,
+          5,
           20,
           2
         ]
       },
       "2": {
-        "description": "",
+        "description": "Made from light-weight Templar material, it provides quality protection.",
         "attributes": []
       }
     },
@@ -115,7 +123,7 @@
         "id": 1,
         "min": 2,
         "max": 5,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 5
@@ -124,7 +132,7 @@
         "id": 8,
         "min": 10,
         "max": 20,
-        "desc": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 11
@@ -133,31 +141,40 @@
         "id": 11,
         "min": 1,
         "max": 2,
-        "desc": "{value}% Random Rune Exchange",
+        "description": "{value}% Random Rune Exchange",
         "variant": 2,
         "attributeId": 11,
         "value": 2
+      },
+      {
+        "id": 55,
+        "min": 5,
+        "max": 5,
+        "description": "{value} Sockets",
+        "value": 5
       }
     ],
-    "perfection": 0.3666666666666667,
+    "perfection": 0.7,
     "meta": {
       "harvestYield": 5,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 11,
+      "randomRuneExchange": 2
     },
     "id": 6,
     "name": "Titan",
     "category": "armor",
     "icon": "undefinedimages/items/00006.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
     "isTransferable": true,
-    "isCraftable": false,
+    "isCraftable": true,
     "isDisabled": false,
     "isRuneword": true,
     "createdDate": 12111,
@@ -189,6 +206,11 @@
     "version": 3,
     "type": 7,
     "shortTokenId": "10030000607200100520080...724",
-    "slotId": 7
+    "slotId": 18,
+    "rarity": "Rare",
+    "slots": [
+      18
+    ],
+    "hotness": 6
   }
 ]

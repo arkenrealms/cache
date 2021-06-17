@@ -2,22 +2,22 @@
   "items": [
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "unequipped",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "equipped",
       "tokenId": "100300003050001000200970000000000000000000000000000000000000000000000000026",
-      "createdAt": 1622854360859,
+      "createdAt": 1623952037930,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -36,7 +36,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -45,7 +53,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -89,7 +97,8 @@
         },
         {
           "variant": 0,
-          "value": 97
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 0,
@@ -162,6 +171,22 @@
           "variant": 0,
           "value": 2,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.25,
@@ -170,7 +195,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 2
+        "harvestBurn": 2,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -182,7 +208,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -203,27 +229,33 @@
       "type": 5,
       "shortTokenId": "10030000305000100020097...026",
       "slotId": 3,
-      "updatedAt": 1622854361407,
-      "itemId": 3
+      "updatedAt": 1623952583580,
+      "itemId": 3,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x0000000000000000000000000000000000000000",
       "status": "equipped",
       "tokenId": "1003000051120010062006001200401100000000000000000000000000000000000000000725",
-      "createdAt": 1622766379863,
+      "createdAt": 1623952037945,
       "details": {
         "Type": "Greaves",
         "Subtype": "Astral Greaves",
         "Rune Word": "Ith Eld Ral Tal",
         "Distribution": "Crafted",
-        "Date": "May 17 - Now",
+        "Date": "May 17, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Although common in another world, these Sourcer boots are considered high quality."
           ],
           "attributes": [
             {
@@ -243,6 +275,13 @@
               "min": 10,
               "max": 20,
               "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -252,7 +291,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Although common in another world, these Sourcer boots are considered high quality.",
           "attributes": [
             {
               "id": 1,
@@ -371,9 +410,16 @@
           "variant": 2,
           "attributeId": 4,
           "value": 11
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.5518518518518519,
+      "perfection": 0.55,
       "meta": {
         "harvestYield": 6,
         "harvestFees": {},
@@ -420,27 +466,32 @@
       "type": 11,
       "shortTokenId": "10030000511200100620060...725",
       "slotId": 12,
-      "updatedAt": 1622768211557,
-      "itemId": 5
+      "updatedAt": 1623952583677,
+      "itemId": 5,
+      "rarity": "Magical",
+      "slots": [
+        12
+      ],
+      "hotness": 6
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x0000000000000000000000000000000000000000",
       "status": "equipped",
       "tokenId": "1003000060720010042008014201100100000000000000000000000000000000000000000000",
-      "createdAt": 1622766409358,
+      "createdAt": 1623952038386,
       "details": {
         "Type": "Armor",
         "Subtype": "Templar Forge",
         "Rune Word": "Tal Ort Thul Eld Nef",
         "Distribution": "Crafted",
-        "Date": "May 24 - Now",
+        "Date": "May 24, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Made from light-weight Templar material, it provides quality protection."
           ],
           "attributes": [
             {
@@ -453,13 +504,20 @@
               "id": 8,
               "min": 10,
               "max": 20,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 11,
               "min": 1,
               "max": 2,
               "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -469,7 +527,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Made from light-weight Templar material, it provides quality protection.",
           "attributes": []
         }
       },
@@ -549,7 +607,7 @@
           "id": 8,
           "min": 10,
           "max": 20,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 14
@@ -562,15 +620,24 @@
           "variant": 2,
           "attributeId": 11,
           "value": 1
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.35555555555555557,
+      "perfection": 0.35,
       "meta": {
         "harvestYield": 4,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 14,
+        "randomRuneExchange": 1
       },
       "id": 6,
       "name": "Titan",
@@ -614,22 +681,27 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100420080...000",
-      "slotId": 7,
-      "updatedAt": 1622768257143,
-      "itemId": 6
+      "slotId": 18,
+      "updatedAt": 1623952583776,
+      "itemId": 6,
+      "rarity": "Magical",
+      "slots": [
+        18
+      ],
+      "hotness": 6
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
+      "from": "0x0000000000000000000000000000000000000000",
       "status": "equipped",
       "tokenId": "1003000070920010052008032200910000000000000000000000000000000000000000000520",
-      "createdAt": 1622766364872,
+      "createdAt": 1623952038396,
       "details": {
         "Type": "Gloves",
         "Subtype": "Shadow Wraps",
         "Rune Word": "Thul Ith Ort Ral",
         "Distribution": "Crafted",
-        "Date": "May 25 - June 25",
+        "Date": "May 25, 2021 - June 25, 2021",
         "Max Supply": "Limited"
       },
       "branches": {
@@ -648,13 +720,20 @@
               "id": 8,
               "min": 25,
               "max": 100,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 9,
               "min": 100,
               "max": 100,
               "description": "Unstake Locked Until Completion"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -663,7 +742,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "These handwraps have an unknown origin and emit a dark aura.",
           "attributes": [
             {
               "id": 1,
@@ -769,7 +848,7 @@
           "id": 8,
           "min": 25,
           "max": 100,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 32
@@ -782,15 +861,24 @@
           "variant": 2,
           "attributeId": 9,
           "value": 100
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.5466666666666666,
+      "perfection": 0.54,
       "meta": {
         "harvestYield": 5,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 32,
+        "unstakeLocked": true
       },
       "id": 7,
       "name": "Smoke",
@@ -802,7 +890,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "isLimited": true,
@@ -832,27 +920,33 @@
       "type": 9,
       "shortTokenId": "10030000709200100520080...520",
       "slotId": 9,
-      "updatedAt": 1622768316763,
-      "itemId": 7
+      "updatedAt": 1623952583876,
+      "itemId": 7,
+      "rarity": "Magical",
+      "slots": [
+        9
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "unequipped",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
       "tokenId": "100300013022001014200401520070152006013200200920030112039005202100200000585",
-      "createdAt": 1622766304879,
+      "createdAt": 1623952037718,
       "details": {
         "Type": "Staff",
         "Subtype": "Chrono Staff",
         "Rune Word": "Sol Amn Ort Thul Ral",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A mysterious staff that appears to be of Archon origin, imbued with what appears to be the power of time."
+            "A mysterious staff that appears to be of Archon origin and imbued with the power of time."
           ],
           "attributes": [
             {
@@ -902,14 +996,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 5,
               "max": 5,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -918,7 +1013,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -936,6 +1043,13 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -1091,7 +1205,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -1101,7 +1216,7 @@
           "id": 39,
           "min": 5,
           "max": 5,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -1110,7 +1225,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -1134,20 +1261,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 2
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.37777777777777777,
+      "perfection": 0.37,
       "category": "weapon",
       "meta": {
         "harvestYield": 14,
-        "harvestFeeToken": "SOL",
-        "harvestFeePercent": 9,
-        "harvestFees": {
-          "SOL": 9
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 15,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 13
+        "harvestBurn": 13,
+        "worldstoneShardChance": 15,
+        "classRequired": 2
       },
       "id": 13,
       "name": "Destiny",
@@ -1192,18 +1324,23 @@
       "shortTokenId": "10030001302200101420040...585",
       "slotId": 1,
       "itemId": 13,
-      "updatedAt": 1622766305393
+      "updatedAt": 1623952017967,
+      "rarity": "Magical",
+      "slots": [
+        1
+      ],
+      "hotness": 9
     },
     {
-      "status": "unequipped",
+      "status": "equipped",
       "tokenId": "1003000120120010052004037200700120020052003009203900620210040000000000000503",
-      "updatedAt": 1622767175579,
+      "updatedAt": 1623952583480,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -1215,7 +1352,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -1253,14 +1390,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -1269,7 +1407,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -1287,12 +1437,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -1327,7 +1484,7 @@
           ]
         }
       },
-      "shorthand": "5-37-1-5",
+      "shorthand": "5-37-5",
       "mods": [
         {
           "variant": 2,
@@ -1385,7 +1542,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -1435,7 +1592,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -1445,7 +1603,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -1454,7 +1612,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -1478,20 +1648,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.475,
+      "perfection": 0.84,
       "category": "weapon",
       "meta": {
         "harvestYield": 5,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 5,
-        "harvestFees": {
-          "THUL": 5
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 37,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -1533,8 +1708,14 @@
       "slotId": 1,
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "createdAt": 1622767175086,
-      "itemId": 12
+      "createdAt": 1623952037858,
+      "itemId": 12,
+      "rarity": "Rare",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
@@ -1547,13 +1728,13 @@
         "Subtype": "War Sword",
         "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "The creator is said to have gone mad."
+            "Not much is known about this sword, other than the creator had gone mad."
           ],
           "attributes": [
             {
@@ -1573,6 +1754,13 @@
               "min": 20,
               "max": 40,
               "description": "{value}% Chance To Burn Harvest"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
@@ -1582,7 +1770,7 @@
           ]
         },
         "2": {
-          "description": "The creator is said to have gone mad.",
+          "description": "Not much is known about this sword, other than the creator had gone mad.",
           "attributes": [
             {
               "id": 1,
@@ -1712,6 +1900,13 @@
           "variant": 0,
           "value": 33,
           "attributeId": 5
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
       "perfection": 0.5,
@@ -1761,7 +1956,13 @@
       "type": 1,
       "shortTokenId": "10030000201000700230033...336",
       "slotId": 2,
-      "updatedAt": 1622768602212
+      "updatedAt": 1623952584002,
+      "rarity": "Magical",
+      "slots": [
+        2,
+        1
+      ],
+      "hotness": 5
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",
@@ -1769,9 +1970,65 @@
       "status": "equipped",
       "tokenId": "100300019052007015200600320110032008004000000000000000000000000000000000772",
       "createdAt": 1622768526822,
-      "details": {},
-      "branches": {},
-      "shorthand": "",
+      "details": {
+        "Type": "Helm",
+        "Subtype": "Warder Helm",
+        "Rune Word": "Nef Tir Sol Ort",
+        "Distribution": "Crafted",
+        "Date": "June 3, 2021 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "A once unbreakable helm, its best days have passed."
+          ],
+          "attributes": [
+            {
+              "id": 7,
+              "min": 1,
+              "max": 15,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+            },
+            {
+              "id": 6,
+              "min": 1,
+              "max": 3,
+              "description": "{value}% Harvest Burn"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 4,
+              "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 8,
+              "min": 1,
+              "max": 5,
+              "description": "{value}% Reduced Harvest Fees"
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
+            }
+          ],
+          "perfection": [
+            3,
+            1,
+            null,
+            5
+          ]
+        },
+        "2": {
+          "description": "A once unbreakable helm, its best days have passed.",
+          "attributes": []
+        }
+      },
+      "shorthand": "15-3-4",
       "mods": [
         {
           "variant": 2,
@@ -1833,8 +2090,8 @@
       "attributes": [
         {
           "id": 7,
-          "min": 0,
-          "max": 100,
+          "min": 1,
+          "max": 15,
           "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
           "variant": 2,
           "attributeId": 7,
@@ -1842,8 +2099,8 @@
         },
         {
           "id": 6,
-          "min": 0,
-          "max": 50,
+          "min": 1,
+          "max": 3,
           "description": "{value}% Harvest Burn",
           "variant": 2,
           "attributeId": 6,
@@ -1851,8 +2108,8 @@
         },
         {
           "id": 11,
-          "min": 0,
-          "max": 50,
+          "min": 1,
+          "max": 4,
           "description": "{value}% Random Rune Exchange",
           "variant": 2,
           "attributeId": 11,
@@ -1860,28 +2117,76 @@
         },
         {
           "id": 8,
-          "min": 0,
-          "max": 100,
-          "description": "Remove {value}% Fees",
+          "min": 1,
+          "max": 5,
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": null,
-      "category": "weapon",
+      "perfection": 0.25,
+      "category": "armor",
       "meta": {
         "harvestYield": 0,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 3
+        "harvestBurn": 3,
+        "feeReduction": 4,
+        "randomRuneExchange": 3,
+        "worldstoneShardChance": 15
       },
       "version": 3,
       "id": 19,
       "type": 5,
       "shortTokenId": "10030001905200701520060...772",
-      "updatedAt": 1623028182643
+      "updatedAt": 1623951429841,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "name": "Pledge",
+      "icon": "undefinedimages/items/00019.png",
+      "value": "0",
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotness": 10,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 4,
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "quantity": 1
+          },
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "slotId": 3
     },
     {
       "owner": "0x2abd7F50D112ed0a479BCc6a93dEEd35CB7a874C",

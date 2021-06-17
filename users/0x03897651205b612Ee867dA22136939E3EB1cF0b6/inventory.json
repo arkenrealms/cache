@@ -5,37 +5,46 @@
       "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
       "status": "transferred_out",
       "tokenId": "10010000310021003100042702",
-      "createdAt": 1622508374292,
+      "createdAt": 1623952019033,
       "details": {
-        "Type": "Full Helm",
+        "Type": "Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
-        "Max Supply": "Infinite"
+        "Date": "April 25, 2021 - June 3, 2021",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
               "id": 1,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Increased Harvest Yield"
+              "description": "{value}% Increased Harvest Yield"
             },
             {
               "id": 6,
               "min": 1,
               "max": 3,
-              "desc": "{value}% Harvest Burn"
+              "description": "{value}% Harvest Burn"
             },
             {
               "id": 7,
-              "min": 0,
-              "max": 0,
-              "desc": "Chance To Find Worldstone Shard (Per Raid)"
+              "min": 100,
+              "max": 100,
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -44,7 +53,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -88,7 +97,8 @@
         },
         {
           "variant": 1,
-          "value": 0
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 4,
@@ -100,7 +110,7 @@
           "id": 1,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Increased Harvest Yield",
+          "description": "{value}% Increased Harvest Yield",
           "variant": 1,
           "value": 2,
           "attributeId": 1
@@ -109,10 +119,26 @@
           "id": 6,
           "min": 1,
           "max": 3,
-          "desc": "{value}% Harvest Burn",
+          "description": "{value}% Harvest Burn",
           "variant": 1,
           "value": 3,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 1,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.25,
@@ -121,19 +147,20 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 3
+        "harvestBurn": 3,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
       "category": "armor",
       "icon": "undefinedimages/items/00003.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": true,
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -153,36 +180,47 @@
       "version": 1,
       "type": 0,
       "shortTokenId": "10010000310021003100042...702",
-      "slotId": 3
+      "slotId": 3,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0x03897651205b612Ee867dA22136939E3EB1cF0b6",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "10010000410001000170013638",
-      "createdAt": 1622507712856,
+      "createdAt": 1623952018976,
       "details": {
-        "Type": "Relic",
+        "Type": "Ingredient",
+        "Subtype": "Relic",
         "Distribution": "Claimable",
-        "Date": "May 3 - Now",
-        "Max Supply": "Infinite"
+        "Date": "May 3, 2021 - Now",
+        "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A relic of a broken past."
+            "A relic from a broken time."
           ],
           "attributes": [
             {
-              "id": 32,
-              "min": 100,
-              "max": 100,
-              "desc": "{value}% Chance To Transmute Item (SOON)"
+              "id": 33,
+              "min": 0,
+              "max": 0,
+              "description": "100% Chance To Transmute Item",
+              "value": 100
             }
+          ],
+          "perfection": [
+            100
           ]
         },
         "2": {
-          "description": "A relic of a broken past.",
+          "description": "A relic from a broken time.",
           "attributes": [
             {
               "id": 1,
@@ -192,11 +230,11 @@
           ]
         }
       },
-      "shorthand": "",
+      "shorthand": "100",
       "mods": [
         {
           "variant": 1,
-          "value": 0,
+          "value": 100,
           "attributeId": 7
         },
         {
@@ -214,29 +252,30 @@
       ],
       "attributes": [
         {
-          "id": 32,
-          "min": 100,
-          "max": 100,
-          "desc": "{value}% Chance To Transmute Item (SOON)",
+          "id": 33,
+          "min": 0,
+          "max": 0,
+          "description": "100% Chance To Transmute Item",
+          "value": 100,
           "variant": 1,
-          "value": 0,
           "attributeId": 7
         }
       ],
-      "perfection": null,
+      "perfection": 1,
       "meta": {
         "harvestYield": 0,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 100
       },
       "id": 4,
       "name": "Worldstone Shard",
       "category": "accessory",
       "icon": "undefinedimages/items/00004.png",
       "value": "0",
-      "isNew": true,
+      "isNew": false,
       "isEquipable": false,
       "isTradeable": false,
       "isTransferable": false,
@@ -246,7 +285,10 @@
       "hotnessScore": 1,
       "version": 1,
       "type": 0,
-      "shortTokenId": "10010000410001000170013...638"
+      "shortTokenId": "10010000410001000170013...638",
+      "rarity": "Mythic",
+      "slots": [],
+      "hotness": 1
     }
   ]
 }

@@ -181,37 +181,45 @@
     "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
     "status": "transferred_in",
     "tokenId": "1002000020100050038003896",
-    "createdAt": 1622529373976,
+    "createdAt": 1623952035440,
     "details": {
-      "Type": "Ancient Sword",
+      "Type": "Sword",
+      "Subtype": "War Sword",
       "Rune Word": "Nef Eld Tir El",
       "Distribution": "Crafted",
-      "Date": "April 25 - Now",
-      "Max Supply": "Infinite"
+      "Date": "April 25, 2021 - Now",
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          "The creator is said to have gone mad."
+          "Not much is known about this sword, other than the creator had gone mad."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 3,
             "max": 7,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 4,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Send Harvest To Hidden Pool"
+            "description": "{value}% Chance To Send Harvest To Hidden Pool"
           },
           {
             "id": 5,
             "min": 20,
             "max": 40,
-            "desc": "{value}% Chance To Burn Harvest"
+            "description": "{value}% Chance To Burn Harvest"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
@@ -221,7 +229,7 @@
         ]
       },
       "2": {
-        "description": "The creator is said to have gone mad.",
+        "description": "Not much is known about this sword, other than the creator had gone mad.",
         "attributes": [
           {
             "id": 1,
@@ -281,7 +289,7 @@
         "id": 1,
         "min": 3,
         "max": 7,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 0,
         "value": 5,
         "attributeId": 1
@@ -290,7 +298,7 @@
         "id": 4,
         "min": 20,
         "max": 40,
-        "desc": "{value}% Chance To Send Harvest To Hidden Pool",
+        "description": "{value}% Chance To Send Harvest To Hidden Pool",
         "variant": 0,
         "value": 38,
         "attributeId": 4
@@ -299,10 +307,17 @@
         "id": 5,
         "min": 20,
         "max": 40,
-        "desc": "{value}% Chance To Burn Harvest",
+        "description": "{value}% Chance To Burn Harvest",
         "variant": 0,
         "value": 38,
         "attributeId": 5
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
     "perfection": 0.5,
@@ -318,7 +333,7 @@
     "category": "weapon",
     "icon": "undefinedimages/items/00002.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
@@ -351,6 +366,12 @@
     "version": 2,
     "type": 1,
     "shortTokenId": "10020000201000500380038...896",
-    "slotId": 2
+    "slotId": 2,
+    "rarity": "Magical",
+    "slots": [
+      2,
+      1
+    ],
+    "hotness": 5
   }
 ]

@@ -3353,13 +3353,13 @@
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010052004030200700120020042003011203900620210040000000000000943",
-      "createdAt": 1622575184621,
+      "createdAt": 1623952217692,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -3371,7 +3371,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -3409,14 +3409,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -3425,7 +3426,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -3443,12 +3456,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -3483,7 +3503,7 @@
           ]
         }
       },
-      "shorthand": "5-30-1-4",
+      "shorthand": "5-30-4",
       "mods": [
         {
           "variant": 2,
@@ -3541,7 +3561,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -3591,7 +3611,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -3601,7 +3622,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -3610,7 +3631,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -3634,20 +3667,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.44791666666666663,
+      "perfection": 0.8,
       "category": "weapon",
       "meta": {
         "harvestYield": 5,
-        "harvestFeeToken": "SOL",
-        "harvestFeePercent": 4,
-        "harvestFees": {
-          "SOL": 4
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 30,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -3686,20 +3724,26 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100520040...943",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Rare",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010022004020200700120020032003009203900620210040000000000000391",
-      "createdAt": 1622575514612,
+      "createdAt": 1623952217811,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -3711,7 +3755,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -3749,14 +3793,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -3765,7 +3810,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -3783,12 +3840,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -3823,7 +3887,7 @@
           ]
         }
       },
-      "shorthand": "2-20-1-3",
+      "shorthand": "2-20-3",
       "mods": [
         {
           "variant": 2,
@@ -3881,7 +3945,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -3931,7 +3995,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -3941,7 +4006,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -3950,7 +4015,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -3974,20 +4051,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.3020833333333333,
+      "perfection": 0.4,
       "category": "weapon",
       "meta": {
         "harvestYield": 2,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 3,
-        "harvestFees": {
-          "THUL": 3
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 20,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -4026,20 +4108,26 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100220040...391",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010022004021200700120020052003009203900620210040000000000000581",
-      "createdAt": 1622575530722,
+      "createdAt": 1623952217838,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -4051,7 +4139,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -4089,14 +4177,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -4105,7 +4194,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -4123,12 +4224,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -4163,7 +4271,7 @@
           ]
         }
       },
-      "shorthand": "2-21-1-5",
+      "shorthand": "2-21-5",
       "mods": [
         {
           "variant": 2,
@@ -4221,7 +4329,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -4271,7 +4379,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -4281,7 +4390,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -4290,7 +4399,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -4314,20 +4435,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.24791666666666667,
+      "perfection": 0.33,
       "category": "weapon",
       "meta": {
         "harvestYield": 2,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 5,
-        "harvestFees": {
-          "THUL": 5
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 21,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -4366,20 +4492,26 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100220040...581",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010042004011200700220020052003009203900620210040000000000000821",
-      "createdAt": 1622575560844,
+      "createdAt": 1623952217861,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -4391,7 +4523,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -4429,14 +4561,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -4445,7 +4578,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -4463,12 +4608,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -4503,7 +4655,7 @@
           ]
         }
       },
-      "shorthand": "4-11-2-5",
+      "shorthand": "4-11-5",
       "mods": [
         {
           "variant": 2,
@@ -4561,7 +4713,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -4611,7 +4763,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -4621,7 +4774,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -4630,7 +4783,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -4654,20 +4819,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.4770833333333333,
+      "perfection": 0.44,
       "category": "weapon",
       "meta": {
         "harvestYield": 4,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 5,
-        "harvestFees": {
-          "THUL": 5
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 11,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 2,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -4706,20 +4876,26 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100420040...821",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010042004027200700120020032003009203900620210040000000000000929",
-      "createdAt": 1622575665882,
+      "createdAt": 1623952217889,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -4731,7 +4907,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -4769,14 +4945,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -4785,7 +4962,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -4803,12 +4992,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -4843,7 +5039,7 @@
           ]
         }
       },
-      "shorthand": "4-27-1-3",
+      "shorthand": "4-27-3",
       "mods": [
         {
           "variant": 2,
@@ -4901,7 +5097,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -4951,7 +5147,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -4961,7 +5158,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -4970,7 +5167,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -4994,20 +5203,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.42291666666666666,
+      "perfection": 0.7,
       "category": "weapon",
       "meta": {
         "harvestYield": 4,
-        "harvestFeeToken": "THUL",
-        "harvestFeePercent": 3,
-        "harvestFees": {
-          "THUL": 3
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 27,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -5046,20 +5260,26 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100420040...929",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Rare",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000120120010042004032200700220020092003010203900620210040000000000000259",
-      "createdAt": 1622575710938,
+      "createdAt": 1623952217912,
       "details": {
         "Type": "Dagger",
         "Subtype": "Dimensional Dagger",
         "Rune Word": "Sol Thul Amn Ort",
         "Distribution": "Crafted",
-        "Date": "June 1 - Now",
+        "Date": "June 1, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
@@ -5071,7 +5291,7 @@
             {
               "id": 1,
               "min": 2,
-              "max": 10,
+              "max": 5,
               "description": "{value}% Increased Harvest Yield"
             },
             {
@@ -5109,14 +5329,15 @@
                 "8": "ORT",
                 "9": "THUL",
                 "10": "AMN",
-                "11": "SOL"
+                "11": "SOL",
+                "12": "SHAEL"
               }
             },
             {
               "id": 39,
               "min": 6,
               "max": 6,
-              "description": "Use Skill: {value} (Coming soon)",
+              "description": "Use Skill: {value} (SOON)",
               "map": {
                 "0": "None",
                 "1": "Whirlwind",
@@ -5125,7 +5346,19 @@
                 "4": "Wolf Strike",
                 "5": "Time Warp",
                 "6": "Sacrifice",
-                "7": "Hidden Shot"
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
               }
             },
             {
@@ -5143,12 +5376,19 @@
                 "6": "Assassin",
                 "7": "Druid"
               }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
             }
           ],
           "perfection": [
-            10,
+            5,
             40,
-            2,
+            null,
             2
           ]
         },
@@ -5183,7 +5423,7 @@
           ]
         }
       },
-      "shorthand": "4-32-2-9",
+      "shorthand": "4-32-9",
       "mods": [
         {
           "variant": 2,
@@ -5241,7 +5481,7 @@
         {
           "id": 1,
           "min": 2,
-          "max": 10,
+          "max": 5,
           "description": "{value}% Increased Harvest Yield",
           "variant": 2,
           "attributeId": 1,
@@ -5291,7 +5531,8 @@
             "8": "ORT",
             "9": "THUL",
             "10": "AMN",
-            "11": "SOL"
+            "11": "SOL",
+            "12": "SHAEL"
           },
           "variant": 2,
           "attributeId": 3,
@@ -5301,7 +5542,7 @@
           "id": 39,
           "min": 6,
           "max": 6,
-          "description": "Use Skill: {value} (Coming soon)",
+          "description": "Use Skill: {value} (SOON)",
           "map": {
             "0": "None",
             "1": "Whirlwind",
@@ -5310,7 +5551,19 @@
             "4": "Wolf Strike",
             "5": "Time Warp",
             "6": "Sacrifice",
-            "7": "Hidden Shot"
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
           },
           "variant": 2,
           "attributeId": 39,
@@ -5334,20 +5587,25 @@
           "variant": 2,
           "attributeId": 21,
           "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
         }
       ],
-      "perfection": 0.5270833333333333,
+      "perfection": 0.5,
       "category": "weapon",
       "meta": {
         "harvestYield": 4,
-        "harvestFeeToken": "AMN",
-        "harvestFeePercent": 9,
-        "harvestFees": {
-          "AMN": 9
-        },
+        "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 32,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "worldstoneShardChance": 2,
+        "classRequired": 4
       },
       "id": 12,
       "name": "Genesis",
@@ -5386,7 +5644,13 @@
       "version": 3,
       "type": 1,
       "shortTokenId": "10030001201200100420040...259",
-      "slotId": 1
+      "slotId": 1,
+      "rarity": "Magical",
+      "slots": [
+        1,
+        2
+      ],
+      "hotness": 10
     },
     {
       "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
@@ -34960,6 +35224,1155 @@
       },
       "version": 3,
       "shortTokenId": "10030001601200100220070...666",
+      "slotId": 1
+    },
+    {
+      "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000120120010022004034200700220020042003011203900620210040000000000000230",
+      "createdAt": 1623952217714,
+      "details": {
+        "Type": "Dagger",
+        "Subtype": "Dimensional Dagger",
+        "Rune Word": "Sol Thul Amn Ort",
+        "Distribution": "Crafted",
+        "Date": "June 1, 2021 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Crafted with the finest Archon material, this Dimensional Dagger is imbued with banished sacrificial power."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 2,
+              "min": 2,
+              "max": 10,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 9,
+              "max": 11,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 6,
+              "max": 6,
+              "description": "Use Skill: {value} (SOON)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
+              }
+            },
+            {
+              "id": 21,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
+            }
+          ],
+          "perfection": [
+            5,
+            40,
+            null,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "2-34-4",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 34
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 11
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 230
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 2
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 34
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 2
+        },
+        {
+          "id": 2,
+          "min": 2,
+          "max": 10,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 4
+        },
+        {
+          "id": 3,
+          "min": 9,
+          "max": 11,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 11
+        },
+        {
+          "id": 39,
+          "min": 6,
+          "max": 6,
+          "description": "Use Skill: {value} (SOON)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "id": 21,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
+        }
+      ],
+      "perfection": 0.51,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 2,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 34,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0,
+        "worldstoneShardChance": 2,
+        "classRequired": 4
+      },
+      "id": 12,
+      "name": "Genesis",
+      "icon": "undefinedimages/items/00012.png",
+      "value": "0",
+      "type": 1,
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotness": 10,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "shortTokenId": "10030001201200100220040...230",
+      "slotId": 1
+    },
+    {
+      "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000120120010042004016200700120020082003009203900620210040000000000000718",
+      "createdAt": 1623952217739,
+      "details": {
+        "Type": "Dagger",
+        "Subtype": "Dimensional Dagger",
+        "Rune Word": "Sol Thul Amn Ort",
+        "Distribution": "Crafted",
+        "Date": "June 1, 2021 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Crafted with the finest Archon material, this Dimensional Dagger is imbued with banished sacrificial power."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 2,
+              "min": 2,
+              "max": 10,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 9,
+              "max": 11,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 6,
+              "max": 6,
+              "description": "Use Skill: {value} (SOON)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
+              }
+            },
+            {
+              "id": 21,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
+            }
+          ],
+          "perfection": [
+            5,
+            40,
+            null,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "4-16-8",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 16
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 1
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 8
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 718
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 4
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 16
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 1
+        },
+        {
+          "id": 2,
+          "min": 2,
+          "max": 10,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 8
+        },
+        {
+          "id": 3,
+          "min": 9,
+          "max": 11,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "id": 39,
+          "min": 6,
+          "max": 6,
+          "description": "Use Skill: {value} (SOON)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "id": 21,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
+        }
+      ],
+      "perfection": 0.37,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 4,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 16,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0,
+        "worldstoneShardChance": 1,
+        "classRequired": 4
+      },
+      "id": 12,
+      "name": "Genesis",
+      "icon": "undefinedimages/items/00012.png",
+      "value": "0",
+      "type": 1,
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotness": 10,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "shortTokenId": "10030001201200100420040...718",
+      "slotId": 1
+    },
+    {
+      "owner": "0x2DF94b980FC880100D93072011675E6659C0ca21",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
+      "tokenId": "1003000120120010032004028200700220020072003009203900620210040000000000000795",
+      "createdAt": 1623952217763,
+      "details": {
+        "Type": "Dagger",
+        "Subtype": "Dimensional Dagger",
+        "Rune Word": "Sol Thul Amn Ort",
+        "Distribution": "Crafted",
+        "Date": "June 1, 2021 - Now",
+        "Max Supply": "Unknown"
+      },
+      "branches": {
+        "1": {
+          "description": [
+            "Crafted with the finest Archon material, this Dimensional Dagger is imbued with banished sacrificial power."
+          ],
+          "attributes": [
+            {
+              "id": 1,
+              "min": 2,
+              "max": 5,
+              "description": "{value}% Increased Harvest Yield"
+            },
+            {
+              "id": 4,
+              "min": 10,
+              "max": 40,
+              "description": "{value}% Chance To Send Harvest To Hidden Pool"
+            },
+            {
+              "id": 11,
+              "min": 1,
+              "max": 2,
+              "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 2,
+              "min": 2,
+              "max": 10,
+              "description": "{value}% Harvest Fee"
+            },
+            {
+              "id": 3,
+              "min": 9,
+              "max": 11,
+              "description": "Harvest Fee Token: {value}",
+              "map": {
+                "0": "EL",
+                "1": "ELD",
+                "2": "TIR",
+                "3": "NEF",
+                "4": "ITH",
+                "5": "ITH",
+                "6": "TAL",
+                "7": "RAL",
+                "8": "ORT",
+                "9": "THUL",
+                "10": "AMN",
+                "11": "SOL",
+                "12": "SHAEL"
+              }
+            },
+            {
+              "id": 39,
+              "min": 6,
+              "max": 6,
+              "description": "Use Skill: {value} (SOON)",
+              "map": {
+                "0": "None",
+                "1": "Whirlwind",
+                "2": "Fire Wall",
+                "3": "Sanctuary Aura",
+                "4": "Wolf Strike",
+                "5": "Time Warp",
+                "6": "Sacrifice",
+                "7": "Hidden Shot",
+                "8": "Fade",
+                "9": "Fade",
+                "10": "Fade",
+                "11": "Mystic Insight",
+                "12": "Battle Rage",
+                "13": "White Lightning",
+                "14": "Inferno Fire Blast",
+                "15": "Cosmic Flare",
+                "16": "Veil of Night",
+                "17": "Sky Swarm",
+                "18": "Flurry Assault",
+                "19": "Destructive Impact"
+              }
+            },
+            {
+              "id": 21,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Required",
+              "map": {
+                "0": "None",
+                "1": "Barbarian",
+                "2": "Sorceress",
+                "3": "Amazon",
+                "4": "Necromancer",
+                "5": "Paladin",
+                "6": "Assassin",
+                "7": "Druid"
+              }
+            },
+            {
+              "id": 55,
+              "min": 4,
+              "max": 4,
+              "description": "{value} Sockets",
+              "value": 4
+            }
+          ],
+          "perfection": [
+            5,
+            40,
+            null,
+            2
+          ]
+        },
+        "2": {
+          "description": "",
+          "attributes": [
+            {
+              "id": 1,
+              "value": 5,
+              "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+            },
+            {
+              "id": 2,
+              "value": 100,
+              "description": "{value}% Increased Block Speed"
+            },
+            {
+              "id": 2,
+              "value": 230,
+              "description": "{value}% Enhanced Defense"
+            },
+            {
+              "id": 2,
+              "min": 41,
+              "max": 50,
+              "description": "Physical Damage Reduced by {value}"
+            },
+            {
+              "id": 2,
+              "description": "Half Freeze Duration"
+            }
+          ]
+        }
+      },
+      "shorthand": "3-28-7",
+      "rarity": "Magical",
+      "mods": [
+        {
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "variant": 2,
+          "attributeId": 4,
+          "value": 28
+        },
+        {
+          "variant": 2,
+          "attributeId": 7,
+          "value": 2
+        },
+        {
+          "variant": 2,
+          "attributeId": 2,
+          "value": 7
+        },
+        {
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 0
+        },
+        {
+          "variant": 0,
+          "value": 795
+        }
+      ],
+      "attributes": [
+        {
+          "id": 1,
+          "min": 2,
+          "max": 5,
+          "description": "{value}% Increased Harvest Yield",
+          "variant": 2,
+          "attributeId": 1,
+          "value": 3
+        },
+        {
+          "id": 4,
+          "min": 10,
+          "max": 40,
+          "description": "{value}% Chance To Send Harvest To Hidden Pool",
+          "variant": 2,
+          "attributeId": 4,
+          "value": 28
+        },
+        {
+          "id": 11,
+          "min": 1,
+          "max": 2,
+          "description": "{value}% Random Rune Exchange",
+          "variant": 2,
+          "attributeId": 7,
+          "value": 2
+        },
+        {
+          "id": 2,
+          "min": 2,
+          "max": 10,
+          "description": "{value}% Harvest Fee",
+          "variant": 2,
+          "attributeId": 2,
+          "value": 7
+        },
+        {
+          "id": 3,
+          "min": 9,
+          "max": 11,
+          "description": "Harvest Fee Token: {value}",
+          "map": {
+            "0": "EL",
+            "1": "ELD",
+            "2": "TIR",
+            "3": "NEF",
+            "4": "ITH",
+            "5": "ITH",
+            "6": "TAL",
+            "7": "RAL",
+            "8": "ORT",
+            "9": "THUL",
+            "10": "AMN",
+            "11": "SOL",
+            "12": "SHAEL"
+          },
+          "variant": 2,
+          "attributeId": 3,
+          "value": 9
+        },
+        {
+          "id": 39,
+          "min": 6,
+          "max": 6,
+          "description": "Use Skill: {value} (SOON)",
+          "map": {
+            "0": "None",
+            "1": "Whirlwind",
+            "2": "Fire Wall",
+            "3": "Sanctuary Aura",
+            "4": "Wolf Strike",
+            "5": "Time Warp",
+            "6": "Sacrifice",
+            "7": "Hidden Shot",
+            "8": "Fade",
+            "9": "Fade",
+            "10": "Fade",
+            "11": "Mystic Insight",
+            "12": "Battle Rage",
+            "13": "White Lightning",
+            "14": "Inferno Fire Blast",
+            "15": "Cosmic Flare",
+            "16": "Veil of Night",
+            "17": "Sky Swarm",
+            "18": "Flurry Assault",
+            "19": "Destructive Impact"
+          },
+          "variant": 2,
+          "attributeId": 39,
+          "value": 6
+        },
+        {
+          "id": 21,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Required",
+          "map": {
+            "0": "None",
+            "1": "Barbarian",
+            "2": "Sorceress",
+            "3": "Amazon",
+            "4": "Necromancer",
+            "5": "Paladin",
+            "6": "Assassin",
+            "7": "Druid"
+          },
+          "variant": 2,
+          "attributeId": 21,
+          "value": 4
+        },
+        {
+          "id": 55,
+          "min": 4,
+          "max": 4,
+          "description": "{value} Sockets",
+          "value": 4
+        }
+      ],
+      "perfection": 0.43,
+      "category": "weapon",
+      "slots": [
+        1,
+        2
+      ],
+      "meta": {
+        "harvestYield": 3,
+        "harvestFees": {},
+        "chanceToSendHarvestToHiddenPool": 28,
+        "chanceToLoseHarvest": 0,
+        "harvestBurn": 0,
+        "worldstoneShardChance": 2,
+        "classRequired": 4
+      },
+      "id": 12,
+      "name": "Genesis",
+      "icon": "undefinedimages/items/00012.png",
+      "value": "0",
+      "type": 1,
+      "isNew": true,
+      "isEquipable": true,
+      "isUnequipable": false,
+      "isTradeable": true,
+      "isTransferable": true,
+      "isCraftable": true,
+      "isDisabled": false,
+      "isRuneword": true,
+      "createdDate": 12111,
+      "hotness": 10,
+      "recipe": {
+        "requirement": [
+          {
+            "id": 12,
+            "quantity": 1
+          },
+          {
+            "id": 10,
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "quantity": 1
+          },
+          {
+            "id": 9,
+            "quantity": 1
+          }
+        ]
+      },
+      "version": 3,
+      "shortTokenId": "10030001201200100320040...795",
       "slotId": 1
     }
   ]

@@ -5,19 +5,19 @@
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "100300003050001000200970000000000000000000000000000000000000000000000000866",
-      "createdAt": 1622585047536,
+      "createdAt": 1623952284349,
       "details": {
         "Type": "Helm",
-        "Subtype": "Full Helm",
+        "Subtype": "Archon Helm",
         "Rune Word": "Nef Tir",
         "Distribution": "Crafted",
-        "Date": "April 25 - Now",
+        "Date": "April 25, 2021 - June 3, 2021",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            "A once unbreakable helm, it's seen its best days."
+            "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell."
           ],
           "attributes": [
             {
@@ -36,7 +36,15 @@
               "id": 7,
               "min": 100,
               "max": 100,
-              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)"
+              "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+              "value": 100
+            },
+            {
+              "id": 55,
+              "min": 2,
+              "max": 2,
+              "description": "{value} Sockets",
+              "value": 2
             }
           ],
           "perfection": [
@@ -45,7 +53,7 @@
           ]
         },
         "2": {
-          "description": "A once unbreakable helm, it's seen its best days.",
+          "description": "An ancient helm forged by the Archons to seek out powerful shards in the battle between Heaven and Hell.",
           "attributes": [
             {
               "id": 1,
@@ -89,7 +97,8 @@
         },
         {
           "variant": 0,
-          "value": 97
+          "value": 100,
+          "attributeId": 7
         },
         {
           "variant": 0,
@@ -162,6 +171,22 @@
           "variant": 0,
           "value": 2,
           "attributeId": 6
+        },
+        {
+          "id": 7,
+          "min": 100,
+          "max": 100,
+          "description": "{value}% Chance To Find Worldstone Shard (Per Raid)",
+          "value": 100,
+          "variant": 0,
+          "attributeId": 7
+        },
+        {
+          "id": 55,
+          "min": 2,
+          "max": 2,
+          "description": "{value} Sockets",
+          "value": 2
         }
       ],
       "perfection": 0.25,
@@ -171,7 +196,8 @@
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 2
+        "harvestBurn": 2,
+        "worldstoneShardChance": 100
       },
       "id": 3,
       "name": "Lorekeeper",
@@ -182,7 +208,7 @@
       "isUnequipable": false,
       "isTradeable": true,
       "isTransferable": true,
-      "isCraftable": true,
+      "isCraftable": false,
       "isDisabled": false,
       "isRuneword": true,
       "createdDate": 12111,
@@ -202,14 +228,20 @@
       "version": 3,
       "type": 5,
       "shortTokenId": "10030000305000100020097...866",
-      "slotId": 3
+      "slotId": 3,
+      "rarity": "Magical",
+      "slots": [
+        3
+      ],
+      "isRetired": true,
+      "hotness": 7
     },
     {
       "owner": "0xa2D36f11E2225d1b89146F443350e825F15B8B68",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "equipped",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
       "tokenId": "100300003050003000100820000000000000000000000000000000000000000000000000794",
-      "createdAt": 1623651958868,
+      "createdAt": 1623952284360,
       "details": {
         "Type": "Helm",
         "Subtype": "Archon Helm",
@@ -433,7 +465,7 @@
       "type": 5,
       "shortTokenId": "10030000305000300010082...794",
       "slotId": 3,
-      "updatedAt": 1623698828227,
+      "updatedAt": 1623952204387,
       "rarity": "Mythic",
       "slots": [
         3
@@ -447,19 +479,19 @@
       "from": "0x0000000000000000000000000000000000000000",
       "status": "created",
       "tokenId": "1003000060720010022008013201100200000000000000000000000000000000000000000115",
-      "createdAt": 1622585842893,
+      "createdAt": 1623952284912,
       "details": {
         "Type": "Armor",
         "Subtype": "Templar Forge",
         "Rune Word": "Tal Ort Thul Eld Nef",
         "Distribution": "Crafted",
-        "Date": "May 24 - Now",
+        "Date": "May 24, 2021 - Now",
         "Max Supply": "Unknown"
       },
       "branches": {
         "1": {
           "description": [
-            ""
+            "Made from light-weight Templar material, it provides quality protection."
           ],
           "attributes": [
             {
@@ -472,13 +504,20 @@
               "id": 8,
               "min": 10,
               "max": 20,
-              "description": "Remove {value}% Fees"
+              "description": "{value}% Reduced Harvest Fees"
             },
             {
               "id": 11,
               "min": 1,
               "max": 2,
               "description": "{value}% Random Rune Exchange"
+            },
+            {
+              "id": 55,
+              "min": 5,
+              "max": 5,
+              "description": "{value} Sockets",
+              "value": 5
             }
           ],
           "perfection": [
@@ -488,7 +527,7 @@
           ]
         },
         "2": {
-          "description": "",
+          "description": "Made from light-weight Templar material, it provides quality protection.",
           "attributes": []
         }
       },
@@ -568,7 +607,7 @@
           "id": 8,
           "min": 10,
           "max": 20,
-          "description": "Remove {value}% Fees",
+          "description": "{value}% Reduced Harvest Fees",
           "variant": 2,
           "attributeId": 8,
           "value": 13
@@ -581,16 +620,25 @@
           "variant": 2,
           "attributeId": 11,
           "value": 2
+        },
+        {
+          "id": 55,
+          "min": 5,
+          "max": 5,
+          "description": "{value} Sockets",
+          "value": 5
         }
       ],
-      "perfection": 0.43333333333333335,
+      "perfection": 0.43,
       "category": "armor",
       "meta": {
         "harvestYield": 2,
         "harvestFees": {},
         "chanceToSendHarvestToHiddenPool": 0,
         "chanceToLoseHarvest": 0,
-        "harvestBurn": 0
+        "harvestBurn": 0,
+        "feeReduction": 13,
+        "randomRuneExchange": 2
       },
       "id": 6,
       "name": "Titan",
@@ -633,14 +681,19 @@
       "version": 3,
       "type": 7,
       "shortTokenId": "10030000607200100220080...115",
-      "slotId": 7
+      "slotId": 18,
+      "rarity": "Magical",
+      "slots": [
+        18
+      ],
+      "hotness": 6
     },
     {
       "owner": "0xa2D36f11E2225d1b89146F443350e825F15B8B68",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "equipped",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
       "tokenId": "1003000060720010032008018201100200000000000000000000000000000000000000000625",
-      "createdAt": 1623698782872,
+      "createdAt": 1623952284923,
       "details": {
         "Type": "Armor",
         "Subtype": "Templar Forge",
@@ -843,7 +896,7 @@
       "type": 7,
       "shortTokenId": "10030000607200100320080...625",
       "slotId": 18,
-      "updatedAt": 1623699368385,
+      "updatedAt": 1623952204582,
       "rarity": "Rare",
       "slots": [
         18
@@ -853,10 +906,10 @@
     },
     {
       "owner": "0xa2D36f11E2225d1b89146F443350e825F15B8B68",
-      "from": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
-      "status": "equipped",
+      "from": "0x0000000000000000000000000000000000000000",
+      "status": "created",
       "tokenId": "100300001010012000300000000000000000000000000000000000000000000000000000082",
-      "createdAt": 1623651883901,
+      "createdAt": 1623952285077,
       "details": {
         "Type": "Sword",
         "Subtype": "Night Blade",
@@ -1118,7 +1171,7 @@
       "type": 1,
       "shortTokenId": "10030000101001200030000...082",
       "slotId": 1,
-      "updatedAt": 1623698782742,
+      "updatedAt": 1623952204676,
       "rarity": "Magical",
       "slots": [
         1,

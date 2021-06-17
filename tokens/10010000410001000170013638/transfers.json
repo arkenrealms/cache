@@ -4,29 +4,34 @@
     "from": "0x0000000000000000000000000000000000000000",
     "status": "created",
     "tokenId": "10010000410001000170013638",
-    "createdAt": 1622507712856,
+    "createdAt": 1623952018976,
     "details": {
-      "Type": "Relic",
+      "Type": "Ingredient",
+      "Subtype": "Relic",
       "Distribution": "Claimable",
-      "Date": "May 3 - Now",
-      "Max Supply": "Infinite"
+      "Date": "May 3, 2021 - Now",
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          "A relic of a broken past."
+          "A relic from a broken time."
         ],
         "attributes": [
           {
-            "id": 32,
-            "min": 100,
-            "max": 100,
-            "desc": "{value}% Chance To Transmute Item (SOON)"
+            "id": 33,
+            "min": 0,
+            "max": 0,
+            "description": "100% Chance To Transmute Item",
+            "value": 100
           }
+        ],
+        "perfection": [
+          100
         ]
       },
       "2": {
-        "description": "A relic of a broken past.",
+        "description": "A relic from a broken time.",
         "attributes": [
           {
             "id": 1,
@@ -36,11 +41,11 @@
         ]
       }
     },
-    "shorthand": "",
+    "shorthand": "100",
     "mods": [
       {
         "variant": 1,
-        "value": 0,
+        "value": 100,
         "attributeId": 7
       },
       {
@@ -58,29 +63,30 @@
     ],
     "attributes": [
       {
-        "id": 32,
-        "min": 100,
-        "max": 100,
-        "desc": "{value}% Chance To Transmute Item (SOON)",
+        "id": 33,
+        "min": 0,
+        "max": 0,
+        "description": "100% Chance To Transmute Item",
+        "value": 100,
         "variant": 1,
-        "value": 0,
         "attributeId": 7
       }
     ],
-    "perfection": null,
+    "perfection": 1,
     "meta": {
       "harvestYield": 0,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "worldstoneShardChance": 100
     },
     "id": 4,
     "name": "Worldstone Shard",
     "category": "accessory",
     "icon": "undefinedimages/items/00004.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": false,
     "isTradeable": false,
     "isTransferable": false,
@@ -90,36 +96,44 @@
     "hotnessScore": 1,
     "version": 1,
     "type": 0,
-    "shortTokenId": "10010000410001000170013...638"
+    "shortTokenId": "10010000410001000170013...638",
+    "rarity": "Mythic",
+    "slots": [],
+    "hotness": 1
   },
   {
     "owner": "0xc00f217Dc088953e98D140DdEDf24E3c933e8FE4",
     "from": "0x03897651205b612Ee867dA22136939E3EB1cF0b6",
     "status": "transferred_in",
     "tokenId": "10010000410001000170013638",
-    "createdAt": 1622507832719,
+    "createdAt": 1623952018994,
     "details": {
-      "Type": "Relic",
+      "Type": "Ingredient",
+      "Subtype": "Relic",
       "Distribution": "Claimable",
-      "Date": "May 3 - Now",
-      "Max Supply": "Infinite"
+      "Date": "May 3, 2021 - Now",
+      "Max Supply": "Unknown"
     },
     "branches": {
       "1": {
         "description": [
-          "A relic of a broken past."
+          "A relic from a broken time."
         ],
         "attributes": [
           {
-            "id": 32,
-            "min": 100,
-            "max": 100,
-            "desc": "{value}% Chance To Transmute Item (SOON)"
+            "id": 33,
+            "min": 0,
+            "max": 0,
+            "description": "100% Chance To Transmute Item",
+            "value": 100
           }
+        ],
+        "perfection": [
+          100
         ]
       },
       "2": {
-        "description": "A relic of a broken past.",
+        "description": "A relic from a broken time.",
         "attributes": [
           {
             "id": 1,
@@ -129,11 +143,11 @@
         ]
       }
     },
-    "shorthand": "",
+    "shorthand": "100",
     "mods": [
       {
         "variant": 1,
-        "value": 0,
+        "value": 100,
         "attributeId": 7
       },
       {
@@ -151,29 +165,30 @@
     ],
     "attributes": [
       {
-        "id": 32,
-        "min": 100,
-        "max": 100,
-        "desc": "{value}% Chance To Transmute Item (SOON)",
+        "id": 33,
+        "min": 0,
+        "max": 0,
+        "description": "100% Chance To Transmute Item",
+        "value": 100,
         "variant": 1,
-        "value": 0,
         "attributeId": 7
       }
     ],
-    "perfection": null,
+    "perfection": 1,
     "meta": {
       "harvestYield": 0,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "worldstoneShardChance": 100
     },
     "id": 4,
     "name": "Worldstone Shard",
     "category": "accessory",
     "icon": "undefinedimages/items/00004.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": false,
     "isTradeable": false,
     "isTransferable": false,
@@ -183,6 +198,9 @@
     "hotnessScore": 1,
     "version": 1,
     "type": 0,
-    "shortTokenId": "10010000410001000170013...638"
+    "shortTokenId": "10010000410001000170013...638",
+    "rarity": "Mythic",
+    "slots": [],
+    "hotness": 1
   }
 ]

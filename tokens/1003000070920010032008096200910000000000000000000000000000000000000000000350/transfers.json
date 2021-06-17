@@ -4,51 +4,84 @@
     "from": "0x0000000000000000000000000000000000000000",
     "status": "created",
     "tokenId": "1003000070920010032008096200910000000000000000000000000000000000000000000350",
-    "createdAt": 1622534963935,
+    "createdAt": 1623952063593,
     "details": {
       "Type": "Gloves",
+      "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 24 - June 24",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
       "1": {
         "description": [
-          ""
+          "These handwraps have an unknown origin and emit a dark aura."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 1,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 8,
             "min": 25,
             "max": 100,
-            "desc": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
-            "desc": "Unstake Locked Until Completion"
+            "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
           5,
-          100,
           100
         ]
       },
       "2": {
-        "description": "",
-        "attributes": []
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
+        "attributes": [
+          {
+            "id": 1,
+            "value": 5,
+            "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+          },
+          {
+            "id": 2,
+            "value": 100,
+            "description": "{value}% Increased Block Speed"
+          },
+          {
+            "id": 2,
+            "value": 230,
+            "description": "{value}% Enhanced Defense"
+          },
+          {
+            "id": 2,
+            "min": 41,
+            "max": 50,
+            "description": "Physical Damage Reduced by {value}"
+          },
+          {
+            "id": 2,
+            "description": "Half Freeze Duration"
+          }
+        ]
       }
     },
-    "shorthand": "3-96-100",
+    "shorthand": "3-96",
     "mods": [
       {
         "variant": 2,
@@ -115,7 +148,7 @@
         "id": 1,
         "min": 1,
         "max": 5,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 3
@@ -124,7 +157,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "desc": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 96
@@ -133,26 +166,35 @@
         "id": 9,
         "min": 100,
         "max": 100,
-        "desc": "Unstake Locked Until Completion",
+        "description": "Unstake Locked Until Completion",
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
-    "perfection": 0.8155555555555556,
+    "perfection": 0.72,
     "category": "armor",
     "meta": {
       "harvestYield": 3,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 96,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
     "icon": "undefinedimages/items/00007.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
@@ -186,58 +228,97 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100320080...350",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   },
   {
     "owner": "0x85C07b6a475Ee19218D0ef9C278C7e58715Af842",
     "from": "0xdD3fbb23648da1391CA065Aded3aB1fCbD0bD07a",
     "status": "transferred_in",
     "tokenId": "1003000070920010032008096200910000000000000000000000000000000000000000000350",
-    "createdAt": 1622535053719,
+    "createdAt": 1623952063644,
     "details": {
       "Type": "Gloves",
+      "Subtype": "Shadow Wraps",
       "Rune Word": "Thul Ith Ort Ral",
       "Distribution": "Crafted",
-      "Date": "May 24 - June 24",
+      "Date": "May 25, 2021 - June 25, 2021",
       "Max Supply": "Limited"
     },
     "branches": {
       "1": {
         "description": [
-          ""
+          "These handwraps have an unknown origin and emit a dark aura."
         ],
         "attributes": [
           {
             "id": 1,
             "min": 1,
             "max": 5,
-            "desc": "{value}% Increased Harvest Yield"
+            "description": "{value}% Increased Harvest Yield"
           },
           {
             "id": 8,
             "min": 25,
             "max": 100,
-            "desc": "Remove {value}% Fees"
+            "description": "{value}% Reduced Harvest Fees"
           },
           {
             "id": 9,
             "min": 100,
             "max": 100,
-            "desc": "Unstake Locked Until Completion"
+            "description": "Unstake Locked Until Completion"
+          },
+          {
+            "id": 55,
+            "min": 4,
+            "max": 4,
+            "description": "{value} Sockets",
+            "value": 4
           }
         ],
         "perfection": [
           5,
-          100,
           100
         ]
       },
       "2": {
-        "description": "",
-        "attributes": []
+        "description": "These handwraps have an unknown origin and emit a dark aura.",
+        "attributes": [
+          {
+            "id": 1,
+            "value": 5,
+            "description": "{value}% Chance to Cast L6 Lion Heart on Taking Damage"
+          },
+          {
+            "id": 2,
+            "value": 100,
+            "description": "{value}% Increased Block Speed"
+          },
+          {
+            "id": 2,
+            "value": 230,
+            "description": "{value}% Enhanced Defense"
+          },
+          {
+            "id": 2,
+            "min": 41,
+            "max": 50,
+            "description": "Physical Damage Reduced by {value}"
+          },
+          {
+            "id": 2,
+            "description": "Half Freeze Duration"
+          }
+        ]
       }
     },
-    "shorthand": "3-96-100",
+    "shorthand": "3-96",
     "mods": [
       {
         "variant": 2,
@@ -304,7 +385,7 @@
         "id": 1,
         "min": 1,
         "max": 5,
-        "desc": "{value}% Increased Harvest Yield",
+        "description": "{value}% Increased Harvest Yield",
         "variant": 2,
         "attributeId": 1,
         "value": 3
@@ -313,7 +394,7 @@
         "id": 8,
         "min": 25,
         "max": 100,
-        "desc": "Remove {value}% Fees",
+        "description": "{value}% Reduced Harvest Fees",
         "variant": 2,
         "attributeId": 8,
         "value": 96
@@ -322,26 +403,35 @@
         "id": 9,
         "min": 100,
         "max": 100,
-        "desc": "Unstake Locked Until Completion",
+        "description": "Unstake Locked Until Completion",
         "variant": 2,
         "attributeId": 9,
         "value": 100
+      },
+      {
+        "id": 55,
+        "min": 4,
+        "max": 4,
+        "description": "{value} Sockets",
+        "value": 4
       }
     ],
-    "perfection": 0.8155555555555556,
+    "perfection": 0.72,
     "category": "armor",
     "meta": {
       "harvestYield": 3,
       "harvestFees": {},
       "chanceToSendHarvestToHiddenPool": 0,
       "chanceToLoseHarvest": 0,
-      "harvestBurn": 0
+      "harvestBurn": 0,
+      "feeReduction": 96,
+      "unstakeLocked": true
     },
     "id": 7,
     "name": "Smoke",
     "icon": "undefinedimages/items/00007.png",
     "value": "0",
-    "isNew": true,
+    "isNew": false,
     "isEquipable": true,
     "isUnequipable": false,
     "isTradeable": true,
@@ -375,6 +465,12 @@
     "version": 3,
     "type": 9,
     "shortTokenId": "10030000709200100320080...350",
-    "slotId": 9
+    "slotId": 9,
+    "rarity": "Rare",
+    "slots": [
+      9
+    ],
+    "isRetired": true,
+    "hotness": 7
   }
 ]
