@@ -121964,5 +121964,84 @@
         "hex": "0xb1a2bc2ec50000"
       }
     ]
+  },
+  {
+    "id": 3048,
+    "blockNumber": 8687787,
+    "blockHash": "0x7d0e0ce1b34463f5994c263cdb542789277c3e2ee482ae81bf8f03e048fc5f13",
+    "transactionIndex": 61,
+    "removed": false,
+    "address": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+    "data": "0x0237ad8b96691cde78d7792691821baea9f40b94fda1d7a5076ca000000002fe00000000000000000000000000000000000000000000000000470de4df820000",
+    "topics": [
+      "0x89f5adc174562e07c9c9b1cae7109bbecb21cf9d1b2847e550042b8653c54a0e",
+      "0x00000000000000000000000085a3b51edd5da09258a5aa9e838377d639605a5a",
+      "0x00000000000000000000000043d94836e8f579a4903730c6a627c07a1b2cde41"
+    ],
+    "transactionHash": "0x986df2e6367e94c1b924b97cb8ee18f0a4e2b214e71ad87d6fd1c4a832a47a03",
+    "logIndex": 250,
+    "eventFragment": {
+      "name": "Buy",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "seller",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "buyer",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "price",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "Buy",
+    "signature": "Buy(address,address,uint256,uint256)",
+    "topic": "0x89f5adc174562e07c9c9b1cae7109bbecb21cf9d1b2847e550042b8653c54a0e",
+    "args": [
+      "0x85a3b51edd5dA09258a5aA9e838377D639605a5A",
+      "0x43d94836e8f579a4903730c6A627C07A1B2CDE41",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691cde78d7792691821baea9f40b94fda1d7a5076ca000000002fe"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x470de4df820000"
+      }
+    ]
   }
 ]
