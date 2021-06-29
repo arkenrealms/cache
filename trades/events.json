@@ -123439,5 +123439,84 @@
         "hex": "0xc3663566a58000"
       }
     ]
+  },
+  {
+    "id": 3082,
+    "blockNumber": 8704820,
+    "blockHash": "0xe77a4d6a837a9089fc1836a82db54602268c0252f8239785b078cb8be068b86a",
+    "transactionIndex": 23,
+    "removed": false,
+    "address": "0xdAE69A43bC73e662095b488dbDDD1D3aBA59c1FF",
+    "data": "0x0237ad8b96691ce1a8813f5eec8b8b9a9b9b562e0213afe21598e00000000128000000000000000000000000000000000000000000000000009fdf42f6e48000",
+    "topics": [
+      "0xedbdf022944a3291f4b30148903a84720506f48e10478ec5812e5caf30e1fab0",
+      "0x000000000000000000000000e5fa674dbed6f4ee72ad8b488b720acf27a6d5a1",
+      "0x0000000000000000000000000000000000000000000000000000000000000000"
+    ],
+    "transactionHash": "0x81d3e6800a464f8481c1ddee86d244d075a624015c5ff5ff84049acb7d22fb55",
+    "logIndex": 191,
+    "eventFragment": {
+      "name": "List",
+      "anonymous": false,
+      "inputs": [
+        {
+          "name": "seller",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "buyer",
+          "type": "address",
+          "indexed": true,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "address",
+          "_isParamType": true
+        },
+        {
+          "name": "tokenId",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        },
+        {
+          "name": "price",
+          "type": "uint256",
+          "indexed": false,
+          "components": null,
+          "arrayLength": null,
+          "arrayChildren": null,
+          "baseType": "uint256",
+          "_isParamType": true
+        }
+      ],
+      "type": "event",
+      "_isFragment": true
+    },
+    "name": "List",
+    "signature": "List(address,address,uint256,uint256)",
+    "topic": "0xedbdf022944a3291f4b30148903a84720506f48e10478ec5812e5caf30e1fab0",
+    "args": [
+      "0xE5fA674DBeD6F4ee72ad8b488b720acF27a6d5A1",
+      "0x0000000000000000000000000000000000000000",
+      {
+        "type": "BigNumber",
+        "hex": "0x0237ad8b96691ce1a8813f5eec8b8b9a9b9b562e0213afe21598e00000000128"
+      },
+      {
+        "type": "BigNumber",
+        "hex": "0x9fdf42f6e48000"
+      }
+    ]
   }
 ]
