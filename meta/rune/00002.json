@@ -1,6 +1,6 @@
 {
-    "name": "Steel",
-    "description": "Made by Men, this blade is common but has minimal downsides.",
+    "name": "Fury",
+    "description": "Not much is known about this sword, other than the creator had gone mad.",
     "home_url": "https://rune.farm",
     "external_url": "https://rune.farm/catalog/00001",
     "image_url": "https://rune.farm/images/items/00001.png",
@@ -20,26 +20,22 @@
     "isRetired": true,
     "details": {
         "Type": "Sword",
-        "Subtype": "Night Blade",
-        "Rune Word": "Tir El",
+        "Subtype": "War Sword",
+        "Rune Word": "Nef Eld Tir El",
         "Distribution": "Crafted",
-        "Date": "April 20, 2021 - June 4, 2021",
+        "Date": "April 25, 2021 - Now",
         "Max Supply": "Unknown"
     },
     "recipe": [
+        { "id": "NEF", "quantity": 1 },
+        { "id": "ELD", "quantity": 1 },
         { "id": "TIR", "quantity": 1 },
         { "id": "EL", "quantity": 1 }
     ],
     "branches": {
       "2": {
-        "description": "Made by Men, this blade is common but has minimal downsides.",
+        "description": "Not much is known about this sword, other than the creator had gone mad.",
         "attributes": [
-          { "id": 1, "min": 16, "max": 20, "name": "{value}% Increased Attack Speed" },
-          { "id": 3, "min": 6, "max": 8, "name": "{value}% Less Damage" },
-          { "id": 4, "min": 81, "max": 100, "name": "{value} Increased Maximum Rage" },
-          { "id": 5, "min": 3, "max": 5, "name": "{value} Increased Elemental Resists" },
-          { "id": 7, "min": 3, "max": 5, "name": "{value} Increased Minion Attack Speed" },
-          { "id": 8, "value": 3, "name": "{value} Increased Light Radius" }
         ]
       }
     },
@@ -47,25 +43,20 @@
       {
           "id": 1,
           "name": "{value}% Increased Harvest Yield",
-          "min": 5,
-          "max": 15
+          "min": 3,
+          "max": 7
       },
       {
           "id": 2,
-          "name": "{value}% Harvest Fee",
-          "min": 0,
-          "max": 5
+          "name": "SendHarvestHiddenPool",
+          "min": 20,
+          "max": 40
       },
       {
           "id": 3,
-          "name": "Harvest Fee Token",
-          "min": 0,
-          "max": 2,
-          "map": {
-            "0": "EL",
-            "1": "ELD",
-            "2": "TIR"
-          }
+          "name": "BurnEntireHarvest",
+          "min": 20,
+          "max": 40
       }
     ],
     "perfection": [15, 0]

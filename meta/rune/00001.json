@@ -5,27 +5,68 @@
   "external_url": "https://rune.farm/catalog/00001",
   "image_url": "https://rune.farm/images/items/00001.png",
   "language": "en-US",
+  "slots": [
+      "leftHand",
+      "rightHand"
+  ],
+  "isNew": false,
+  "isEquipable": true,
+  "isUnequipable": false,
+  "isTradeable": true,
+  "isTransferable": true,
+  "isCraftable": false,
+  "isDisabled": false,
+  "isRuneword": true,
+  "isRetired": true,
+  "details": {
+      "Type": "Sword",
+      "Subtype": "Night Blade",
+      "Rune Word": "Tir El",
+      "Distribution": "Crafted",
+      "Date": "April 20, 2021 - June 4, 2021",
+      "Max Supply": "Unknown"
+  },
+  "recipe": [
+      { "id": "TIR", "quantity": 1 },
+      { "id": "EL", "quantity": 1 }
+  ],
+  "branches": {
+    "2": {
+      "description": "Made by Men, this blade is common but has minimal downsides.",
+      "attributes": [
+        { "id": 1, "min": 16, "max": 20, "name": "{value}% Increased Attack Speed" },
+        { "id": 3, "min": 6, "max": 8, "name": "{value}% Less Damage" },
+        { "id": 4, "min": 81, "max": 100, "name": "{value} Increased Maximum Rage" },
+        { "id": 5, "min": 3, "max": 5, "name": "{value} Increased Elemental Resists" },
+        { "id": 7, "min": 3, "max": 5, "name": "{value} Increased Minion Attack Speed" },
+        { "id": 8, "value": 3, "name": "{value} Increased Light Radius" }
+      ]
+    }
+  },
   "attributes": [
     {
-        "id": "1",
-        "name": "Increased Harvest Yield",
+        "id": 1,
+        "name": "{value}% Increased Harvest Yield",
         "min": 5,
-        "max": 15,
-        "static": false
+        "max": 15
     },
     {
-        "id": "2",
-        "name": "Harvest Fee",
+        "id": 2,
+        "name": "{value}% Harvest Fee",
         "min": 0,
-        "max": 5,
-        "static": false
+        "max": 5
     },
     {
-        "id": "1",
+        "id": 3,
         "name": "Harvest Fee Token",
         "min": 0,
         "max": 2,
-        "static": false
+        "map": {
+          "0": "EL",
+          "1": "ELD",
+          "2": "TIR"
+        }
     }
-  ]
+  ],
+  "perfection": [15, 0]
 }
